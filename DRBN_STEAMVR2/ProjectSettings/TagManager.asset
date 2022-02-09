@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - projectile
+  - FxTemporaire
+  - molecule
+  - helix
+  - Physics_Sim
+  - mol_coll_glob
+  - mol_lam_cter
+  - mol_int_beta
+  - mol_int_alpha
+  - mol_lam_beta_LN
+  - mol_lam_gamma_LN
+  - mol_lam_gamma_coil
+  - mol_nid_G3
+  - mol_coll_coil
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - PostProcessing
+  - Theater
+  - Impala
+  - Helix
+  - 
+  - Simulation
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

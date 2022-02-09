@@ -1,0 +1,16 @@
+{
+  "source": "Unity",
+  "applications": [
+    {
+      "app_key": "application.generated.unity.drbn_steamvr2.exe",
+      "launch_type": "url",
+      "url": "steam://launch/",
+      "action_manifest_path": "P:\\DRBN_STEAMVR_Elastin\\DRBN_STEAMVR2\\actions.json",
+      "strings": {
+        "en_us": {
+          "name": "DRBN_STEAMVR2 [Testing]"
+        }
+      }
+    }
+  ]
+}
