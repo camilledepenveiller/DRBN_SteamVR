@@ -36,6 +36,27 @@ ModelImporter:
     100060: vmd_mol5_rep0
     100062: vmd_mol6_rep0
     100064: vmd_mol7_rep0
+    100066: c_end.001
+    100068: c_end.002
+    100070: c_end.003
+    100072: c_end.004
+    100074: c_end.005
+    100076: c_end.006
+    100078: c_end.007
+    100080: c_start.001
+    100082: c_start.002
+    100084: c_start.003
+    100086: c_start.004
+    100088: c_start.005
+    100090: c_start.006
+    100092: c_start.007
+    100094: coord.001
+    100096: coord.002
+    100098: coord.003
+    100100: coord.004
+    100102: coord.005
+    100104: coord.006
+    100106: coord.007
     400000: c_end
     400002: c_end_001
     400004: c_end_002
@@ -69,7 +90,29 @@ ModelImporter:
     400060: vmd_mol5_rep0
     400062: vmd_mol6_rep0
     400064: vmd_mol7_rep0
+    400066: c_end.001
+    400068: c_end.002
+    400070: c_end.003
+    400072: c_end.004
+    400074: c_end.005
+    400076: c_end.006
+    400078: c_end.007
+    400080: c_start.001
+    400082: c_start.002
+    400084: c_start.003
+    400086: c_start.004
+    400088: c_start.005
+    400090: c_start.006
+    400092: c_start.007
+    400094: coord.001
+    400096: coord.002
+    400098: coord.003
+    400100: coord.004
+    400102: coord.005
+    400104: coord.006
+    400106: coord.007
     2100000: unnamed
+    2100002: No Name
     2300000: c_end
     2300002: c_end_001
     2300004: c_end_002
@@ -102,6 +145,27 @@ ModelImporter:
     2300058: vmd_mol5_rep0
     2300060: vmd_mol6_rep0
     2300062: vmd_mol7_rep0
+    2300064: c_end.001
+    2300066: c_end.002
+    2300068: c_end.003
+    2300070: c_end.004
+    2300072: c_end.005
+    2300074: c_end.006
+    2300076: c_end.007
+    2300078: c_start.001
+    2300080: c_start.002
+    2300082: c_start.003
+    2300084: c_start.004
+    2300086: c_start.005
+    2300088: c_start.006
+    2300090: c_start.007
+    2300092: coord.001
+    2300094: coord.002
+    2300096: coord.003
+    2300098: coord.004
+    2300100: coord.005
+    2300102: coord.006
+    2300104: coord.007
     3300000: c_end
     3300002: c_end_001
     3300004: c_end_002
@@ -134,6 +198,27 @@ ModelImporter:
     3300058: vmd_mol5_rep0
     3300060: vmd_mol6_rep0
     3300062: vmd_mol7_rep0
+    3300064: c_end.001
+    3300066: c_end.002
+    3300068: c_end.003
+    3300070: c_end.004
+    3300072: c_end.005
+    3300074: c_end.006
+    3300076: c_end.007
+    3300078: c_start.001
+    3300080: c_start.002
+    3300082: c_start.003
+    3300084: c_start.004
+    3300086: c_start.005
+    3300088: c_start.006
+    3300090: c_start.007
+    3300092: coord.001
+    3300094: coord.002
+    3300096: coord.003
+    3300098: coord.004
+    3300100: coord.005
+    3300102: coord.006
+    3300104: coord.007
     4300000: vmd_mol6_rep0
     4300002: coord_006
     4300004: c_end_007
@@ -166,6 +251,27 @@ ModelImporter:
     4300058: coord_002
     4300060: c_end_003
     4300062: c_start_003
+    4300064: coord.006
+    4300066: c_end.007
+    4300068: c_start.007
+    4300070: coord.003
+    4300072: c_end.004
+    4300074: c_start.004
+    4300076: coord.007
+    4300078: c_end.001
+    4300080: c_start.001
+    4300082: coord.004
+    4300084: c_end.005
+    4300086: c_start.005
+    4300088: coord.005
+    4300090: c_end.006
+    4300092: c_start.006
+    4300094: coord.001
+    4300096: c_end.002
+    4300098: c_start.002
+    4300100: coord.002
+    4300102: c_end.003
+    4300104: c_start.003
     7400000: Default Take
     9500000: //RootNode
   externalObjects: {}

@@ -12,6 +12,8 @@ ModelImporter:
     100012: d_start_001
     100014: vmd_mol34_rep0
     100016: vmd_mol35_rep0
+    100018: d_end.001
+    100020: d_start.001
     400000: //RootNode
     400002: collagen4_coil
     400004: collagen4_glob
@@ -21,6 +23,8 @@ ModelImporter:
     400012: d_start_001
     400014: vmd_mol34_rep0
     400016: vmd_mol35_rep0
+    400018: d_end.001
+    400020: d_start.001
     2100000: unnamed
     2100002: vmd_mat_cindex_23
     2100004: vmd_mat_cindex_10
@@ -90,6 +94,8 @@ ModelImporter:
     2100132: vmd_mat_cindex_993
     2100134: vmd_mat_cindex_991
     2100136: vmd_mat_cindex_1050
+    2100138: No Name
+    2100140: vmd_mat_cindex_127
     2300000: collagen4_coil
     2300002: collagen4_glob
     2300004: d_end
@@ -98,6 +104,8 @@ ModelImporter:
     2300010: d_start_001
     2300012: vmd_mol34_rep0
     2300014: vmd_mol35_rep0
+    2300016: d_end.001
+    2300018: d_start.001
     3300000: collagen4_coil
     3300002: collagen4_glob
     3300004: d_end
@@ -106,6 +114,8 @@ ModelImporter:
     3300010: d_start_001
     3300012: vmd_mol34_rep0
     3300014: vmd_mol35_rep0
+    3300016: d_end.001
+    3300018: d_start.001
     4300000: collagen4_glob
     4300002: vmd_mol35_rep0
     4300004: d_end_001
@@ -114,6 +124,8 @@ ModelImporter:
     4300010: vmd_mol34_rep0
     4300012: d_end
     4300014: d_start_001
+    4300016: d_end.001
+    4300018: d_start.001
     7400000: Default Take
     9500000: //RootNode
     2186277476908879412: ImportLogs
@@ -170,7 +182,7 @@ ModelImporter:
     secondaryUVPackMargin: 4
     useFileScale: 1
     previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 0
+    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0

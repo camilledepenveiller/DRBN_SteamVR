@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: 3d006c375ed4e3f498b8b03f7cbd1015
 ModelImporter:
-  serializedVersion: 22
+  serializedVersion: 23
   fileIDToRecycleName:
     100000: d_end
     100002: d_end_001
@@ -49,6 +49,31 @@ ModelImporter:
     100086: vmd_mol18_rep0_001
     100088: vmd_mol19_rep0_001
     100090: vmd_mol20_rep0_001
+    100092: d_end.001
+    100094: d_end.002
+    100096: d_end.003
+    100098: d_end.004
+    100100: d_end.005
+    100102: d_end.006
+    100104: d_end.007
+    100106: d_end.008
+    100108: d_start.001
+    100110: d_start.002
+    100112: d_start.003
+    100114: d_start.004
+    100116: d_start.005
+    100118: d_start.006
+    100120: d_start.007
+    100122: d_start.008
+    100124: vmd_mol12_rep0.001
+    100126: vmd_mol13_rep0.001
+    100128: vmd_mol14_rep0.001
+    100130: vmd_mol15_rep0.001
+    100132: vmd_mol16_rep0.001
+    100134: vmd_mol17_rep0.001
+    100136: vmd_mol18_rep0.001
+    100138: vmd_mol19_rep0.001
+    100140: vmd_mol20_rep0.001
     400000: d_end
     400002: d_end_001
     400004: d_end_002
@@ -95,6 +120,31 @@ ModelImporter:
     400086: vmd_mol18_rep0_001
     400088: vmd_mol19_rep0_001
     400090: vmd_mol20_rep0_001
+    400092: d_end.001
+    400094: d_end.002
+    400096: d_end.003
+    400098: d_end.004
+    400100: d_end.005
+    400102: d_end.006
+    400104: d_end.007
+    400106: d_end.008
+    400108: d_start.001
+    400110: d_start.002
+    400112: d_start.003
+    400114: d_start.004
+    400116: d_start.005
+    400118: d_start.006
+    400120: d_start.007
+    400122: d_start.008
+    400124: vmd_mol12_rep0.001
+    400126: vmd_mol13_rep0.001
+    400128: vmd_mol14_rep0.001
+    400130: vmd_mol15_rep0.001
+    400132: vmd_mol16_rep0.001
+    400134: vmd_mol17_rep0.001
+    400136: vmd_mol18_rep0.001
+    400138: vmd_mol19_rep0.001
+    400140: vmd_mol20_rep0.001
     2100000: unnamed
     2100002: vmd_mat_cindex_10_002
     2100004: vmd_mat_cindex_15_002
@@ -260,6 +310,7 @@ ModelImporter:
     2100324: vmd_mat_cindex_84_001
     2100326: vmd_mat_cindex_82_001
     2100328: vmd_mat_cindex_137_001
+    2100330: No Name
     2300000: d_end
     2300002: d_end_001
     2300004: d_end_002
@@ -305,6 +356,31 @@ ModelImporter:
     2300084: vmd_mol18_rep0_001
     2300086: vmd_mol19_rep0_001
     2300088: vmd_mol20_rep0_001
+    2300090: d_end.001
+    2300092: d_end.002
+    2300094: d_end.003
+    2300096: d_end.004
+    2300098: d_end.005
+    2300100: d_end.006
+    2300102: d_end.007
+    2300104: d_end.008
+    2300106: d_start.001
+    2300108: d_start.002
+    2300110: d_start.003
+    2300112: d_start.004
+    2300114: d_start.005
+    2300116: d_start.006
+    2300118: d_start.007
+    2300120: d_start.008
+    2300122: vmd_mol12_rep0.001
+    2300124: vmd_mol13_rep0.001
+    2300126: vmd_mol14_rep0.001
+    2300128: vmd_mol15_rep0.001
+    2300130: vmd_mol16_rep0.001
+    2300132: vmd_mol17_rep0.001
+    2300134: vmd_mol18_rep0.001
+    2300136: vmd_mol19_rep0.001
+    2300138: vmd_mol20_rep0.001
     3300000: d_end
     3300002: d_end_001
     3300004: d_end_002
@@ -350,6 +426,31 @@ ModelImporter:
     3300084: vmd_mol18_rep0_001
     3300086: vmd_mol19_rep0_001
     3300088: vmd_mol20_rep0_001
+    3300090: d_end.001
+    3300092: d_end.002
+    3300094: d_end.003
+    3300096: d_end.004
+    3300098: d_end.005
+    3300100: d_end.006
+    3300102: d_end.007
+    3300104: d_end.008
+    3300106: d_start.001
+    3300108: d_start.002
+    3300110: d_start.003
+    3300112: d_start.004
+    3300114: d_start.005
+    3300116: d_start.006
+    3300118: d_start.007
+    3300120: d_start.008
+    3300122: vmd_mol12_rep0.001
+    3300124: vmd_mol13_rep0.001
+    3300126: vmd_mol14_rep0.001
+    3300128: vmd_mol15_rep0.001
+    3300130: vmd_mol16_rep0.001
+    3300132: vmd_mol17_rep0.001
+    3300134: vmd_mol18_rep0.001
+    3300136: vmd_mol19_rep0.001
+    3300138: vmd_mol20_rep0.001
     4300000: dudul_008
     4300002: d_end_008
     4300004: d_start
@@ -395,6 +496,31 @@ ModelImporter:
     4300084: vmd_mol15_rep0_001
     4300086: vmd_mol16_rep0_001
     4300088: vmd_mol20_rep0_001
+    4300090: vmd_mol15_rep0.001
+    4300092: d_end.008
+    4300094: vmd_mol14_rep0.001
+    4300096: d_end.007
+    4300098: d_start.008
+    4300100: vmd_mol13_rep0.001
+    4300102: d_end.006
+    4300104: d_start.007
+    4300106: vmd_mol12_rep0.001
+    4300108: d_end.005
+    4300110: d_start.006
+    4300112: vmd_mol16_rep0.001
+    4300114: d_end.004
+    4300116: d_start.005
+    4300118: vmd_mol19_rep0.001
+    4300120: d_end.003
+    4300122: d_start.004
+    4300124: vmd_mol18_rep0.001
+    4300126: d_end.002
+    4300128: d_start.003
+    4300130: vmd_mol17_rep0.001
+    4300132: d_end.001
+    4300134: d_start.002
+    4300136: vmd_mol20_rep0.001
+    4300138: d_start.001
     7400000: Default Take
     9500000: //RootNode
   externalObjects: {}
@@ -431,6 +557,7 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
@@ -448,11 +575,16 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
@@ -467,7 +599,6 @@ ModelImporter:
     legStretch: 0.05
     feetSpacing: 0
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1

@@ -14,6 +14,12 @@ ModelImporter:
     100016: Cube_004
     100018: Cube_005
     100020: Cylinder_001
+    100022: Cube.000
+    100024: Cube.001
+    100026: Cube.002
+    100028: Cube.003
+    100030: Cube.005
+    100032: Cylinder.001
     400000: Cube_000
     400002: Cube_001
     400004: Cube_002
@@ -25,7 +31,14 @@ ModelImporter:
     400016: Cube_004
     400018: Cube_005
     400020: Cylinder_001
+    400022: Cube.000
+    400024: Cube.001
+    400026: Cube.002
+    400028: Cube.003
+    400030: Cube.005
+    400032: Cylinder.001
     2100000: unnamed
+    2100002: No Name
     2300000: Cube_000
     2300002: Cube_001
     2300004: Cube_002
@@ -35,6 +48,12 @@ ModelImporter:
     2300012: Cube_004
     2300014: Cube_005
     2300016: Cylinder_001
+    2300018: Cube.000
+    2300020: Cube.001
+    2300022: Cube.002
+    2300024: Cube.003
+    2300026: Cube.005
+    2300028: Cylinder.001
     3300000: Cube_000
     3300002: Cube_001
     3300004: Cube_002
@@ -44,6 +63,12 @@ ModelImporter:
     3300012: Cube_004
     3300014: Cube_005
     3300016: Cylinder_001
+    3300018: Cube.000
+    3300020: Cube.001
+    3300022: Cube.002
+    3300024: Cube.003
+    3300026: Cube.005
+    3300028: Cylinder.001
     4300000: Cylinder
     4300002: Cube_000
     4300004: Cube_003
@@ -53,6 +78,12 @@ ModelImporter:
     4300012: Cube_004
     4300014: Cube_005
     4300016: Cylinder_001
+    4300018: Cylinder.001
+    4300020: Cube.005
+    4300022: Cube.000
+    4300024: Cube.003
+    4300026: Cube.002
+    4300028: Cube.001
     7400000: Default Take
     9500000: //RootNode
   externalObjects: {}

@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: c8a2e7dabf2aaf745b47354ffbe90f2a
 ModelImporter:
-  serializedVersion: 22
+  serializedVersion: 23
   fileIDToRecycleName:
     100000: d_end
     100002: d_end_001
@@ -53,6 +53,28 @@ ModelImporter:
     100094: vmd_mol30_rep0
     100096: vmd_mol31_rep0
     100098: vmd_mol33_rep0
+    100100: d_end.001
+    100102: d_end.002
+    100104: d_end.003
+    100106: d_end.004
+    100108: d_end.005
+    100110: d_end.006
+    100112: d_end.007
+    100114: d_end.008
+    100116: d_end.009
+    100118: d_end.010
+    100120: d_end.012
+    100122: d_start.001
+    100124: d_start.002
+    100126: d_start.003
+    100128: d_start.004
+    100130: d_start.005
+    100132: d_start.006
+    100134: d_start.007
+    100136: d_start.008
+    100138: d_start.009
+    100140: d_start.010
+    100142: d_start.011
     400000: d_end
     400002: d_end_001
     400004: d_end_002
@@ -103,6 +125,28 @@ ModelImporter:
     400094: vmd_mol30_rep0
     400096: vmd_mol31_rep0
     400098: vmd_mol33_rep0
+    400100: d_end.001
+    400102: d_end.002
+    400104: d_end.003
+    400106: d_end.004
+    400108: d_end.005
+    400110: d_end.006
+    400112: d_end.007
+    400114: d_end.008
+    400116: d_end.009
+    400118: d_end.010
+    400120: d_end.012
+    400122: d_start.001
+    400124: d_start.002
+    400126: d_start.003
+    400128: d_start.004
+    400130: d_start.005
+    400132: d_start.006
+    400134: d_start.007
+    400136: d_start.008
+    400138: d_start.009
+    400140: d_start.010
+    400142: d_start.011
     2100000: vmd_mat_cindex_1_001
     2100002: vmd_mat_cindex_7_001
     2100004: vmd_mat_cindex_0_001
@@ -402,6 +446,86 @@ ModelImporter:
     2100592: vmd_mat_cindex_1025
     2100594: vmd_mat_cindex_101
     2100596: vmd_mat_cindex_109
+    2100598: No Name
+    2100600: vmd_mat_cindex_5.001
+    2100602: vmd_mat_cindex_1002.001
+    2100604: vmd_mat_cindex_2.001
+    2100606: vmd_mat_cindex_6.001
+    2100608: vmd_mat_cindex_23.001
+    2100610: vmd_mat_cindex_10.001
+    2100612: vmd_mat_cindex_1043.001
+    2100614: vmd_mat_cindex_1028.002
+    2100616: vmd_mat_cindex_1022.001
+    2100618: vmd_mat_cindex_15.001
+    2100620: vmd_mat_cindex_24.001
+    2100622: vmd_mat_cindex_1041.001
+    2100624: vmd_mat_cindex_1023.001
+    2100626: vmd_mat_cindex_14.001
+    2100628: vmd_mat_cindex_121.001
+    2100630: vmd_mat_cindex_122.001
+    2100632: vmd_mat_cindex_102.001
+    2100634: vmd_mat_cindex_99.001
+    2100636: vmd_mat_cindex_125.001
+    2100638: vmd_mat_cindex_12.001
+    2100640: vmd_mat_cindex_1039.001
+    2100642: vmd_mat_cindex_994.001
+    2100644: vmd_mat_cindex_109.001
+    2100646: vmd_mat_cindex_105.001
+    2100648: vmd_mat_cindex_1038.001
+    2100650: vmd_mat_cindex_1006.001
+    2100652: vmd_mat_cindex_124.001
+    2100654: vmd_mat_cindex_992.001
+    2100656: vmd_mat_cindex_114.001
+    2100658: vmd_mat_cindex_1037.001
+    2100660: vmd_mat_cindex_120.001
+    2100662: vmd_mat_cindex_110.001
+    2100664: vmd_mat_cindex_1035.001
+    2100666: vmd_mat_cindex_101.001
+    2100668: vmd_mat_cindex_123.001
+    2100670: vmd_mat_cindex_1010.001
+    2100672: vmd_mat_cindex_1007.001
+    2100674: vmd_mat_cindex_1032.001
+    2100676: vmd_mat_cindex_1040.001
+    2100678: vmd_mat_cindex_1015.001
+    2100680: vmd_mat_cindex_1031.001
+    2100682: vmd_mat_cindex_1011.001
+    2100684: vmd_mat_cindex_1030.001
+    2100686: vmd_mat_cindex_111.001
+    2100688: vmd_mat_cindex_1008.002
+    2100690: vmd_mat_cindex_1026.001
+    2100692: vmd_mat_cindex_1017.001
+    2100694: vmd_mat_cindex_1018.001
+    2100696: vmd_mat_cindex_983.001
+    2100698: vmd_mat_cindex_1020.001
+    2100700: vmd_mat_cindex_1021.001
+    2100702: vmd_mat_cindex_1050.001
+    2100704: vmd_mat_cindex_1034.001
+    2100706: vmd_mat_cindex_993.002
+    2100708: vmd_mat_cindex_1024.001
+    2100710: vmd_mat_cindex_999.001
+    2100712: vmd_mat_cindex_1013.001
+    2100714: vmd_mat_cindex_996.001
+    2100716: vmd_mat_cindex_1036.001
+    2100718: vmd_mat_cindex_998.001
+    2100720: vmd_mat_cindex_108.001
+    2100722: vmd_mat_cindex_1012.002
+    2100724: vmd_mat_cindex_1016.001
+    2100726: vmd_mat_cindex_1019.001
+    2100728: vmd_mat_cindex_118.001
+    2100730: vmd_mat_cindex_1009.001
+    2100732: vmd_mat_cindex_1001.001
+    2100734: vmd_mat_cindex_1003.002
+    2100736: vmd_mat_cindex_104.001
+    2100738: vmd_mat_cindex_112.001
+    2100740: vmd_mat_cindex_130.001
+    2100742: vmd_mat_cindex_1025.001
+    2100744: vmd_mat_cindex_106.001
+    2100746: vmd_mat_cindex_119.001
+    2100748: vmd_mat_cindex_1042.001
+    2100750: vmd_mat_cindex_979.002
+    2100752: vmd_mat_cindex_1000.001
+    2100754: vmd_mat_cindex_100.001
+    2100756: vmd_mat_cindex_1033.001
     2300000: d_end
     2300002: d_end_001
     2300004: d_end_002
@@ -451,6 +575,28 @@ ModelImporter:
     2300092: vmd_mol30_rep0
     2300094: vmd_mol31_rep0
     2300096: vmd_mol33_rep0
+    2300098: d_end.001
+    2300100: d_end.002
+    2300102: d_end.003
+    2300104: d_end.004
+    2300106: d_end.005
+    2300108: d_end.006
+    2300110: d_end.007
+    2300112: d_end.008
+    2300114: d_end.009
+    2300116: d_end.010
+    2300118: d_end.012
+    2300120: d_start.001
+    2300122: d_start.002
+    2300124: d_start.003
+    2300126: d_start.004
+    2300128: d_start.005
+    2300130: d_start.006
+    2300132: d_start.007
+    2300134: d_start.008
+    2300136: d_start.009
+    2300138: d_start.010
+    2300140: d_start.011
     3300000: d_end
     3300002: d_end_001
     3300004: d_end_002
@@ -500,6 +646,28 @@ ModelImporter:
     3300092: vmd_mol30_rep0
     3300094: vmd_mol31_rep0
     3300096: vmd_mol33_rep0
+    3300098: d_end.001
+    3300100: d_end.002
+    3300102: d_end.003
+    3300104: d_end.004
+    3300106: d_end.005
+    3300108: d_end.006
+    3300110: d_end.007
+    3300112: d_end.008
+    3300114: d_end.009
+    3300116: d_end.010
+    3300118: d_end.012
+    3300120: d_start.001
+    3300122: d_start.002
+    3300124: d_start.003
+    3300126: d_start.004
+    3300128: d_start.005
+    3300130: d_start.006
+    3300132: d_start.007
+    3300134: d_start.008
+    3300136: d_start.009
+    3300138: d_start.010
+    3300140: d_start.011
     4300000: vmd_axes_001
     4300002: DD_dimerization_domain
     4300004: vmd_mol28_rep0
@@ -549,6 +717,28 @@ ModelImporter:
     4300092: vmd_mol27_rep0
     4300094: d_end
     4300096: d_start_001
+    4300098: d_end.012
+    4300100: d_end.010
+    4300102: d_start.011
+    4300104: d_end.009
+    4300106: d_start.010
+    4300108: d_end.008
+    4300110: d_start.009
+    4300112: d_end.007
+    4300114: d_start.008
+    4300116: d_end.006
+    4300118: d_start.007
+    4300120: d_end.005
+    4300122: d_start.006
+    4300124: d_end.004
+    4300126: d_start.005
+    4300128: d_end.003
+    4300130: d_start.004
+    4300132: d_end.002
+    4300134: d_start.003
+    4300136: d_end.001
+    4300138: d_start.002
+    4300140: d_start.001
     7400000: Default Take
     9500000: //RootNode
   externalObjects: {}
@@ -585,6 +775,7 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
@@ -602,11 +793,16 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
@@ -621,7 +817,6 @@ ModelImporter:
     legStretch: 0.05
     feetSpacing: 0
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1

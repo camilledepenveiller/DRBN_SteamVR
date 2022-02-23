@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: 7ebab516f0e841344bde1ff4a518a91f
 ModelImporter:
-  serializedVersion: 22
+  serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
     100002: d_end
@@ -9,12 +9,14 @@ ModelImporter:
     100006: dudul
     100008: vmd_axes_001
     100010: vmd_mol30_rep0
+    100012: vmd_axes.001
     400000: //RootNode
     400002: d_end
     400004: d_start
     400006: dudul
     400008: vmd_axes_001
     400010: vmd_mol30_rep0
+    400012: vmd_axes.001
     2100000: unnamed
     2100002: vmd_mat_cindex_1_001
     2100004: vmd_mat_cindex_7_001
@@ -141,21 +143,29 @@ ModelImporter:
     2100246: vmd_mat_cindex_981
     2100248: vmd_mat_cindex_989_001
     2100250: vmd_mat_cindex_982_001
+    2100252: vmd_mat_cindex_1.001
+    2100254: vmd_mat_cindex_7.001
+    2100256: vmd_mat_cindex_0.001
+    2100258: vmd_mat_cindex_10.001
+    2100260: No Name
     2300000: d_end
     2300002: d_start
     2300004: dudul
     2300006: vmd_axes_001
     2300008: vmd_mol30_rep0
+    2300010: vmd_axes.001
     3300000: d_end
     3300002: d_start
     3300004: dudul
     3300006: vmd_axes_001
     3300008: vmd_mol30_rep0
+    3300010: vmd_axes.001
     4300000: d_end
     4300002: d_start
     4300004: dudul
     4300006: vmd_axes_001
     4300008: vmd_mol30_rep0
+    4300010: vmd_axes.001
     7400000: Default Take
     9500000: //RootNode
   externalObjects: {}
@@ -192,6 +202,7 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
@@ -209,11 +220,16 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
@@ -228,7 +244,6 @@ ModelImporter:
     legStretch: 0.05
     feetSpacing: 0
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
