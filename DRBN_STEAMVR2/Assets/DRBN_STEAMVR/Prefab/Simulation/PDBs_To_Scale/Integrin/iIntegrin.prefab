@@ -415,6 +415,7 @@ GameObject:
   - component: {fileID: 1454866904948156788}
   - component: {fileID: 5792702249708076655}
   - component: {fileID: 6527998368681179715}
+  - component: {fileID: 9073244492341800943}
   m_Layer: 13
   m_Name: integrin_beta_563_604_EGF_bric
   m_TagString: Untagged
@@ -697,14 +698,22 @@ MonoBehaviour:
   onPickUp:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   onDetachFromHand:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   interactable: {fileID: 0}
+--- !u!114 &9073244492341800943
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1120007207467922}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f338cc309aef2a4b9f4510fe3a37689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1121149817868876
 GameObject:
   m_ObjectHideFlags: 0
@@ -1261,6 +1270,7 @@ GameObject:
   - component: {fileID: 8778249587213892964}
   - component: {fileID: 98874010200377150}
   - component: {fileID: 209259879155522725}
+  - component: {fileID: 2331016575862003518}
   m_Layer: 13
   m_Name: integrin_beta_476_525_Hybrid_bric
   m_TagString: Untagged
@@ -1543,14 +1553,22 @@ MonoBehaviour:
   onPickUp:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   onDetachFromHand:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   interactable: {fileID: 0}
+--- !u!114 &2331016575862003518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1289635799350606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f338cc309aef2a4b9f4510fe3a37689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1291953076257706
 GameObject:
   m_ObjectHideFlags: 0
@@ -1643,6 +1661,7 @@ GameObject:
   - component: {fileID: 114068170715708960}
   - component: {fileID: 114745063761457076}
   - component: {fileID: 114682691449675362}
+  - component: {fileID: 7168886186665884492}
   m_Layer: 11
   m_Name: integrin_transmembrane_alpha_bric
   m_TagString: molecule
@@ -1737,13 +1756,9 @@ MonoBehaviour:
   onPickUp:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   onDetachFromHand:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   interactable: {fileID: 0}
 --- !u!114 &114745063761457076
 MonoBehaviour:
@@ -1811,6 +1826,18 @@ MonoBehaviour:
   handFollowTransform: 1
   highlightOnHover: 1
   hideHighlight: []
+--- !u!114 &7168886186665884492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1304632619811130}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f338cc309aef2a4b9f4510fe3a37689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1314607617480006
 GameObject:
   m_ObjectHideFlags: 0
@@ -1828,6 +1855,7 @@ GameObject:
   - component: {fileID: 4449310041712253430}
   - component: {fileID: 5263431509429787730}
   - component: {fileID: 7974756189404982090}
+  - component: {fileID: 1933541474429823455}
   m_Layer: 13
   m_Name: integrin_beta_604_690_Cystatin_like_bric
   m_TagString: Untagged
@@ -2110,14 +2138,22 @@ MonoBehaviour:
   onPickUp:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   onDetachFromHand:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   interactable: {fileID: 0}
+--- !u!114 &1933541474429823455
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1314607617480006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f338cc309aef2a4b9f4510fe3a37689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1343814719976824
 GameObject:
   m_ObjectHideFlags: 0
@@ -2133,6 +2169,7 @@ GameObject:
   - component: {fileID: 114391691236757620}
   - component: {fileID: 114009199531180286}
   - component: {fileID: 114861792176617624}
+  - component: {fileID: 8022970132085859646}
   m_Layer: 11
   m_Name: integrin_transmembrane_beta_bric
   m_TagString: molecule
@@ -2227,13 +2264,9 @@ MonoBehaviour:
   onPickUp:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   onDetachFromHand:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   interactable: {fileID: 0}
 --- !u!114 &114009199531180286
 MonoBehaviour:
@@ -2301,6 +2334,18 @@ MonoBehaviour:
   velocityAverageFrames: 5
   angularVelocityAverageFrames: 11
   estimateOnAwake: 0
+--- !u!114 &8022970132085859646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1343814719976824}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f338cc309aef2a4b9f4510fe3a37689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1360983740258086
 GameObject:
   m_ObjectHideFlags: 0
@@ -2397,6 +2442,7 @@ GameObject:
   - component: {fileID: 8502785182304485510}
   - component: {fileID: 8453063200449534501}
   - component: {fileID: 3141933609098237763}
+  - component: {fileID: 5953536269326998090}
   m_Layer: 13
   m_Name: integrin_beta_1_476_BetaA_bric
   m_TagString: mol_int_beta
@@ -2679,13 +2725,9 @@ MonoBehaviour:
   onPickUp:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   onDetachFromHand:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   interactable: {fileID: 0}
 --- !u!135 &8453063200449534501
 SphereCollider:
@@ -2719,6 +2761,18 @@ MonoBehaviour:
   countjoints: 0
   Change_Color: 0
   Allow_Self: 0
+--- !u!114 &5953536269326998090
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1373931809405630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f338cc309aef2a4b9f4510fe3a37689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1379384189616280
 GameObject:
   m_ObjectHideFlags: 0
@@ -2967,6 +3021,7 @@ GameObject:
   - component: {fileID: 7366812813907088394}
   - component: {fileID: 7666967180510773818}
   - component: {fileID: 3265703099297258100}
+  - component: {fileID: 3826658603297524009}
   m_Layer: 13
   m_Name: integrin_alpha_604_745_calf_bric
   m_TagString: Untagged
@@ -3140,13 +3195,9 @@ MonoBehaviour:
   onPickUp:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   onDetachFromHand:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   interactable: {fileID: 0}
 --- !u!136 &7666967180510773818
 CapsuleCollider:
@@ -3257,6 +3308,18 @@ ConfigurableJoint:
   m_EnablePreprocessing: 1
   m_MassScale: 1
   m_ConnectedMassScale: 1
+--- !u!114 &3826658603297524009
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1451394131509870}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f338cc309aef2a4b9f4510fe3a37689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1470104264800402
 GameObject:
   m_ObjectHideFlags: 0
@@ -3890,6 +3953,7 @@ GameObject:
   - component: {fileID: 2308524580716195155}
   - component: {fileID: 9118925549006470860}
   - component: {fileID: 4653174237144027240}
+  - component: {fileID: 4628983244286662188}
   m_Layer: 13
   m_Name: integrin_alpha_452_604_thigh_bric
   m_TagString: Untagged
@@ -4063,13 +4127,9 @@ MonoBehaviour:
   onPickUp:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   onDetachFromHand:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   interactable: {fileID: 0}
 --- !u!136 &9118925549006470860
 CapsuleCollider:
@@ -4180,6 +4240,18 @@ ConfigurableJoint:
   m_EnablePreprocessing: 1
   m_MassScale: 1
   m_ConnectedMassScale: 1
+--- !u!114 &4628983244286662188
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1755264753364828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f338cc309aef2a4b9f4510fe3a37689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1768608902082138
 GameObject:
   m_ObjectHideFlags: 0
@@ -4274,6 +4346,7 @@ GameObject:
   - component: {fileID: 2396335852026079011}
   - component: {fileID: 8058114298604908137}
   - component: {fileID: 7911328384218048666}
+  - component: {fileID: 1356937034268223121}
   m_Layer: 13
   m_Name: integrin_beta_525_563_EGF_bric
   m_TagString: Untagged
@@ -4556,14 +4629,22 @@ MonoBehaviour:
   onPickUp:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   onDetachFromHand:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   interactable: {fileID: 0}
+--- !u!114 &1356937034268223121
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1771017978134472}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f338cc309aef2a4b9f4510fe3a37689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1807529250901570
 GameObject:
   m_ObjectHideFlags: 0
@@ -4889,6 +4970,7 @@ GameObject:
   - component: {fileID: 3745839862947464809}
   - component: {fileID: 3099657725875012860}
   - component: {fileID: 11376685650427243}
+  - component: {fileID: 952210887148886333}
   m_Layer: 13
   m_Name: integrin_alpha_745_959_calf_bric
   m_TagString: Untagged
@@ -5171,14 +5253,22 @@ MonoBehaviour:
   onPickUp:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   onDetachFromHand:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   interactable: {fileID: 0}
+--- !u!114 &952210887148886333
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1865087950319638}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f338cc309aef2a4b9f4510fe3a37689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1878485684968704
 GameObject:
   m_ObjectHideFlags: 0
@@ -5274,6 +5364,7 @@ GameObject:
   - component: {fileID: 8633576000153537307}
   - component: {fileID: 7111715642185490967}
   - component: {fileID: 6689929136936425140}
+  - component: {fileID: 5361713177883774940}
   m_Layer: 13
   m_Name: integrin_alpha_1_452_propeller_bric
   m_TagString: mol_int_alpha
@@ -5556,13 +5647,9 @@ MonoBehaviour:
   onPickUp:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   onDetachFromHand:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   interactable: {fileID: 0}
 --- !u!136 &6689929136936425140
 CapsuleCollider:
@@ -5578,6 +5665,18 @@ CapsuleCollider:
   m_Height: 73.027466
   m_Direction: 2
   m_Center: {x: -0.00001117587, y: -0.69364154, z: -0.00012293457}
+--- !u!114 &5361713177883774940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1900483147944580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f338cc309aef2a4b9f4510fe3a37689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1990505016809916
 GameObject:
   m_ObjectHideFlags: 0

@@ -94,6 +94,7 @@ GameObject:
   - component: {fileID: 6332774539902751953}
   - component: {fileID: 4907223413792885993}
   - component: {fileID: 2459284146354754891}
+  - component: {fileID: 5942770287538367865}
   m_Layer: 13
   m_Name: collagen_coil1
   m_TagString: Untagged
@@ -380,6 +381,18 @@ CapsuleCollider:
   m_Height: 92.39896
   m_Direction: 2
   m_Center: {x: -0.3764238, y: -0.038502734, z: 0.9441524}
+--- !u!114 &5942770287538367865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1104683723038820}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f338cc309aef2a4b9f4510fe3a37689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1139134237179190
 GameObject:
   m_ObjectHideFlags: 0
@@ -822,6 +835,7 @@ GameObject:
   - component: {fileID: 4090935985705317493}
   - component: {fileID: 8152755058183735326}
   - component: {fileID: 3043009140366670153}
+  - component: {fileID: 3649483672338629670}
   m_Layer: 13
   m_Name: collagen_glob
   m_TagString: mol_coll_glob
@@ -1031,6 +1045,18 @@ MonoBehaviour:
   countjoints: 0
   Change_Color: 1
   Allow_Self: 0
+--- !u!114 &3649483672338629670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1754400764780638}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f338cc309aef2a4b9f4510fe3a37689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1994497344761140
 GameObject:
   m_ObjectHideFlags: 0
@@ -1664,6 +1690,7 @@ GameObject:
   - component: {fileID: 7509871473599386389}
   - component: {fileID: 7184955433442611979}
   - component: {fileID: 1886343710256543863}
+  - component: {fileID: 7143295686049726015}
   m_Layer: 13
   m_Name: collagen_coil4
   m_TagString: Untagged
@@ -1950,6 +1977,18 @@ CapsuleCollider:
   m_Height: 92.39896
   m_Direction: 2
   m_Center: {x: -0.3764238, y: -0.038502734, z: 0.9441524}
+--- !u!114 &7143295686049726015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 663276070326304970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f338cc309aef2a4b9f4510fe3a37689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &883057803811551307
 GameObject:
   m_ObjectHideFlags: 0
@@ -2352,6 +2391,7 @@ GameObject:
   - component: {fileID: 1255549446575256273}
   - component: {fileID: 8073509451489343210}
   - component: {fileID: 6269662901831743995}
+  - component: {fileID: 667679767509484250}
   m_Layer: 13
   m_Name: collagen_coil16
   m_TagString: Untagged
@@ -2638,6 +2678,18 @@ CapsuleCollider:
   m_Height: 92.39896
   m_Direction: 2
   m_Center: {x: -0.3764238, y: -0.038502734, z: 0.9441524}
+--- !u!114 &667679767509484250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2008689285838220676}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f338cc309aef2a4b9f4510fe3a37689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2048430744408225758
 GameObject:
   m_ObjectHideFlags: 0
@@ -2655,6 +2707,7 @@ GameObject:
   - component: {fileID: 5206968751270043288}
   - component: {fileID: 4617654319917261478}
   - component: {fileID: 2655130004402358006}
+  - component: {fileID: 7270858676521612662}
   m_Layer: 13
   m_Name: collagen_coil11
   m_TagString: Untagged
@@ -2941,6 +2994,18 @@ CapsuleCollider:
   m_Height: 92.39896
   m_Direction: 2
   m_Center: {x: -0.3764238, y: -0.038502734, z: 0.9441524}
+--- !u!114 &7270858676521612662
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2048430744408225758}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f338cc309aef2a4b9f4510fe3a37689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2182580452796775835
 GameObject:
   m_ObjectHideFlags: 0
@@ -3189,6 +3254,7 @@ GameObject:
   - component: {fileID: 1312350609818430965}
   - component: {fileID: 2923683113037842341}
   - component: {fileID: 3298254277923783042}
+  - component: {fileID: 6673816980639168527}
   m_Layer: 13
   m_Name: collagen_coil2
   m_TagString: Untagged
@@ -3475,6 +3541,18 @@ CapsuleCollider:
   m_Height: 92.39896
   m_Direction: 2
   m_Center: {x: -0.3764238, y: -0.038502734, z: 0.9441524}
+--- !u!114 &6673816980639168527
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2768680341468539045}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f338cc309aef2a4b9f4510fe3a37689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2878121549486415737
 GameObject:
   m_ObjectHideFlags: 0
@@ -3647,6 +3725,7 @@ GameObject:
   - component: {fileID: 5301564042714458555}
   - component: {fileID: 3938935682722241199}
   - component: {fileID: 534550526618246305}
+  - component: {fileID: 6960201156888163543}
   m_Layer: 13
   m_Name: collagen_coil9
   m_TagString: mol_coll_coil_140nm
@@ -3952,6 +4031,18 @@ MonoBehaviour:
   countjoints: 0
   Change_Color: 0
   Allow_Self: 0
+--- !u!114 &6960201156888163543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3321040010274833268}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f338cc309aef2a4b9f4510fe3a37689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3520755537871814252
 GameObject:
   m_ObjectHideFlags: 0
@@ -3969,6 +4060,7 @@ GameObject:
   - component: {fileID: 2179079665832446093}
   - component: {fileID: 8237164303231481628}
   - component: {fileID: 7621814380410396249}
+  - component: {fileID: 9029130734328504454}
   m_Layer: 13
   m_Name: collagen_coil7
   m_TagString: Untagged
@@ -4255,6 +4347,18 @@ CapsuleCollider:
   m_Height: 92.39896
   m_Direction: 2
   m_Center: {x: -0.3764238, y: -0.038502734, z: 0.9441524}
+--- !u!114 &9029130734328504454
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3520755537871814252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f338cc309aef2a4b9f4510fe3a37689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3557253154731027437
 GameObject:
   m_ObjectHideFlags: 0
@@ -4349,6 +4453,7 @@ GameObject:
   - component: {fileID: 215598348840276229}
   - component: {fileID: 4364821827964651869}
   - component: {fileID: 5622894906685389021}
+  - component: {fileID: 3434620373660375585}
   m_Layer: 13
   m_Name: collagen_coil3
   m_TagString: Untagged
@@ -4635,6 +4740,18 @@ CapsuleCollider:
   m_Height: 92.39896
   m_Direction: 2
   m_Center: {x: -0.3764238, y: -0.038502734, z: 0.9441524}
+--- !u!114 &3434620373660375585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3701934604477150063}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f338cc309aef2a4b9f4510fe3a37689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4075167630185455338
 GameObject:
   m_ObjectHideFlags: 0
@@ -4883,6 +5000,7 @@ GameObject:
   - component: {fileID: 1140224385488844779}
   - component: {fileID: 7084354826748141480}
   - component: {fileID: 3985620701415378500}
+  - component: {fileID: 9164833175170429651}
   m_Layer: 13
   m_Name: collagen_coil12
   m_TagString: Untagged
@@ -5169,6 +5287,18 @@ CapsuleCollider:
   m_Height: 92.39896
   m_Direction: 2
   m_Center: {x: -0.3764238, y: -0.038502734, z: 0.9441524}
+--- !u!114 &9164833175170429651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4786614205280450654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f338cc309aef2a4b9f4510fe3a37689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4823434171816156499
 GameObject:
   m_ObjectHideFlags: 0
@@ -5648,6 +5778,7 @@ GameObject:
   - component: {fileID: 317153760095164011}
   - component: {fileID: 6141016148283854206}
   - component: {fileID: 5493398176952412907}
+  - component: {fileID: 993060768171363777}
   m_Layer: 13
   m_Name: collagen_coil14
   m_TagString: Untagged
@@ -5934,6 +6065,18 @@ CapsuleCollider:
   m_Height: 92.39896
   m_Direction: 2
   m_Center: {x: -0.3764238, y: -0.038502734, z: 0.9441524}
+--- !u!114 &993060768171363777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5739361209761177609}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f338cc309aef2a4b9f4510fe3a37689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5900287959515381070
 GameObject:
   m_ObjectHideFlags: 0
@@ -6105,6 +6248,7 @@ GameObject:
   - component: {fileID: 2675475697389434243}
   - component: {fileID: 8851253126018696120}
   - component: {fileID: 6193373761682445775}
+  - component: {fileID: 3298894267811632495}
   m_Layer: 13
   m_Name: collagen_coil10
   m_TagString: Untagged
@@ -6391,6 +6535,18 @@ CapsuleCollider:
   m_Height: 92.39896
   m_Direction: 2
   m_Center: {x: -0.3764238, y: -0.038502734, z: 0.9441524}
+--- !u!114 &3298894267811632495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6035800590201667444}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f338cc309aef2a4b9f4510fe3a37689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6221112143246237246
 GameObject:
   m_ObjectHideFlags: 0
@@ -6563,6 +6719,7 @@ GameObject:
   - component: {fileID: 8592665581826283659}
   - component: {fileID: 6056986514036745990}
   - component: {fileID: 188432876854461644}
+  - component: {fileID: 3931178391127663501}
   m_Layer: 13
   m_Name: collagen_coil17
   m_TagString: mol_coll_coil
@@ -6868,6 +7025,18 @@ MonoBehaviour:
   countjoints: 0
   Change_Color: 0
   Allow_Self: 0
+--- !u!114 &3931178391127663501
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6743232917853119089}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f338cc309aef2a4b9f4510fe3a37689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6781123575706731063
 GameObject:
   m_ObjectHideFlags: 0
@@ -7424,6 +7593,7 @@ GameObject:
   - component: {fileID: 2387506076224852531}
   - component: {fileID: 6095895317641253011}
   - component: {fileID: 4893827217441109544}
+  - component: {fileID: 7485941796977833898}
   m_Layer: 13
   m_Name: collagen_coil8
   m_TagString: Untagged
@@ -7710,6 +7880,18 @@ CapsuleCollider:
   m_Height: 92.39896
   m_Direction: 2
   m_Center: {x: -0.3764238, y: -0.038502734, z: 0.9441524}
+--- !u!114 &7485941796977833898
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7458953428800571380}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f338cc309aef2a4b9f4510fe3a37689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7800242157175636814
 GameObject:
   m_ObjectHideFlags: 0
@@ -7727,6 +7909,7 @@ GameObject:
   - component: {fileID: 4128950423927192892}
   - component: {fileID: 792340922480567881}
   - component: {fileID: 2860800979596221314}
+  - component: {fileID: 8736320937076369230}
   m_Layer: 13
   m_Name: collagen_coil13
   m_TagString: Untagged
@@ -8013,6 +8196,18 @@ CapsuleCollider:
   m_Height: 92.39896
   m_Direction: 2
   m_Center: {x: -0.3764238, y: -0.038502734, z: 0.9441524}
+--- !u!114 &8736320937076369230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7800242157175636814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f338cc309aef2a4b9f4510fe3a37689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8122625659486293788
 GameObject:
   m_ObjectHideFlags: 0
@@ -8107,6 +8302,7 @@ GameObject:
   - component: {fileID: 4347329242811634025}
   - component: {fileID: 1850454652551027512}
   - component: {fileID: 6056366786982487472}
+  - component: {fileID: 4881466354395097127}
   m_Layer: 13
   m_Name: collagen_coil15
   m_TagString: Untagged
@@ -8393,6 +8589,18 @@ CapsuleCollider:
   m_Height: 92.39896
   m_Direction: 2
   m_Center: {x: -0.3764238, y: -0.038502734, z: 0.9441524}
+--- !u!114 &4881466354395097127
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8242803378359723861}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f338cc309aef2a4b9f4510fe3a37689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8258140601091739816
 GameObject:
   m_ObjectHideFlags: 0
@@ -8487,6 +8695,7 @@ GameObject:
   - component: {fileID: 4574038959495442248}
   - component: {fileID: 3836084965435185107}
   - component: {fileID: 8209402035078228349}
+  - component: {fileID: 1877695226031497518}
   m_Layer: 13
   m_Name: collagen_coil5
   m_TagString: Untagged
@@ -8773,6 +8982,18 @@ CapsuleCollider:
   m_Height: 92.39896
   m_Direction: 2
   m_Center: {x: -0.3764238, y: -0.038502734, z: 0.9441524}
+--- !u!114 &1877695226031497518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8578989743745994705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f338cc309aef2a4b9f4510fe3a37689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8705441837575731022
 GameObject:
   m_ObjectHideFlags: 0
@@ -8944,6 +9165,7 @@ GameObject:
   - component: {fileID: 6409368495234582822}
   - component: {fileID: 4412029079020385887}
   - component: {fileID: 341955812309809143}
+  - component: {fileID: 7165464562070757721}
   m_Layer: 13
   m_Name: collagen_coil6
   m_TagString: Untagged
@@ -9230,6 +9452,18 @@ CapsuleCollider:
   m_Height: 92.39896
   m_Direction: 2
   m_Center: {x: -0.3764238, y: -0.038502734, z: 0.9441524}
+--- !u!114 &7165464562070757721
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8753202613160149241}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f338cc309aef2a4b9f4510fe3a37689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8825622189803760859
 GameObject:
   m_ObjectHideFlags: 0

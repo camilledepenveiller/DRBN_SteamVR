@@ -19,7 +19,7 @@ public class HydrophobicWorld : MonoBehaviour
 	public Vector3 CalculateHydrophobic(Hydrophobic hydro1,Hydrophobic hydro2){
 		var h1 = hydro1.transform.position;
 		var h2 = hydro2.transform.position;
-		Debug.DrawLine (h1,h2,Color.yellow);
+		//Debug.DrawLine (h1,h2,Color.yellow);
 		var r = h2 - h1;
 		var dist = r.magnitude;
 		var D_0 = 1f;
@@ -32,7 +32,7 @@ public class HydrophobicWorld : MonoBehaviour
 	public Vector3 CalculateHydrophobicPlan(Hydrophobic hydro1,float floor){
 		var h1 = hydro1.transform.position;
 		var h2 = new Vector3(h1[0],floor,h1[2]);
-		Debug.DrawLine (h1,h2,Color.cyan);
+		//Debug.DrawLine (h1,h2,Color.cyan);
 		var r = h2 - h1;
 		var dist = r.magnitude;
 		var D_0 = 1f;
@@ -115,58 +115,58 @@ public class HydrophobicWorld : MonoBehaviour
 
 		}
 
-		//if (Selection.activeTransform == null)
-		//	return;
-		//var selectedhydros = Selection.activeTransform.gameObject.GetComponentsInChildren<Hydrophobic>();
-		//if (selectedhydros.Length == 0 || selectedhydros.Length > 20)
-		//	return;
-		//for (int i = 0; i < selectedhydros.Length; i++)
-		//{
-		//	var h1 = selectedhydros[i];
-		//	var scale1 = 0.35f / 0.5f;
-		//	if (UseScaleForDebugDraw)
-		//		scale1 *= h1.transform.parent.lossyScale.x * (h1.HydroForce / 50.0f);
-		//	if (h1.HydroPole == Hydrophobic.Hydro.phobic)
-		//	{
-		//		Gizmos.color = new Color(1.0f, 1.0f, 0.0f, 0.25f);
-		//		Gizmos.DrawSphere(h1.transform.position, scale1);
+        if (Selection.activeTransform == null)
+            return;
+        var selectedhydros = Selection.activeTransform.gameObject.GetComponentsInChildren<Hydrophobic>();
+        if (selectedhydros.Length == 0 || selectedhydros.Length > 20)
+            return;
+        for (int i = 0; i < selectedhydros.Length; i++)
+        {
+            var h1 = selectedhydros[i];
+            var scale1 = 0.35f / 0.5f;
+            if (UseScaleForDebugDraw)
+                scale1 *= h1.transform.parent.lossyScale.x * (h1.HydroForce / 50.0f);
+            if (h1.HydroPole == Hydrophobic.Hydro.phobic)
+            {
+                Gizmos.color = new Color(1.0f, 1.0f, 0.0f, 0.25f);
+                Gizmos.DrawSphere(h1.transform.position, scale1);
 
-		//	}
-		//	else
-		//	{
-		//		Gizmos.color = new Color(0.0f, 1.0f, 1.0f, 0.25f);
-		//		Gizmos.DrawSphere(h1.transform.position, scale1);
+            }
+            else
+            {
+                Gizmos.color = new Color(0.0f, 1.0f, 1.0f, 0.25f);
+                Gizmos.DrawSphere(h1.transform.position, scale1);
 
-		//	}
+            }
 
-		//	for (int j = 0; j < hydroCount; j++)
-		//	{
-		//		var h2 = hydros[j];
+            for (int j = 0; j < hydroCount; j++)
+            {
+                var h2 = hydros[j];
 
-		//		if (h1 == h2)
-		//			continue;
+                if (h1 == h2)
+                    continue;
 
-		//		if (h2.HydroForce < 5.0f)
-		//			continue;
+                if (h2.HydroForce < 5.0f)
+                    continue;
 
-		//		if (h1.transform.parent == h2.transform.parent)
-		//			continue;
+                if (h1.transform.parent == h2.transform.parent)
+                    continue;
 
-		//		//var f = CalculateGilbertForce(h1, h2);
-		//		var f = CalculateHydrophobic(h1, h2);
-		//		var fp = CalculateHydrophobicPlan(h1, floor);
+                //var f = CalculateGilbertForce(h1, h2);
+                var f = CalculateHydrophobic(h1, h2);
+                var fp = CalculateHydrophobicPlan(h1, floor);
 
-		//		if (h2.HydroPole == Hydrophobic.Hydro.phobic)
-		//		{
-		//			Gizmos.color = Color.cyan;
-		//		}
-		//		else
-		//		{
-		//			Gizmos.color = Color.red;
-		//		}
+                if (h2.HydroPole == Hydrophobic.Hydro.phobic)
+                {
+                    Gizmos.color = Color.cyan;
+                }
+                else
+                {
+                    Gizmos.color = Color.red;
+                }
 
-		//		Gizmos.DrawLine(h1.transform.position, h1.transform.position + f);
-		//	}
-		//}
-	}
+                Gizmos.DrawLine(h1.transform.position, h1.transform.position + f);
+            }
+        }
+    }
 }

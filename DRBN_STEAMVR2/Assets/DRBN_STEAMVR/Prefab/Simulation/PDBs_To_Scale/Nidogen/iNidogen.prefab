@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 7274088235413759869}
   - component: {fileID: 5205550237348097693}
   - component: {fileID: 2815026786124424418}
+  - component: {fileID: 7611248400761883522}
   m_Layer: 13
   m_Name: 1JL9_nido_EGF (3)
   m_TagString: Untagged
@@ -251,14 +252,22 @@ MonoBehaviour:
   onPickUp:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   onDetachFromHand:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   interactable: {fileID: 0}
+--- !u!114 &7611248400761883522
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 52990284995380016}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f338cc309aef2a4b9f4510fe3a37689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &80063467900873708
 GameObject:
   m_ObjectHideFlags: 0
@@ -507,6 +516,7 @@ GameObject:
   - component: {fileID: 5380063601129591182}
   - component: {fileID: 2914936282091062961}
   - component: {fileID: 4636673591924028788}
+  - component: {fileID: 3879156043706362621}
   m_Layer: 13
   m_Name: 1JL9_nido_EGF (1)
   m_TagString: Untagged
@@ -743,14 +753,22 @@ MonoBehaviour:
   onPickUp:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   onDetachFromHand:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   interactable: {fileID: 0}
+--- !u!114 &3879156043706362621
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 516585362261701546}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f338cc309aef2a4b9f4510fe3a37689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &629889382667130943
 GameObject:
   m_ObjectHideFlags: 0
@@ -923,6 +941,7 @@ GameObject:
   - component: {fileID: 2670065111867436225}
   - component: {fileID: 9014736260232438470}
   - component: {fileID: 2047817734300736393}
+  - component: {fileID: 5174234281415679977}
   m_Layer: 13
   m_Name: 1JL9_nido_EGF (5)
   m_TagString: Untagged
@@ -1159,14 +1178,22 @@ MonoBehaviour:
   onPickUp:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   onDetachFromHand:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   interactable: {fileID: 0}
+--- !u!114 &5174234281415679977
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 780538765920976270}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f338cc309aef2a4b9f4510fe3a37689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1379325516383099551
 GameObject:
   m_ObjectHideFlags: 0
@@ -1182,6 +1209,7 @@ GameObject:
   - component: {fileID: 353475811626711630}
   - component: {fileID: 8782545454662418065}
   - component: {fileID: 5661388071745203549}
+  - component: {fileID: 4479245743104083315}
   m_Layer: 13
   m_Name: 1NPE_nido_G3
   m_TagString: mol_nid_G3
@@ -1322,13 +1350,9 @@ MonoBehaviour:
   onPickUp:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   onDetachFromHand:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   interactable: {fileID: 0}
 --- !u!114 &5661388071745203549
 MonoBehaviour:
@@ -1349,6 +1373,18 @@ MonoBehaviour:
   countjoints: 0
   Change_Color: 0
   Allow_Self: 0
+--- !u!114 &4479245743104083315
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1379325516383099551}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f338cc309aef2a4b9f4510fe3a37689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1594663752272269882
 GameObject:
   m_ObjectHideFlags: 0
@@ -1441,6 +1477,7 @@ GameObject:
   - component: {fileID: 1900996394964179630}
   - component: {fileID: 5639050594736257676}
   - component: {fileID: 455666337478809168}
+  - component: {fileID: 5236176323183783066}
   m_Layer: 13
   m_Name: 1JL9_nido_EGF (4)
   m_TagString: Untagged
@@ -1677,14 +1714,22 @@ MonoBehaviour:
   onPickUp:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   onDetachFromHand:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   interactable: {fileID: 0}
+--- !u!114 &5236176323183783066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1869798190337309068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f338cc309aef2a4b9f4510fe3a37689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1915637023974674018
 GameObject:
   m_ObjectHideFlags: 0
@@ -2713,6 +2758,7 @@ GameObject:
   - component: {fileID: 2494535758895983686}
   - component: {fileID: 9002277081682634948}
   - component: {fileID: 1685235831089255609}
+  - component: {fileID: 3859561045075479173}
   m_Layer: 13
   m_Name: 1JL9_nido_EGF (2)
   m_TagString: Untagged
@@ -2949,14 +2995,22 @@ MonoBehaviour:
   onPickUp:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   onDetachFromHand:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   interactable: {fileID: 0}
+--- !u!114 &3859561045075479173
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4434125833098642975}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f338cc309aef2a4b9f4510fe3a37689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4561212388561079546
 GameObject:
   m_ObjectHideFlags: 0
@@ -2973,6 +3027,7 @@ GameObject:
   - component: {fileID: 4644986677851934613}
   - component: {fileID: 8260440780737316430}
   - component: {fileID: 1766968662004827083}
+  - component: {fileID: 3524703781567003912}
   m_Layer: 13
   m_Name: 1H4U_nido_G2
   m_TagString: mol_nid_G2
@@ -3209,13 +3264,9 @@ MonoBehaviour:
   onPickUp:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   onDetachFromHand:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   interactable: {fileID: 0}
 --- !u!114 &1766968662004827083
 MonoBehaviour:
@@ -3236,6 +3287,18 @@ MonoBehaviour:
   countjoints: 0
   Change_Color: 0
   Allow_Self: 0
+--- !u!114 &3524703781567003912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4561212388561079546}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f338cc309aef2a4b9f4510fe3a37689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4765058503372981169
 GameObject:
   m_ObjectHideFlags: 0
@@ -3793,6 +3856,7 @@ GameObject:
   - component: {fileID: 196641389132489742}
   - component: {fileID: 8482518096388774312}
   - component: {fileID: 7394333429780871706}
+  - component: {fileID: 5403748482647482999}
   m_Layer: 13
   m_Name: NOVO_nido_G1
   m_TagString: Untagged
@@ -4028,14 +4092,22 @@ MonoBehaviour:
   onPickUp:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   onDetachFromHand:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   interactable: {fileID: 0}
+--- !u!114 &5403748482647482999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6989267400869801089}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f338cc309aef2a4b9f4510fe3a37689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7161766660214302378
 GameObject:
   m_ObjectHideFlags: 0
@@ -4440,6 +4512,7 @@ GameObject:
   - component: {fileID: 7326471572197081881}
   - component: {fileID: 6566308687144473523}
   - component: {fileID: 989073633152530783}
+  - component: {fileID: 3997721442741963504}
   m_Layer: 13
   m_Name: 1JL9_nido_EGF
   m_TagString: Untagged
@@ -4676,14 +4749,22 @@ MonoBehaviour:
   onPickUp:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   onDetachFromHand:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   interactable: {fileID: 0}
+--- !u!114 &3997721442741963504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7724182401430054230}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f338cc309aef2a4b9f4510fe3a37689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7775268144079824948
 GameObject:
   m_ObjectHideFlags: 0

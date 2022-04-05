@@ -171,6 +171,7 @@ GameObject:
   - component: {fileID: 3082306457878157098}
   - component: {fileID: 3784647288624556706}
   - component: {fileID: 2931751792690249600}
+  - component: {fileID: 8961323413244773961}
   m_Layer: 13
   m_Name: 1klo_LE_module
   m_TagString: Untagged
@@ -407,14 +408,22 @@ MonoBehaviour:
   onPickUp:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   onDetachFromHand:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   interactable: {fileID: 0}
+--- !u!114 &8961323413244773961
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 164202711687775790}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f338cc309aef2a4b9f4510fe3a37689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &182996458062556088
 GameObject:
   m_ObjectHideFlags: 0
@@ -507,6 +516,7 @@ GameObject:
   - component: {fileID: 789990493723612125}
   - component: {fileID: 6659188232759553776}
   - component: {fileID: 5490437000567655228}
+  - component: {fileID: 6616152455359717738}
   m_Layer: 13
   m_Name: 2wpq_Salmonella_singlecoil
   m_TagString: Untagged
@@ -743,14 +753,22 @@ MonoBehaviour:
   onPickUp:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   onDetachFromHand:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   interactable: {fileID: 0}
+--- !u!114 &6616152455359717738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 194921350267321254}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f338cc309aef2a4b9f4510fe3a37689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &471461682760922754
 GameObject:
   m_ObjectHideFlags: 0
@@ -1153,6 +1171,7 @@ GameObject:
   - component: {fileID: 3184959234043490392}
   - component: {fileID: 6927141203345476995}
   - component: {fileID: 4295198864987302471}
+  - component: {fileID: 2530483931535137163}
   m_Layer: 13
   m_Name: 4yeq_L4_domain laminin-2
   m_TagString: Untagged
@@ -1389,14 +1408,22 @@ MonoBehaviour:
   onPickUp:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   onDetachFromHand:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   interactable: {fileID: 0}
+--- !u!114 &2530483931535137163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 962606323276824414}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f338cc309aef2a4b9f4510fe3a37689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1181742418837264966
 GameObject:
   m_ObjectHideFlags: 0
@@ -2266,6 +2293,7 @@ GameObject:
   - component: {fileID: 8696915675598763152}
   - component: {fileID: 3382369965513185519}
   - component: {fileID: 5405317207755184830}
+  - component: {fileID: 3765224533846628691}
   m_Layer: 13
   m_Name: 2wpq_Salmonella_singlecoil
   m_TagString: mol_lam_gamma_coil
@@ -2502,13 +2530,9 @@ MonoBehaviour:
   onPickUp:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   onDetachFromHand:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   interactable: {fileID: 0}
 --- !u!114 &5405317207755184830
 MonoBehaviour:
@@ -2529,6 +2553,18 @@ MonoBehaviour:
   countjoints: 0
   Change_Color: 0
   Allow_Self: 0
+--- !u!114 &3765224533846628691
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2390639470388440030}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f338cc309aef2a4b9f4510fe3a37689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2454098232269127493
 GameObject:
   m_ObjectHideFlags: 0
@@ -3472,6 +3508,7 @@ GameObject:
   - component: {fileID: 1426884892986993588}
   - component: {fileID: 9080249590816281771}
   - component: {fileID: 4416785712509406946}
+  - component: {fileID: 1605537865342460512}
   m_Layer: 13
   m_Name: 2wpq_Salmonella_singlecoil
   m_TagString: Untagged
@@ -3708,14 +3745,22 @@ MonoBehaviour:
   onPickUp:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   onDetachFromHand:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   interactable: {fileID: 0}
+--- !u!114 &1605537865342460512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3846129627903582145}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f338cc309aef2a4b9f4510fe3a37689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3851720457863697377
 GameObject:
   m_ObjectHideFlags: 0
@@ -4122,6 +4167,7 @@ GameObject:
   - component: {fileID: 6129117011701451479}
   - component: {fileID: 3089603471280620939}
   - component: {fileID: 8658527459605490553}
+  - component: {fileID: 7139676951701407810}
   m_Layer: 13
   m_Name: 4yeq_L4_domain laminin-2
   m_TagString: Untagged
@@ -4358,14 +4404,22 @@ MonoBehaviour:
   onPickUp:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   onDetachFromHand:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   interactable: {fileID: 0}
+--- !u!114 &7139676951701407810
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4148035290610598358}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f338cc309aef2a4b9f4510fe3a37689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4195036221550293343
 GameObject:
   m_ObjectHideFlags: 0
@@ -4382,6 +4436,7 @@ GameObject:
   - component: {fileID: 5425508519617869052}
   - component: {fileID: 3313091706925529438}
   - component: {fileID: 343835351751708406}
+  - component: {fileID: 995921376134118643}
   m_Layer: 13
   m_Name: 4aqt_Gamma_Nter
   m_TagString: mol_lam_gamma_LN
@@ -4536,13 +4591,9 @@ MonoBehaviour:
   onPickUp:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   onDetachFromHand:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   interactable: {fileID: 0}
 --- !u!114 &343835351751708406
 MonoBehaviour:
@@ -4563,6 +4614,18 @@ MonoBehaviour:
   countjoints: 0
   Change_Color: 0
   Allow_Self: 0
+--- !u!114 &995921376134118643
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4195036221550293343}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f338cc309aef2a4b9f4510fe3a37689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4206636851595034054
 GameObject:
   m_ObjectHideFlags: 0
@@ -4965,6 +5028,7 @@ GameObject:
   - component: {fileID: 5194867244801213657}
   - component: {fileID: 3590411241134826857}
   - component: {fileID: 3929456063506626556}
+  - component: {fileID: 6012666375683475415}
   m_Layer: 13
   m_Name: 2y38_alpha_Nter
   m_TagString: Untagged
@@ -5119,14 +5183,22 @@ MonoBehaviour:
   onPickUp:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   onDetachFromHand:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   interactable: {fileID: 0}
+--- !u!114 &6012666375683475415
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5196055529367642697}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f338cc309aef2a4b9f4510fe3a37689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5208187605402096449
 GameObject:
   m_ObjectHideFlags: 0
@@ -5296,6 +5368,7 @@ GameObject:
   - component: {fileID: 5015773281107002068}
   - component: {fileID: 3832550447470161697}
   - component: {fileID: 2045248775424806486}
+  - component: {fileID: 3282259831353444875}
   m_Layer: 13
   m_Name: 1klo_LE_module
   m_TagString: Untagged
@@ -5532,14 +5605,22 @@ MonoBehaviour:
   onPickUp:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   onDetachFromHand:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   interactable: {fileID: 0}
+--- !u!114 &3282259831353444875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5296871776851098310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f338cc309aef2a4b9f4510fe3a37689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5333938015610390825
 GameObject:
   m_ObjectHideFlags: 0
@@ -5711,6 +5792,7 @@ GameObject:
   - component: {fileID: 2940601069153266315}
   - component: {fileID: 3129020045291443462}
   - component: {fileID: 8528642734040836307}
+  - component: {fileID: 6520379163531603922}
   m_Layer: 13
   m_Name: 2wpq_Salmonella_TripleLX_coiledcoil
   m_TagString: Untagged
@@ -5947,14 +6029,22 @@ MonoBehaviour:
   onPickUp:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   onDetachFromHand:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   interactable: {fileID: 0}
+--- !u!114 &6520379163531603922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5684748618556124943}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f338cc309aef2a4b9f4510fe3a37689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5810002668229853282
 GameObject:
   m_ObjectHideFlags: 0
@@ -6125,6 +6215,7 @@ GameObject:
   - component: {fileID: 7933261512983404840}
   - component: {fileID: 7521379509307509206}
   - component: {fileID: 8124800220516119882}
+  - component: {fileID: 6756758435971957022}
   m_Layer: 13
   m_Name: 4AQS_Beta1_Gamma1_Network
   m_TagString: mol_lam_beta_LN
@@ -6279,13 +6370,9 @@ MonoBehaviour:
   onPickUp:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   onDetachFromHand:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   interactable: {fileID: 0}
 --- !u!114 &8124800220516119882
 MonoBehaviour:
@@ -6306,6 +6393,18 @@ MonoBehaviour:
   countjoints: 0
   Change_Color: 0
   Allow_Self: 0
+--- !u!114 &6756758435971957022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6115828568194595129}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f338cc309aef2a4b9f4510fe3a37689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6345795674777770939
 GameObject:
   m_ObjectHideFlags: 0
@@ -6552,6 +6651,7 @@ GameObject:
   - component: {fileID: 8561490439424375795}
   - component: {fileID: 8130485648621235899}
   - component: {fileID: 4280980046892394838}
+  - component: {fileID: 96144271041641476}
   m_Layer: 13
   m_Name: 4yeq_L4_domain laminin-2
   m_TagString: Untagged
@@ -6788,14 +6888,22 @@ MonoBehaviour:
   onPickUp:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   onDetachFromHand:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   interactable: {fileID: 0}
+--- !u!114 &96144271041641476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6629771653407687773}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f338cc309aef2a4b9f4510fe3a37689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6749771016182040446
 GameObject:
   m_ObjectHideFlags: 0
@@ -7119,6 +7227,7 @@ GameObject:
   - component: {fileID: 5813283488600384441}
   - component: {fileID: 5642223817261242349}
   - component: {fileID: 3816134002385664548}
+  - component: {fileID: 7042665515737846412}
   m_Layer: 13
   m_Name: 1klo_LE_module
   m_TagString: Untagged
@@ -7355,14 +7464,22 @@ MonoBehaviour:
   onPickUp:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   onDetachFromHand:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   interactable: {fileID: 0}
+--- !u!114 &7042665515737846412
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7105904623732628840}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f338cc309aef2a4b9f4510fe3a37689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7164497061974723865
 GameObject:
   m_ObjectHideFlags: 0
@@ -7772,6 +7889,7 @@ GameObject:
   - component: {fileID: 6344071109713154268}
   - component: {fileID: 1260416158133475428}
   - component: {fileID: 3320716783013389233}
+  - component: {fileID: 8559822832682974967}
   m_Layer: 13
   m_Name: 5MC9_laminin_alpha_CTER
   m_TagString: mol_lam_cter
@@ -8047,13 +8165,9 @@ MonoBehaviour:
   onPickUp:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   onDetachFromHand:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   interactable: {fileID: 0}
 --- !u!114 &3320716783013389233
 MonoBehaviour:
@@ -8074,6 +8188,18 @@ MonoBehaviour:
   countjoints: 0
   Change_Color: 0
   Allow_Self: 0
+--- !u!114 &8559822832682974967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7469783364049269473}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f338cc309aef2a4b9f4510fe3a37689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7490777462391415635
 GameObject:
   m_ObjectHideFlags: 0
@@ -8478,6 +8604,7 @@ GameObject:
   - component: {fileID: 6164111479634311833}
   - component: {fileID: 2894183875405299690}
   - component: {fileID: 2279870196589764290}
+  - component: {fileID: 7870463270375640941}
   m_Layer: 13
   m_Name: 2wpq_Salmonella_TripleLX_coiledcoil
   m_TagString: Untagged
@@ -8714,14 +8841,22 @@ MonoBehaviour:
   onPickUp:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   onDetachFromHand:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   interactable: {fileID: 0}
+--- !u!114 &7870463270375640941
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8039541843072807999}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f338cc309aef2a4b9f4510fe3a37689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8146157443579736415
 GameObject:
   m_ObjectHideFlags: 0
@@ -8968,6 +9103,7 @@ GameObject:
   - component: {fileID: 1889389126075289895}
   - component: {fileID: 6605725414105901150}
   - component: {fileID: 3370839372899037530}
+  - component: {fileID: 9045226420987340650}
   m_Layer: 13
   m_Name: 4yeq_L4_domain laminin-2
   m_TagString: Untagged
@@ -9204,14 +9340,22 @@ MonoBehaviour:
   onPickUp:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   onDetachFromHand:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   interactable: {fileID: 0}
+--- !u!114 &9045226420987340650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8353420040184690518}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f338cc309aef2a4b9f4510fe3a37689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8435884687880905040
 GameObject:
   m_ObjectHideFlags: 0
@@ -9460,6 +9604,7 @@ GameObject:
   - component: {fileID: 937503093925535451}
   - component: {fileID: 7037679575435169375}
   - component: {fileID: 8664888519368668137}
+  - component: {fileID: 2501023617976355878}
   m_Layer: 13
   m_Name: 2wpq_Salmonella_TripleLX_coiledcoil
   m_TagString: Untagged
@@ -9696,14 +9841,22 @@ MonoBehaviour:
   onPickUp:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   onDetachFromHand:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   interactable: {fileID: 0}
+--- !u!114 &2501023617976355878
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8749162732946854587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f338cc309aef2a4b9f4510fe3a37689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8770304698048132730
 GameObject:
   m_ObjectHideFlags: 0
@@ -9721,6 +9874,7 @@ GameObject:
   - component: {fileID: 8930606992433039348}
   - component: {fileID: 3678603623265746706}
   - component: {fileID: 4422914493609778584}
+  - component: {fileID: 7797365555477476018}
   m_Layer: 13
   m_Name: 2wpq_Salmonella_TripleLX_coiledcoil
   m_TagString: Untagged
@@ -9862,13 +10016,9 @@ MonoBehaviour:
   onPickUp:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   onDetachFromHand:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   interactable: {fileID: 0}
 --- !u!153 &8930606992433039348
 ConfigurableJoint:
@@ -10155,6 +10305,18 @@ ConfigurableJoint:
   m_EnablePreprocessing: 1
   m_MassScale: 1
   m_ConnectedMassScale: 1
+--- !u!114 &7797365555477476018
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8770304698048132730}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f338cc309aef2a4b9f4510fe3a37689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8996431935918390605
 GameObject:
   m_ObjectHideFlags: 0
