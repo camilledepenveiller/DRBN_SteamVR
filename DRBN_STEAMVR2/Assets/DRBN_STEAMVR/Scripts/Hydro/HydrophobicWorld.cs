@@ -103,70 +103,70 @@ public class HydrophobicWorld : MonoBehaviour
 		}
 	}
 
-	void OnDrawGizmos()
-	{
-		var hydros = FindObjectsOfType<Hydrophobic>();
-		var hydroCount = hydros.Length;
-		var randPts = new List<Vector3>();
+	//void OnDrawGizmos()
+	//{
+	//	var hydros = FindObjectsOfType<Hydrophobic>();
+	//	var hydroCount = hydros.Length;
+	//	var randPts = new List<Vector3>();
 
-		for (int i = 0; i < 100; i++)
-		{
-			var unitPt = Random.insideUnitSphere;
+	//	for (int i = 0; i < 100; i++)
+	//	{
+	//		var unitPt = Random.insideUnitSphere;
 
-		}
+	//	}
 
-        if (Selection.activeTransform == null)
-            return;
-        var selectedhydros = Selection.activeTransform.gameObject.GetComponentsInChildren<Hydrophobic>();
-        if (selectedhydros.Length == 0 || selectedhydros.Length > 20)
-            return;
-        for (int i = 0; i < selectedhydros.Length; i++)
-        {
-            var h1 = selectedhydros[i];
-            var scale1 = 0.35f / 0.5f;
-            if (UseScaleForDebugDraw)
-                scale1 *= h1.transform.parent.lossyScale.x * (h1.HydroForce / 50.0f);
-            if (h1.HydroPole == Hydrophobic.Hydro.phobic)
-            {
-                Gizmos.color = new Color(1.0f, 1.0f, 0.0f, 0.25f);
-                Gizmos.DrawSphere(h1.transform.position, scale1);
+ //       if (Selection.activeTransform == null)
+ //           return;
+ //       var selectedhydros = Selection.activeTransform.gameObject.GetComponentsInChildren<Hydrophobic>();
+ //       if (selectedhydros.Length == 0 || selectedhydros.Length > 20)
+ //           return;
+ //       for (int i = 0; i < selectedhydros.Length; i++)
+ //       {
+ //           var h1 = selectedhydros[i];
+ //           var scale1 = 0.35f / 0.5f;
+ //           if (UseScaleForDebugDraw)
+ //               scale1 *= h1.transform.parent.lossyScale.x * (h1.HydroForce / 50.0f);
+ //           if (h1.HydroPole == Hydrophobic.Hydro.phobic)
+ //           {
+ //               Gizmos.color = new Color(1.0f, 1.0f, 0.0f, 0.25f);
+ //               Gizmos.DrawSphere(h1.transform.position, scale1);
 
-            }
-            else
-            {
-                Gizmos.color = new Color(0.0f, 1.0f, 1.0f, 0.25f);
-                Gizmos.DrawSphere(h1.transform.position, scale1);
+ //           }
+ //           else
+ //           {
+ //               Gizmos.color = new Color(0.0f, 1.0f, 1.0f, 0.25f);
+ //               Gizmos.DrawSphere(h1.transform.position, scale1);
 
-            }
+ //           }
 
-            for (int j = 0; j < hydroCount; j++)
-            {
-                var h2 = hydros[j];
+ //           for (int j = 0; j < hydroCount; j++)
+ //           {
+ //               var h2 = hydros[j];
 
-                if (h1 == h2)
-                    continue;
+ //               if (h1 == h2)
+ //                   continue;
 
-                if (h2.HydroForce < 5.0f)
-                    continue;
+ //               if (h2.HydroForce < 5.0f)
+ //                   continue;
 
-                if (h1.transform.parent == h2.transform.parent)
-                    continue;
+ //               if (h1.transform.parent == h2.transform.parent)
+ //                   continue;
 
-                //var f = CalculateGilbertForce(h1, h2);
-                var f = CalculateHydrophobic(h1, h2);
-                var fp = CalculateHydrophobicPlan(h1, floor);
+ //               //var f = CalculateGilbertForce(h1, h2);
+ //               var f = CalculateHydrophobic(h1, h2);
+ //               var fp = CalculateHydrophobicPlan(h1, floor);
 
-                if (h2.HydroPole == Hydrophobic.Hydro.phobic)
-                {
-                    Gizmos.color = Color.cyan;
-                }
-                else
-                {
-                    Gizmos.color = Color.red;
-                }
+ //               if (h2.HydroPole == Hydrophobic.Hydro.phobic)
+ //               {
+ //                   Gizmos.color = Color.cyan;
+ //               }
+ //               else
+ //               {
+ //                   Gizmos.color = Color.red;
+ //               }
 
-                Gizmos.DrawLine(h1.transform.position, h1.transform.position + f);
-            }
-        }
-    }
+ //               Gizmos.DrawLine(h1.transform.position, h1.transform.position + f);
+ //           }
+ //       }
+ //   }
 }

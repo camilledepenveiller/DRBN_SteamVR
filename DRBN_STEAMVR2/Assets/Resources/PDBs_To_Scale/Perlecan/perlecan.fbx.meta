@@ -1,0 +1,201 @@
+fileFormatVersion: 2
+guid: ef884d43aad5a47458a829e1a4369fa3
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: 1GL4_IG_domain
+    100002: 1LDR_LDL_Rec_Bind_Dom
+    100004: 2ACM_SEA_DOM
+    100006: 3SH4_LG_like
+    100008: c_end
+    100010: c_end.001
+    100012: c_end.002
+    100014: c_end.003
+    100016: c_end.004
+    100018: c_start
+    100020: c_start.001
+    100022: c_start.002
+    100024: c_start.003
+    100026: c_start.004
+    100028: coord
+    100030: coord.001
+    100032: coord.002
+    100034: coord.003
+    100036: coord.004
+    100038: //RootNode
+    100040: Perlecan_IG.004
+    100042: 1gl4_IG_domain
+    400000: 1GL4_IG_domain
+    400002: 1LDR_LDL_Rec_Bind_Dom
+    400004: 2ACM_SEA_DOM
+    400006: 3SH4_LG_like
+    400008: c_end
+    400010: c_end.001
+    400012: c_end.002
+    400014: c_end.003
+    400016: c_end.004
+    400018: c_start
+    400020: c_start.001
+    400022: c_start.002
+    400024: c_start.003
+    400026: c_start.004
+    400028: coord
+    400030: coord.001
+    400032: coord.002
+    400034: coord.003
+    400036: coord.004
+    400038: //RootNode
+    400040: Perlecan_IG.004
+    400042: 1gl4_IG_domain
+    2100000: No Name
+    2100002: vmd_mat_cindex_4
+    2100004: vmd_mat_cindex_4.001
+    2300000: 1GL4_IG_domain
+    2300002: 1LDR_LDL_Rec_Bind_Dom
+    2300004: 2ACM_SEA_DOM
+    2300006: 3SH4_LG_like
+    2300008: c_end
+    2300010: c_end.001
+    2300012: c_end.002
+    2300014: c_end.003
+    2300016: c_end.004
+    2300018: c_start
+    2300020: c_start.001
+    2300022: c_start.002
+    2300024: c_start.003
+    2300026: c_start.004
+    2300028: coord
+    2300030: coord.001
+    2300032: coord.002
+    2300034: coord.003
+    2300036: coord.004
+    2300038: Perlecan_IG.004
+    2300040: 1gl4_IG_domain
+    3300000: 1GL4_IG_domain
+    3300002: 1LDR_LDL_Rec_Bind_Dom
+    3300004: 2ACM_SEA_DOM
+    3300006: 3SH4_LG_like
+    3300008: c_end
+    3300010: c_end.001
+    3300012: c_end.002
+    3300014: c_end.003
+    3300016: c_end.004
+    3300018: c_start
+    3300020: c_start.001
+    3300022: c_start.002
+    3300024: c_start.003
+    3300026: c_start.004
+    3300028: coord
+    3300030: coord.001
+    3300032: coord.002
+    3300034: coord.003
+    3300036: coord.004
+    3300038: Perlecan_IG.004
+    3300040: 1gl4_IG_domain
+    4300000: coord
+    4300002: 1GL4_IG_domain
+    4300004: c_start.001
+    4300006: c_end.001
+    4300008: coord.001
+    4300010: 1LDR_LDL_Rec_Bind_Dom
+    4300012: c_start.002
+    4300014: c_end.002
+    4300016: coord.002
+    4300018: 2ACM_SEA_DOM
+    4300020: c_start.003
+    4300022: c_end.003
+    4300024: coord.003
+    4300026: 3SH4_LG_like
+    4300028: c_start.004
+    4300030: c_end.004
+    4300032: coord.004
+    4300034: c_start
+    4300036: c_end
+    4300038: Perlecan_IG.004
+    4300040: 1gl4_IG_domain
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

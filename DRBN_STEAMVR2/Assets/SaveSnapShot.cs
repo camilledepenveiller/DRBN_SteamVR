@@ -460,7 +460,7 @@ public class SaveSnapShot : MonoBehaviour
         Debug.Log("step " + step);
 
         File.WriteAllText("D:/trajectory_data/gamesave_list_test_"+ step.ToString() + ".jsonbrn", json);
-
+        //File.WriteAllText("/trajectory_data/gamesave_list_test_" + step.ToString() + ".jsonbrn", json);
     }
 
     //public void saveJSON()

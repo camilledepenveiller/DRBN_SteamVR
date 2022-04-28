@@ -1,0 +1,217 @@
+fileFormatVersion: 2
+guid: 43452efd1b4d7574c8fd2bd3f9fe1276
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: collagen4_coil
+    100004: collagen4_glob
+    100006: d_end
+    100008: d_end_001
+    100010: d_start
+    100012: d_start_001
+    100014: vmd_mol34_rep0
+    100016: vmd_mol35_rep0
+    100018: d_end.001
+    100020: d_start.001
+    400000: //RootNode
+    400002: collagen4_coil
+    400004: collagen4_glob
+    400006: d_end
+    400008: d_end_001
+    400010: d_start
+    400012: d_start_001
+    400014: vmd_mol34_rep0
+    400016: vmd_mol35_rep0
+    400018: d_end.001
+    400020: d_start.001
+    2100000: unnamed
+    2100002: vmd_mat_cindex_23
+    2100004: vmd_mat_cindex_10
+    2100006: vmd_mat_cindex_14
+    2100008: vmd_mat_cindex_5
+    2100010: vmd_mat_cindex_97
+    2100012: vmd_mat_cindex_6
+    2100014: vmd_mat_cindex_2
+    2100016: vmd_mat_cindex_15
+    2100018: vmd_mat_cindex_110
+    2100020: vmd_mat_cindex_24
+    2100022: vmd_mat_cindex_980
+    2100024: vmd_mat_cindex_1021
+    2100026: vmd_mat_cindex_1029
+    2100028: vmd_mat_cindex_985
+    2100030: vmd_mat_cindex_115
+    2100032: vmd_mat_cindex_996
+    2100034: vmd_mat_cindex_12
+    2100036: vmd_mat_cindex_18
+    2100038: vmd_mat_cindex_17
+    2100040: vmd_mat_cindex_108
+    2100042: vmd_mat_cindex_988
+    2100044: vmd_mat_cindex_984
+    2100046: vmd_mat_cindex_1013
+    2100048: vmd_mat_cindex_1028
+    2100050: vmd_mat_cindex_994
+    2100052: vmd_mat_cindex_1023
+    2100054: vmd_mat_cindex_1006
+    2100056: vmd_mat_cindex_1015
+    2100058: vmd_mat_cindex_986
+    2100060: vmd_mat_cindex_1044
+    2100062: vmd_mat_cindex_121
+    2100064: vmd_mat_cindex_101
+    2100066: vmd_mat_cindex_1027
+    2100068: vmd_mat_cindex_106
+    2100070: vmd_mat_cindex_122
+    2100072: vmd_mat_cindex_1022
+    2100074: vmd_mat_cindex_1026
+    2100076: vmd_mat_cindex_114
+    2100078: vmd_mat_cindex_1032
+    2100080: vmd_mat_cindex_1012
+    2100082: vmd_mat_cindex_1018
+    2100084: vmd_mat_cindex_129
+    2100086: vmd_mat_cindex_1011
+    2100088: vmd_mat_cindex_1047
+    2100090: vmd_mat_cindex_1031
+    2100092: vmd_mat_cindex_126
+    2100094: vmd_mat_cindex_1019
+    2100096: vmd_mat_cindex_1035
+    2100098: vmd_mat_cindex_1016
+    2100100: vmd_mat_cindex_98
+    2100102: vmd_mat_cindex_970
+    2100104: vmd_mat_cindex_103
+    2100106: vmd_mat_cindex_981
+    2100108: vmd_mat_cindex_119
+    2100110: vmd_mat_cindex_107
+    2100112: vmd_mat_cindex_1009
+    2100114: vmd_mat_cindex_1007
+    2100116: vmd_mat_cindex_112
+    2100118: vmd_mat_cindex_1025
+    2100120: vmd_mat_cindex_1040
+    2100122: vmd_mat_cindex_1024
+    2100124: vmd_mat_cindex_1020
+    2100126: vmd_mat_cindex_1001
+    2100128: vmd_mat_cindex_102
+    2100130: vmd_mat_cindex_1045
+    2100132: vmd_mat_cindex_993
+    2100134: vmd_mat_cindex_991
+    2100136: vmd_mat_cindex_1050
+    2100138: No Name
+    2100140: vmd_mat_cindex_127
+    2300000: collagen4_coil
+    2300002: collagen4_glob
+    2300004: d_end
+    2300006: d_end_001
+    2300008: d_start
+    2300010: d_start_001
+    2300012: vmd_mol34_rep0
+    2300014: vmd_mol35_rep0
+    2300016: d_end.001
+    2300018: d_start.001
+    3300000: collagen4_coil
+    3300002: collagen4_glob
+    3300004: d_end
+    3300006: d_end_001
+    3300008: d_start
+    3300010: d_start_001
+    3300012: vmd_mol34_rep0
+    3300014: vmd_mol35_rep0
+    3300016: d_end.001
+    3300018: d_start.001
+    4300000: collagen4_glob
+    4300002: vmd_mol35_rep0
+    4300004: d_end_001
+    4300006: d_start
+    4300008: collagen4_coil
+    4300010: vmd_mol34_rep0
+    4300012: d_end
+    4300014: d_start_001
+    4300016: d_end.001
+    4300018: d_start.001
+    7400000: Default Take
+    9500000: //RootNode
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,204 @@
+fileFormatVersion: 2
+guid: 4b844b682aae28d4ea041510721be652
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: c_end
+    100002: c_end.001
+    100004: c_end.002
+    100006: c_end.003
+    100008: c_end.004
+    100010: c_start
+    100012: c_start.001
+    100014: c_start.002
+    100016: c_start.003
+    100018: c_start.004
+    100020: coord
+    100022: coord.001
+    100024: coord.002
+    100026: coord.003
+    100028: coord.004
+    100030: egf_surf
+    100032: //RootNode
+    100034: nidogen_surf.005
+    100036: nidogen_surf.008
+    100038: nidogen_surf.023
+    100040: nidogen_surf.064
+    400000: c_end
+    400002: c_end.001
+    400004: c_end.002
+    400006: c_end.003
+    400008: c_end.004
+    400010: c_start
+    400012: c_start.001
+    400014: c_start.002
+    400016: c_start.003
+    400018: c_start.004
+    400020: coord
+    400022: coord.001
+    400024: coord.002
+    400026: coord.003
+    400028: coord.004
+    400030: egf_surf
+    400032: //RootNode
+    400034: nidogen_surf.005
+    400036: nidogen_surf.008
+    400038: nidogen_surf.023
+    400040: nidogen_surf.064
+    2100000: No Name
+    2100002: vmd_mat_cindex_10.001
+    2100004: vmd_mat_cindex_12.001
+    2100006: vmd_mat_cindex_11.001
+    2100008: vmd_mat_cindex_9.001
+    2100010: vmd_mat_cindex_1.002
+    2100012: vmd_mat_cindex_7.002
+    2100014: vmd_mat_cindex_0.002
+    2100016: vmd_mat_cindex_10.002
+    2300000: c_end
+    2300002: c_end.001
+    2300004: c_end.002
+    2300006: c_end.003
+    2300008: c_end.004
+    2300010: c_start
+    2300012: c_start.001
+    2300014: c_start.002
+    2300016: c_start.003
+    2300018: c_start.004
+    2300020: coord
+    2300022: coord.001
+    2300024: coord.002
+    2300026: coord.003
+    2300028: coord.004
+    2300030: egf_surf
+    2300032: nidogen_surf.005
+    2300034: nidogen_surf.008
+    2300036: nidogen_surf.023
+    2300038: nidogen_surf.064
+    3300000: c_end
+    3300002: c_end.001
+    3300004: c_end.002
+    3300006: c_end.003
+    3300008: c_end.004
+    3300010: c_start
+    3300012: c_start.001
+    3300014: c_start.002
+    3300016: c_start.003
+    3300018: c_start.004
+    3300020: coord
+    3300022: coord.001
+    3300024: coord.002
+    3300026: coord.003
+    3300028: coord.004
+    3300030: egf_surf
+    3300032: nidogen_surf.005
+    3300034: nidogen_surf.008
+    3300036: nidogen_surf.023
+    3300038: nidogen_surf.064
+    4300000: coord
+    4300002: nidogen_surf.008
+    4300004: c_start.001
+    4300006: c_end.001
+    4300008: coord.001
+    4300010: nidogen_surf.064
+    4300012: c_start.002
+    4300014: c_end.002
+    4300016: coord.002
+    4300018: nidogen_surf.023
+    4300020: c_start.003
+    4300022: c_end.003
+    4300024: coord.003
+    4300026: nidogen_surf.005
+    4300028: c_start.004
+    4300030: c_end.004
+    4300032: coord.004
+    4300034: c_start
+    4300036: c_end
+    4300038: egf_surf
+    9500000: //RootNode
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
