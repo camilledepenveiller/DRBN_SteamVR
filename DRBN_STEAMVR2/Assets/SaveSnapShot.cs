@@ -459,7 +459,20 @@ public class SaveSnapShot : MonoBehaviour
         Debug.Log("json " + json);
         Debug.Log("step " + step);
 
-        File.WriteAllText("D:/trajectory_data/gamesave_list_test_"+ step.ToString() + ".jsonbrn", json);
+        File.WriteAllText("D:/trajectory_data/gamesave_list_test_"+ step.ToString() + ".jsonbrn", json);//not multiplatform, try something else 
+        //File.WriteAllText("/mnt/d/trajectory_data/gamesave_list_test_" + step.ToString() + ".jsonbrn", json);//not multiplatform, try something else 
+
+        //multiplatform but writing empty saves WTF
+        //if (Directory.Exists(Application.persistentDataPath + "/trajectory_data"))
+        //{
+        //    File.WriteAllText(Application.persistentDataPath + "/trajectory_data/gamesave_list_test_" + step.ToString() + ".jsonbrn", json);
+        //}
+        //else
+        //{
+        //    var folder = Directory.CreateDirectory(Application.persistentDataPath + "/trajectory_data");
+        //}
+
+
         //File.WriteAllText("/trajectory_data/gamesave_list_test_" + step.ToString() + ".jsonbrn", json);
     }
 

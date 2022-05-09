@@ -17,7 +17,7 @@ public class ServerMode : MonoBehaviour
         ////comment for now, wait until we have a functional instantiation in normal game mode
         if (Application.isBatchMode)
         {
-            Debug.Log("In BatchMode");
+            Debug.Log("In BatchMode!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
 
             GameObject Stand = GameObject.Find("stand");
             GameObject Tower = GameObject.Find("tower");
@@ -29,14 +29,15 @@ public class ServerMode : MonoBehaviour
             Tower.SetActive(false);
             GlassSphere.SetActive(false);
             Player.SetActive(false);
-            SaveCube.SetActive(false);
+            //SaveCube.SetActive(false);
 
             int counter;
             counter = molcounter.molecules.Count;
             List<Transform> MolCount;
             MolCount = molcounter.molecules;
 
-            try
+            Debug.Log("Prepare to run!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
+            //try
             {
 
                 GameObject selfInstGO = Resources.Load("PDBs_To_Scale/Elastin/" + transformName) as GameObject;
@@ -46,7 +47,7 @@ public class ServerMode : MonoBehaviour
                 // recover Langevin GOS gameobject list and append the spawned gameobjects
                 Langevin_v2 Lange = GameObject.FindGameObjectWithTag("Physics_Sim").GetComponent<Langevin_v2>();
 
-                Debug.Log("Running");
+                Debug.Log("Running!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
 
                 int step = 0;
                 while (step < repeat)
@@ -56,19 +57,21 @@ public class ServerMode : MonoBehaviour
                     Vector3 Loc = new Vector3(0f,0f,0f);
                     Quaternion Rot = UnityEngine.Random.rotation;
                     Transform spawn = Instantiate<Transform>(selfInstTrans, Loc, Rot);
-                    Debug.Log("Instantiated");
+                    Debug.Log("Instantiated!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
                     Rigidbody[] GOarray = spawn.gameObject.GetComponentsInChildren<Rigidbody>();
                     Lange.GOS.AddRange(GOarray);
                     MolCount.Add(spawn);
 
                     step++;
                 }
+
+                Debug.Log("GOS " + Lange.GOS.Count + " !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
             }
 
-            catch (NullReferenceException e)
-            {
-                Debug.Log("transform not found, check name");
-            }
+            //catch (NullReferenceException e)
+            //{
+            //    Debug.Log("transform not found, check name");
+            //}
 
         }
     }

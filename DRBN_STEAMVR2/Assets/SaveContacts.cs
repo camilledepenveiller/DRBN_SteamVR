@@ -37,6 +37,7 @@ public class SaveContacts : MonoBehaviour
             SaveMat = MatSize;
 
             using (StreamWriter outfile = new StreamWriter(@"C:\Temp\test"+nextActionTime+".csv"))
+            //using (StreamWriter outfile = new StreamWriter(@"/mnt/d/contacts/test" + nextActionTime + ".csv"))
             {
                 for (int x = 0; x < SaveMat.GetLength(0); x++)
                 {
@@ -46,6 +47,7 @@ public class SaveContacts : MonoBehaviour
                         content += SaveMat[x, y].ToString("0") + ";";
                     }
                     outfile.WriteLine(content);
+                    Debug.Log("writing contacts");
                 }
             }
         }

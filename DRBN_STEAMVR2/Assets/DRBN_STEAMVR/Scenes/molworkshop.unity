@@ -7902,6 +7902,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 32e22b9da8839a945ab4e65f37ba44c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  savepath: 
+  transformName: Elastin_f60_pp
+  repeat: 5
 --- !u!114 &1881114558
 MonoBehaviour:
   m_ObjectHideFlags: 0
