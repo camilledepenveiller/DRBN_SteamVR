@@ -36,8 +36,8 @@ public class SaveContacts : MonoBehaviour
             Debug.Log("Saving matrix");
             SaveMat = MatSize;
 
-            using (StreamWriter outfile = new StreamWriter(@"C:\Temp\test"+nextActionTime+".csv"))
-            //using (StreamWriter outfile = new StreamWriter(@"/mnt/d/contacts/test" + nextActionTime + ".csv"))
+            //using (StreamWriter outfile = new StreamWriter(@"C:\Temp\test"+nextActionTime+".csv"))
+            using (StreamWriter outfile = new StreamWriter(Application.persistentDataPath + "/contacts/test" + nextActionTime + ".csv"))
             {
                 for (int x = 0; x < SaveMat.GetLength(0); x++)
                 {
