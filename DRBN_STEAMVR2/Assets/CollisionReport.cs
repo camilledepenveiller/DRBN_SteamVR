@@ -17,7 +17,11 @@ public class CollisionReport : MonoBehaviour
     private void OnCollisionEnter(Collision collision)
     {
         //discriminate between intra and inter molecular contacts
-        if (SaveContacts.MatSize!=null)
+        if (SaveContacts.MatSize == null)
+        {
+            Debug.Log("no contacts found");
+        }
+        else if (SaveContacts.MatSize!=null)
         {
             Rigidbody Collider = collision.collider.attachedRigidbody;
             Rigidbody Collother = this.gameObject.GetComponent<Rigidbody>();

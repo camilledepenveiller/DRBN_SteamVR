@@ -15,7 +15,7 @@ public class ServerMode : MonoBehaviour
     void Start()
     {
         ////comment for now, wait until we have a functional instantiation in normal game mode
-        if (Application.isBatchMode)
+        //if (Application.isBatchMode)
         {
             Debug.Log("In BatchMode!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
 

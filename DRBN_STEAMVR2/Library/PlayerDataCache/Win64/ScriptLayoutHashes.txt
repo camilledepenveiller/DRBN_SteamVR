@@ -1,6 +1,6 @@
 Win64
 PlayerPath?
-D:/Demos/DRBN_ServerMode/DRBN_STEAMVR2.exe
+D:/DRBN_Server/DRBN_STEAMVR2.exe
 SceneListBegin?
 Assets/DRBN_STEAMVR/Scenes/molworkshop.unity
 SceneListEnd?

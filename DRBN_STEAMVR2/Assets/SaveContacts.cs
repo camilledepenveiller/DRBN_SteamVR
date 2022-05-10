@@ -47,7 +47,7 @@ public class SaveContacts : MonoBehaviour
                         content += SaveMat[x, y].ToString("0") + ";";
                     }
                     outfile.WriteLine(content);
-                    Debug.Log("writing contacts");
+                    Debug.Log("writing contacts in " + Application.persistentDataPath + "/contacts/test" + nextActionTime + ".csv");
                 }
             }
         }
