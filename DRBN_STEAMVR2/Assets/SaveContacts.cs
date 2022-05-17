@@ -8,12 +8,12 @@ using System.Linq;
 public class SaveContacts : MonoBehaviour
 {
     int nextActionTime = 0;
-    int period = 1000;
+    int period = 100;
     
     public List<Vector2> contacts = new List<Vector2>();
 
     public int[,] MatSize;
-    int[,] SaveMat;
+    public int[,] SaveMat;
     Langevin_v2 Lange = new Langevin_v2(); //replace new() with ctor()
 
     // Update is called once per frame
