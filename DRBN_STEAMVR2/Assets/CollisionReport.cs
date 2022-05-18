@@ -8,7 +8,7 @@ public class CollisionReport : MonoBehaviour
     private SaveContacts SaveContacts;
     
 
-    private void Start()
+    private void Awake()
     {
         Lange = GameObject.Find("Simulation").GetComponent<Langevin_v2>();
         Debug.Log(Lange == null);
@@ -18,30 +18,56 @@ public class CollisionReport : MonoBehaviour
         Debug.Log(SaveContacts.MatSize.Length + " length!!!!!!!!!!!!!!!!!");
     }
 
-    
     private void OnCollisionEnter(Collision collision)
     {
         //discriminate between intra and inter molecular contacts
-
-        Rigidbody Collider = collision.collider.attachedRigidbody;
-        Rigidbody Collother = this.gameObject.GetComponent<Rigidbody>();
-
-        if (Collider.transform.root == Collother.transform.root)
+        if (SaveContacts.MatSize != null)
         {
-            Debug.Log(Collider.name + Collother.name);
-            
-            if(!Lange.GOS.Contains(Collider) || !Lange.GOS.Contains(Collother))
+            Rigidbody Collider = collision.collider.attachedRigidbody;
+            Rigidbody Collother = this.gameObject.GetComponent<Rigidbody>();
+
+
+
+            if (Collider.transform.root == Collother.transform.root)
             {
                 //Debug.Log(Collider.transform.root.name + " " + Collother.transform.root.name);
 
                 int IndexOwn = Lange.GOS.IndexOf(Collider);
                 int IndexOther = Lange.GOS.IndexOf(Collother);
-                Debug.Log("My Index is " + IndexOwn + " : Its Index is " + IndexOther);
-                Debug.Log("Collider " + Collider + " : Collother " + Collother);
+                //Debug.Log("My Index is " + IndexOwn + " : Its Index is " + IndexOther);
+                //Debug.Log("Collider " + Collider + " : Collother " + Collother);
                 SaveContacts.modMatrix(IndexOwn, IndexOther);
             }
         }
+        else
+        {
+            //Debug.Log("MatSize is null");
+        }
     }
+
+    //private void OnCollisionEnter(Collision collision)
+    //{
+    //    //discriminate between intra and inter molecular contacts
+
+    //    Rigidbody Collider = collision.collider.attachedRigidbody;
+    //    Rigidbody Collother = this.gameObject.GetComponent<Rigidbody>();
+
+    //    if (Collider.transform.root == Collother.transform.root)
+    //    {
+    //        //Debug.Log(Collider.name + Collother.name);
+
+    //        if(!Lange.GOS.Contains(Collider) || !Lange.GOS.Contains(Collother))
+    //        {
+    //            //Debug.Log(Collider.transform.root.name + " " + Collother.transform.root.name);
+
+    //            int IndexOwn = Lange.GOS.IndexOf(Collider);
+    //            int IndexOther = Lange.GOS.IndexOf(Collother);
+    //            Debug.Log("My Index is " + IndexOwn + " : Its Index is " + IndexOther);
+    //            Debug.Log("Collider " + Collider + " : Collother " + Collother);
+    //            SaveContacts.modMatrix(IndexOwn, IndexOther);
+    //        }
+    //    }
+    //}
 
     //private void OnCollisionEnter(Collision collision)
     //{

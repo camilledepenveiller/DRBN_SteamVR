@@ -28,7 +28,7 @@ public class SaveContacts : MonoBehaviour
         
         if(Time.time > nextActionTime)
         {
-            nextActionTime += period;
+            
             ////periodicsaveTXT(nextActionTime);
             //contacts.Clear();
             //Debug.Log("CLEARED");
@@ -50,6 +50,7 @@ public class SaveContacts : MonoBehaviour
                     Debug.Log("writing contacts in " + Application.persistentDataPath + "/contacts/test" + nextActionTime + ".csv");
                 }
             }
+            nextActionTime += period;
         }
 
         //if (Input.GetKeyDown(KeyCode.RightShift) || Input.GetKeyDown(KeyCode.LeftShift) && Input.GetKeyDown(KeyCode.s)) // shift + S combo
