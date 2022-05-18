@@ -10,7 +10,7 @@ public class SaveContacts : MonoBehaviour
     int nextActionTime = 0;
     int period = 100;
     
-    public List<Vector2> contacts = new List<Vector2>();
+    private List<Vector2> contacts = new List<Vector2>();
 
     public int[,] MatSize;
     public int[,] SaveMat;
@@ -33,8 +33,9 @@ public class SaveContacts : MonoBehaviour
             //contacts.Clear();
             //Debug.Log("CLEARED");
 
-            Debug.Log("Saving matrix");
+            
             SaveMat = MatSize;
+            Debug.Log(MatSize.Length + "SAVEMAAAAAT");
 
             //using (StreamWriter outfile = new StreamWriter(@"C:\Temp\test"+nextActionTime+".csv"))
             using (StreamWriter outfile = new StreamWriter(Application.persistentDataPath + "/contacts/test" + nextActionTime + ".csv"))
@@ -47,6 +48,7 @@ public class SaveContacts : MonoBehaviour
                         content += SaveMat[x, y].ToString("0") + ";";
                     }
                     outfile.WriteLine(content);
+                    Debug.Log("Saving matrix");
                     Debug.Log("writing contacts in " + Application.persistentDataPath + "/contacts/test" + nextActionTime + ".csv");
                 }
             }
@@ -111,6 +113,6 @@ public class SaveContacts : MonoBehaviour
                 MatSize[i, j] += 1;
             }
         }
-        //Debug.Log("MatSize has been modified");
+        Debug.Log("MatSize has been modified");
     }
 }
