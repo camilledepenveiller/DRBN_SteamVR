@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 8587675965628977566}
   - component: {fileID: 6883848139089741147}
   - component: {fileID: 1293969097324600520}
+  - component: {fileID: 2498286916787202917}
   m_Layer: 0
   m_Name: VGLAPG1_f4743_origami_surf_dec_center_phi_pho_2.4_-6 (2)
   m_TagString: Untagged
@@ -217,6 +218,18 @@ ConfigurableJoint:
   m_EnablePreprocessing: 1
   m_MassScale: 1
   m_ConnectedMassScale: 1
+--- !u!114 &2498286916787202917
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 142960198459246321}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f338cc309aef2a4b9f4510fe3a37689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &351046149979561800
 GameObject:
   m_ObjectHideFlags: 0
@@ -313,6 +326,7 @@ GameObject:
   - component: {fileID: 7277333715983538911}
   - component: {fileID: 5109714941906992459}
   - component: {fileID: 6481938963853699622}
+  - component: {fileID: 7997469536924865975}
   m_Layer: 0
   m_Name: VGLAPG1_f4743_origami_surf_dec_center_phi_pho_2.4_-6 (5)
   m_TagString: Untagged
@@ -514,6 +528,18 @@ ConfigurableJoint:
   m_EnablePreprocessing: 1
   m_MassScale: 1
   m_ConnectedMassScale: 1
+--- !u!114 &7997469536924865975
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 584290111243261341}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f338cc309aef2a4b9f4510fe3a37689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &691347072991121135
 GameObject:
   m_ObjectHideFlags: 0
@@ -840,6 +866,7 @@ GameObject:
   - component: {fileID: 798880765606456248}
   - component: {fileID: 3500358170451448542}
   - component: {fileID: 7117711207661242346}
+  - component: {fileID: 2723977376847181430}
   m_Layer: 0
   m_Name: VGLAPG1_f4743_origami_surf_dec_center_phi_pho_2.4_-6 (8)
   m_TagString: Untagged
@@ -957,7 +984,7 @@ ConfigurableJoint:
   m_Anchor: {x: -6.07, y: -1.12, z: 11.08}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -7.470001, y: 4.8099976, z: -9.66}
+  m_ConnectedAnchor: {x: -7.4699984, y: 4.80999, z: -9.660019}
   serializedVersion: 2
   m_SecondaryAxis: {x: 0, y: 1, z: 0}
   m_XMotion: 0
@@ -1041,6 +1068,18 @@ ConfigurableJoint:
   m_EnablePreprocessing: 1
   m_MassScale: 1
   m_ConnectedMassScale: 1
+--- !u!114 &2723977376847181430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1022902088326546263}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f338cc309aef2a4b9f4510fe3a37689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1429921911435623894
 GameObject:
   m_ObjectHideFlags: 0
@@ -1522,6 +1561,7 @@ GameObject:
   - component: {fileID: 7221351430571596595}
   - component: {fileID: 3099476086093743776}
   - component: {fileID: 4801145464247787576}
+  - component: {fileID: 8592699079862008199}
   m_Layer: 0
   m_Name: VGLAPG1_f4743_origami_surf_dec_center_phi_pho_2.4_-6
   m_TagString: Untagged
@@ -1628,6 +1668,18 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 2.84
   m_Center: {x: 8.77, y: 4.19, z: -3.46}
+--- !u!114 &8592699079862008199
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1625681337901866105}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f338cc309aef2a4b9f4510fe3a37689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1625681337901866107
 GameObject:
   m_ObjectHideFlags: 0
@@ -2262,7 +2314,7 @@ GameObject:
   - component: {fileID: 1406070164944438930}
   m_Layer: 0
   m_Name: Elastin_f4743_pp
-  m_TagString: Untagged
+  m_TagString: molecule
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2414,6 +2466,7 @@ GameObject:
   - component: {fileID: 7281183065787859568}
   - component: {fileID: 5313405239024446137}
   - component: {fileID: 8167979443616027102}
+  - component: {fileID: 2125100300972684025}
   m_Layer: 0
   m_Name: VGLAPG1_f4743_origami_surf_dec_center_phi_pho_2.4_-6 (3)
   m_TagString: Untagged
@@ -2615,6 +2668,18 @@ ConfigurableJoint:
   m_EnablePreprocessing: 1
   m_MassScale: 1
   m_ConnectedMassScale: 1
+--- !u!114 &2125100300972684025
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3397741106605672046}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f338cc309aef2a4b9f4510fe3a37689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3865107915240069941
 GameObject:
   m_ObjectHideFlags: 0
@@ -2942,6 +3007,7 @@ GameObject:
   - component: {fileID: 2628903369740480681}
   - component: {fileID: 4901222775245520316}
   - component: {fileID: 792458319335455082}
+  - component: {fileID: 1786067530813744820}
   m_Layer: 0
   m_Name: VGLAPG1_f4743_origami_surf_dec_center_phi_pho_2.4_-6 (6)
   m_TagString: Untagged
@@ -3059,7 +3125,7 @@ ConfigurableJoint:
   m_Anchor: {x: -6.07, y: -1.12, z: 11.08}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -7.4699984, y: 4.810002, z: -9.659998}
+  m_ConnectedAnchor: {x: -7.470003, y: 4.810005, z: -9.659996}
   serializedVersion: 2
   m_SecondaryAxis: {x: 0, y: 1, z: 0}
   m_XMotion: 0
@@ -3143,6 +3209,18 @@ ConfigurableJoint:
   m_EnablePreprocessing: 1
   m_MassScale: 1
   m_ConnectedMassScale: 1
+--- !u!114 &1786067530813744820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4715767974128389880}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f338cc309aef2a4b9f4510fe3a37689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4719536944586867673
 GameObject:
   m_ObjectHideFlags: 0
@@ -3547,6 +3625,7 @@ GameObject:
   - component: {fileID: 4508681637252702076}
   - component: {fileID: 8360633864344785332}
   - component: {fileID: 5986368464594342535}
+  - component: {fileID: 8788592541204911124}
   m_Layer: 0
   m_Name: VGLAPG1_f4743_origami_surf_dec_center_phi_pho_2.4_-6 (1)
   m_TagString: Untagged
@@ -3748,6 +3827,18 @@ ConfigurableJoint:
   m_EnablePreprocessing: 1
   m_MassScale: 1
   m_ConnectedMassScale: 1
+--- !u!114 &8788592541204911124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5459890849302967813}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f338cc309aef2a4b9f4510fe3a37689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5459890849302967815
 GameObject:
   m_ObjectHideFlags: 0
@@ -4541,6 +4632,7 @@ GameObject:
   - component: {fileID: 6568603491248071137}
   - component: {fileID: 2396693569203837299}
   - component: {fileID: 4799294402737717519}
+  - component: {fileID: 1750865323034759827}
   m_Layer: 0
   m_Name: VGLAPG1_f4743_origami_surf_dec_center_phi_pho_2.4_-6 (4)
   m_TagString: Untagged
@@ -4658,7 +4750,7 @@ ConfigurableJoint:
   m_Anchor: {x: -6.07, y: -1.12, z: 11.08}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -7.4699984, y: 4.810002, z: -9.659998}
+  m_ConnectedAnchor: {x: -7.470001, y: 4.8099976, z: -9.66}
   serializedVersion: 2
   m_SecondaryAxis: {x: 0, y: 1, z: 0}
   m_XMotion: 0
@@ -4742,6 +4834,18 @@ ConfigurableJoint:
   m_EnablePreprocessing: 1
   m_MassScale: 1
   m_ConnectedMassScale: 1
+--- !u!114 &1750865323034759827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6481988159569475284}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f338cc309aef2a4b9f4510fe3a37689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6490040127026386479
 GameObject:
   m_ObjectHideFlags: 0
@@ -5541,6 +5645,7 @@ GameObject:
   - component: {fileID: 3886370344957717312}
   - component: {fileID: 4393016993501627423}
   - component: {fileID: 7025947847227314700}
+  - component: {fileID: 4951112542031216659}
   m_Layer: 0
   m_Name: VGLAPG1_f4743_origami_surf_dec_center_phi_pho_2.4_-6 (7)
   m_TagString: Untagged
@@ -5658,7 +5763,7 @@ ConfigurableJoint:
   m_Anchor: {x: -6.07, y: -1.12, z: 11.08}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -7.2699976, y: 4.819995, z: -9.739994}
+  m_ConnectedAnchor: {x: -7.2699976, y: 4.8199997, z: -9.740013}
   serializedVersion: 2
   m_SecondaryAxis: {x: 0, y: 1, z: 0}
   m_XMotion: 0
@@ -5742,6 +5847,18 @@ ConfigurableJoint:
   m_EnablePreprocessing: 1
   m_MassScale: 1
   m_ConnectedMassScale: 1
+--- !u!114 &4951112542031216659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8577026965982550843}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f338cc309aef2a4b9f4510fe3a37689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8687916866604212852
 GameObject:
   m_ObjectHideFlags: 0

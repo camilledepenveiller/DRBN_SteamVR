@@ -16,10 +16,17 @@ public class SaveContacts : MonoBehaviour
     public int[,] SaveMat;
     Langevin_v2 Lange = new Langevin_v2(); //replace new() with ctor()
 
+    ServerMode Server = new ServerMode();
+    public string transformName, directory;
+    
+
     // Update is called once per frame
     void Start()
     {
-        
+        transformName = Server.transformName;
+        directory = Application.persistentDataPath + "/contacts/" + transformName + DateTime.Now.ToString("dd-MM-yyyy_hh-mm-ss-tt");
+
+        Directory.CreateDirectory(directory);
     }
 
     void Update()
@@ -35,10 +42,10 @@ public class SaveContacts : MonoBehaviour
 
             
             SaveMat = MatSize;
-            Debug.Log(MatSize.Length + "SAVEMAAAAAT");
+            //Debug.Log(MatSize.Length + "SAVEMAAAAAT");
 
             //using (StreamWriter outfile = new StreamWriter(@"C:\Temp\test"+nextActionTime+".csv"))
-            using (StreamWriter outfile = new StreamWriter(Application.persistentDataPath + "/contacts/test" + nextActionTime + ".csv"))
+            using (StreamWriter outfile = new StreamWriter(directory + "/test_"+ nextActionTime + ".csv"))
             {
                 for (int x = 0; x < SaveMat.GetLength(0); x++)
                 {
@@ -49,7 +56,8 @@ public class SaveContacts : MonoBehaviour
                     }
                     outfile.WriteLine(content);
                     Debug.Log("Saving matrix");
-                    Debug.Log("writing contacts in " + Application.persistentDataPath + "/contacts/test" + nextActionTime + ".csv");
+                    //Debug.Log("writing contacts in " + Application.persistentDataPath + "/contacts/test" + nextActionTime + ".csv");
+                    Debug.Log("writing contacts in " + directory + "/contacts/test" + nextActionTime + ".csv");
                 }
             }
             nextActionTime += period;

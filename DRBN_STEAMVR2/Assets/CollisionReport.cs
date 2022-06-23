@@ -40,7 +40,7 @@ public class CollisionReport : MonoBehaviour
                 int IndexOwn = Lange.GOS.IndexOf(Collider);
                 int IndexOther = Lange.GOS.IndexOf(Collother);
                 Debug.Log("My Index is " + IndexOwn + " : Its Index is " + IndexOther);
-                //Debug.Log("Collider " + Collider + " : Collother " + Collother);
+                Debug.Log("Collider " + Collider + " : Collother " + Collother);
                 SaveC.modMatrix(IndexOwn, IndexOther);
             }
         }
