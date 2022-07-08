@@ -4266,6 +4266,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3cb589a82193fc429c6c1351ab12fa9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  transformName: 
+  directory: 
 --- !u!1 &813822912
 GameObject:
   m_ObjectHideFlags: 0
@@ -4314,6 +4316,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3cb589a82193fc429c6c1351ab12fa9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  transformName: 
+  directory: 
 --- !u!23 &813822915
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6506,6 +6510,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3cb589a82193fc429c6c1351ab12fa9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  transformName: 
+  directory: 
 --- !u!114 &1553285424
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8023,8 +8029,8 @@ GameObject:
   - component: {fileID: 1881114553}
   - component: {fileID: 1881114555}
   - component: {fileID: 1881114556}
-  - component: {fileID: 1881114557}
   - component: {fileID: 1881114558}
+  - component: {fileID: 1881114557}
   m_Layer: 0
   m_Name: Simulation
   m_TagString: Physics_Sim
@@ -8139,6 +8145,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7733ef72b5ffbb84d84926825820c9c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  transformName: 
+  directory: 
 --- !u!114 &1881114557
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8148,12 +8156,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1881114549}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 32e22b9da8839a945ab4e65f37ba44c5, type: 3}
+  m_Script: {fileID: 11500000, guid: d8866904c8f3d2646aee3a388199ea32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  savepath: 
-  transformName: Elastin_f4743_pp
-  repeat: 10
+  transformName: SecondaryAnchorTest_Elastin_f60_pp_angleconstraint_phipho_test X2
 --- !u!114 &1881114558
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8166,6 +8172,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3cb589a82193fc429c6c1351ab12fa9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  transformName: 
+  directory: 
 --- !u!1 &1921454199
 GameObject:
   m_ObjectHideFlags: 0

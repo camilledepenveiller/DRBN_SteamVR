@@ -7,9 +7,9 @@ using System.IO;
 public class ServerMode : MonoBehaviour
 {
 
-    public string savepath = ""; // make a variable that can be checked by other functions like SaveSnapShot
+    string savepath = ""; // make a variable that can be checked by other functions like SaveSnapShot
     public string transformName = "SecondaryAnchorTest_Elastin_f60_pp_angleconstraint_phipho_test X2"; // replace by command line argument later
-    public int repeat = 10; // number of molecules in the simulation, replace by command line argument later
+    int repeat = 10; // number of molecules in the simulation, replace by command line argument later
                     //UnityEngine.Random rnd = new UnityEngine.Random();
 
     // Start is called before the first frame update

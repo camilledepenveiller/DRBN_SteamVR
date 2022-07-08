@@ -510,8 +510,8 @@ GameObject:
   - component: {fileID: 6168650921492332668}
   - component: {fileID: 3503980760820618131}
   m_Layer: 0
-  m_Name: Joint C
-  m_TagString: Untagged
+  m_Name: JointC
+  m_TagString: CountIgnore
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -905,8 +905,8 @@ GameObject:
   - component: {fileID: 1493809897740001613}
   - component: {fileID: 6852777977565312491}
   m_Layer: 0
-  m_Name: Joint N
-  m_TagString: Untagged
+  m_Name: JointN
+  m_TagString: CountIgnore
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1799,7 +1799,7 @@ GameObject:
   - component: {fileID: 3936771495045729769}
   - component: {fileID: 9035299664164666725}
   m_Layer: 0
-  m_Name: SecondaryAnchorTest_Elastin_f60_pp_angleconstraint_phipho_test X2
+  m_Name: SecondaryAnchorTest_Elastin_f60_pp_angleconstraint_phipho_test_X2
   m_TagString: molecule
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1814,7 +1814,7 @@ Transform:
   m_GameObject: {fileID: 693262573874514330}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.0047, y: 0.0057, z: -0.02856}
-  m_LocalScale: {x: 0.0001, y: 0.0001, z: 0.0001}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2240598733818588938}
   - {fileID: 1133294959303903221}
@@ -2356,8 +2356,8 @@ GameObject:
   - component: {fileID: 3244033787408866400}
   - component: {fileID: 513801728802314383}
   m_Layer: 0
-  m_Name: Joint N
-  m_TagString: Untagged
+  m_Name: JointN
+  m_TagString: CountIgnore
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2500,8 +2500,8 @@ GameObject:
   - component: {fileID: 7487194726595285271}
   - component: {fileID: 7997619689623325836}
   m_Layer: 0
-  m_Name: Joint C
-  m_TagString: Untagged
+  m_Name: JointC
+  m_TagString: CountIgnore
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2737,8 +2737,8 @@ GameObject:
   - component: {fileID: 3032007545925383464}
   - component: {fileID: 7787939742150570367}
   m_Layer: 0
-  m_Name: Joint N
-  m_TagString: Untagged
+  m_Name: JointN
+  m_TagString: CountIgnore
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3067,8 +3067,8 @@ GameObject:
   - component: {fileID: 5699049046057590105}
   - component: {fileID: 8422200417743613891}
   m_Layer: 0
-  m_Name: Joint C
-  m_TagString: Untagged
+  m_Name: JointC
+  m_TagString: CountIgnore
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5142,8 +5142,8 @@ GameObject:
   - component: {fileID: 8530718835629500351}
   - component: {fileID: 5538768326974333458}
   m_Layer: 0
-  m_Name: Joint N
-  m_TagString: Untagged
+  m_Name: JointN
+  m_TagString: CountIgnore
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6033,8 +6033,8 @@ GameObject:
   - component: {fileID: 7988531449364876537}
   - component: {fileID: 86524645603176922}
   m_Layer: 0
-  m_Name: Joint C
-  m_TagString: Untagged
+  m_Name: JointC
+  m_TagString: CountIgnore
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6349,8 +6349,8 @@ GameObject:
   - component: {fileID: 2649194870597598929}
   - component: {fileID: 5149562206495222575}
   m_Layer: 0
-  m_Name: Joint N
-  m_TagString: Untagged
+  m_Name: JointN
+  m_TagString: CountIgnore
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8113,8 +8113,8 @@ GameObject:
   - component: {fileID: 5059474770000061824}
   - component: {fileID: 351184126748454107}
   m_Layer: 0
-  m_Name: Joint N
-  m_TagString: Untagged
+  m_Name: JointN
+  m_TagString: CountIgnore
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8257,8 +8257,8 @@ GameObject:
   - component: {fileID: 8138368643136397714}
   - component: {fileID: 5325552540334873166}
   m_Layer: 0
-  m_Name: Joint C
-  m_TagString: Untagged
+  m_Name: JointC
+  m_TagString: CountIgnore
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8571,8 +8571,8 @@ GameObject:
   - component: {fileID: 1426190820210657045}
   - component: {fileID: 6457018657989544023}
   m_Layer: 0
-  m_Name: Joint N
-  m_TagString: Untagged
+  m_Name: JointN
+  m_TagString: CountIgnore
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9550,8 +9550,8 @@ GameObject:
   - component: {fileID: 8128065105988524763}
   - component: {fileID: 183346089485426083}
   m_Layer: 0
-  m_Name: Joint C
-  m_TagString: Untagged
+  m_Name: JointC
+  m_TagString: CountIgnore
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9864,8 +9864,8 @@ GameObject:
   - component: {fileID: 6130558084528524741}
   - component: {fileID: 703178780262591196}
   m_Layer: 0
-  m_Name: Joint C
-  m_TagString: Untagged
+  m_Name: JointC
+  m_TagString: CountIgnore
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10008,8 +10008,8 @@ GameObject:
   - component: {fileID: 781850742917601808}
   - component: {fileID: 3659774307799599830}
   m_Layer: 0
-  m_Name: Joint C
-  m_TagString: Untagged
+  m_Name: JointC
+  m_TagString: CountIgnore
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11774,8 +11774,8 @@ GameObject:
   - component: {fileID: 8359615791426906262}
   - component: {fileID: 7205416467075377278}
   m_Layer: 0
-  m_Name: Joint C
-  m_TagString: Untagged
+  m_Name: JointC
+  m_TagString: CountIgnore
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12529,8 +12529,8 @@ GameObject:
   - component: {fileID: 5635604150029168603}
   - component: {fileID: 7086080996379150057}
   m_Layer: 0
-  m_Name: Joint N
-  m_TagString: Untagged
+  m_Name: JointN
+  m_TagString: CountIgnore
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12673,8 +12673,8 @@ GameObject:
   - component: {fileID: 6173715303581401592}
   - component: {fileID: 2685029684118111172}
   m_Layer: 0
-  m_Name: Joint N
-  m_TagString: Untagged
+  m_Name: JointN
+  m_TagString: CountIgnore
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13676,8 +13676,8 @@ GameObject:
   - component: {fileID: 2946523015461317965}
   - component: {fileID: 3790818958136441860}
   m_Layer: 0
-  m_Name: Joint C
-  m_TagString: Untagged
+  m_Name: JointC
+  m_TagString: CountIgnore
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14502,8 +14502,8 @@ GameObject:
   - component: {fileID: 6348945425286417129}
   - component: {fileID: 9222990309062932567}
   m_Layer: 0
-  m_Name: Joint N
-  m_TagString: Untagged
+  m_Name: JointN
+  m_TagString: CountIgnore
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15155,8 +15155,8 @@ GameObject:
   - component: {fileID: 6272761357743172849}
   - component: {fileID: 854768427915766155}
   m_Layer: 0
-  m_Name: Joint N
-  m_TagString: Untagged
+  m_Name: JointN
+  m_TagString: CountIgnore
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15729,8 +15729,8 @@ GameObject:
   - component: {fileID: 4006230753191633241}
   - component: {fileID: 2419977991646071158}
   m_Layer: 0
-  m_Name: Joint C
-  m_TagString: Untagged
+  m_Name: JointC
+  m_TagString: CountIgnore
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15784,7 +15784,7 @@ ConfigurableJoint:
   m_YMotion: 0
   m_ZMotion: 0
   m_AngularXMotion: 0
-  m_AngularYMotion: 0
+  m_AngularYMotion: 1
   m_AngularZMotion: 1
   m_LinearLimitSpring:
     spring: 0
@@ -15808,11 +15808,11 @@ ConfigurableJoint:
     spring: 0
     damper: 0
   m_AngularYLimit:
-    limit: 0
+    limit: 45
     bounciness: 0
     contactDistance: 0
   m_AngularZLimit:
-    limit: 40
+    limit: 45
     bounciness: 0
     contactDistance: 0
   m_TargetPosition: {x: 0, y: 0, z: 0}
@@ -16218,8 +16218,8 @@ GameObject:
   - component: {fileID: 1606417032097049875}
   - component: {fileID: 513352788272915582}
   m_Layer: 0
-  m_Name: Joint C
-  m_TagString: Untagged
+  m_Name: JointC
+  m_TagString: CountIgnore
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16362,8 +16362,8 @@ GameObject:
   - component: {fileID: 4194624655062579641}
   - component: {fileID: 1486030695952738717}
   m_Layer: 0
-  m_Name: Joint C
-  m_TagString: Untagged
+  m_Name: JointC
+  m_TagString: CountIgnore
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16753,8 +16753,8 @@ GameObject:
   - component: {fileID: 8997391368925563090}
   - component: {fileID: 6613048974174055331}
   m_Layer: 0
-  m_Name: Joint C
-  m_TagString: Untagged
+  m_Name: JointC
+  m_TagString: CountIgnore
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17787,8 +17787,8 @@ GameObject:
   - component: {fileID: 8817364523895510256}
   - component: {fileID: 7459087413157551335}
   m_Layer: 0
-  m_Name: Joint C
-  m_TagString: Untagged
+  m_Name: JointC
+  m_TagString: CountIgnore
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18354,8 +18354,8 @@ GameObject:
   - component: {fileID: 8761542541983501993}
   - component: {fileID: 7839202175509916813}
   m_Layer: 0
-  m_Name: Joint C
-  m_TagString: Untagged
+  m_Name: JointC
+  m_TagString: CountIgnore
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18683,8 +18683,8 @@ GameObject:
   - component: {fileID: 5157703048811714107}
   - component: {fileID: 5650318996876711846}
   m_Layer: 0
-  m_Name: Joint C
-  m_TagString: Untagged
+  m_Name: JointC
+  m_TagString: CountIgnore
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18904,8 +18904,8 @@ GameObject:
   - component: {fileID: 3006979760434407105}
   - component: {fileID: 1242414148569300210}
   m_Layer: 0
-  m_Name: Joint C
-  m_TagString: Untagged
+  m_Name: JointC
+  m_TagString: CountIgnore
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19048,8 +19048,8 @@ GameObject:
   - component: {fileID: 6526037323231793126}
   - component: {fileID: 5937442253625924242}
   m_Layer: 0
-  m_Name: Joint N
-  m_TagString: Untagged
+  m_Name: JointN
+  m_TagString: CountIgnore
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19521,8 +19521,8 @@ GameObject:
   - component: {fileID: 2014633529250752193}
   - component: {fileID: 3637993968460823509}
   m_Layer: 0
-  m_Name: Joint N
-  m_TagString: Untagged
+  m_Name: JointN
+  m_TagString: CountIgnore
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20519,8 +20519,8 @@ GameObject:
   - component: {fileID: 8954795706341340411}
   - component: {fileID: 1199378297074456672}
   m_Layer: 0
-  m_Name: Joint N
-  m_TagString: Untagged
+  m_Name: JointN
+  m_TagString: CountIgnore
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21609,8 +21609,8 @@ GameObject:
   - component: {fileID: 678570714948345778}
   - component: {fileID: 2417781655154653517}
   m_Layer: 0
-  m_Name: Joint C
-  m_TagString: Untagged
+  m_Name: JointC
+  m_TagString: CountIgnore
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21925,8 +21925,8 @@ GameObject:
   - component: {fileID: 6236604754694846605}
   - component: {fileID: 4724854260362625497}
   m_Layer: 0
-  m_Name: Joint C
-  m_TagString: Untagged
+  m_Name: JointC
+  m_TagString: CountIgnore
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22162,8 +22162,8 @@ GameObject:
   - component: {fileID: 2400306404031098736}
   - component: {fileID: 3512200588563435160}
   m_Layer: 0
-  m_Name: Joint N
-  m_TagString: Untagged
+  m_Name: JointN
+  m_TagString: CountIgnore
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22465,8 +22465,8 @@ GameObject:
   - component: {fileID: 5434280713674859276}
   - component: {fileID: 8157937460194451946}
   m_Layer: 0
-  m_Name: Joint N
-  m_TagString: Untagged
+  m_Name: JointN
+  m_TagString: CountIgnore
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23045,8 +23045,8 @@ GameObject:
   - component: {fileID: 4991507559822117765}
   - component: {fileID: 3778169265728989043}
   m_Layer: 0
-  m_Name: Joint N
-  m_TagString: Untagged
+  m_Name: JointN
+  m_TagString: CountIgnore
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23266,8 +23266,8 @@ GameObject:
   - component: {fileID: 6552497438177634770}
   - component: {fileID: 1405938070646637414}
   m_Layer: 0
-  m_Name: Joint C
-  m_TagString: Untagged
+  m_Name: JointC
+  m_TagString: CountIgnore
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23279,14 +23279,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6465876377420604583}
-  m_LocalRotation: {x: -0.5620497, y: -0, z: -0, w: 0.8271035}
+  m_LocalRotation: {x: -0.74194074, y: 0, z: 0, w: 0.6704655}
   m_LocalPosition: {x: -1.337002, y: -3.8289976, z: -20.569004}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4168163894587765460}
   m_Father: {fileID: 1133294959303903221}
   m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: -68.395004, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -95.794, y: 0, z: 0}
 --- !u!54 &6552497438177634770
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -24692,8 +24692,8 @@ GameObject:
   - component: {fileID: 8037926096936165299}
   - component: {fileID: 9143865807404452432}
   m_Layer: 0
-  m_Name: Joint C
-  m_TagString: Untagged
+  m_Name: JointC
+  m_TagString: CountIgnore
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25177,8 +25177,8 @@ GameObject:
   - component: {fileID: 3693805006768707694}
   - component: {fileID: 3411055073296553576}
   m_Layer: 0
-  m_Name: Joint C
-  m_TagString: Untagged
+  m_Name: JointC
+  m_TagString: CountIgnore
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25756,8 +25756,8 @@ GameObject:
   - component: {fileID: 3580191407504508469}
   - component: {fileID: 6413924807252883324}
   m_Layer: 0
-  m_Name: Joint N
-  m_TagString: Untagged
+  m_Name: JointN
+  m_TagString: CountIgnore
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26647,8 +26647,8 @@ GameObject:
   - component: {fileID: 8314240904526005983}
   - component: {fileID: 8770863594156137118}
   m_Layer: 0
-  m_Name: Joint C
-  m_TagString: Untagged
+  m_Name: JointC
+  m_TagString: CountIgnore
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26961,8 +26961,8 @@ GameObject:
   - component: {fileID: 778345753448852851}
   - component: {fileID: 8601595429989273322}
   m_Layer: 0
-  m_Name: Joint N
-  m_TagString: Untagged
+  m_Name: JointN
+  m_TagString: CountIgnore
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27105,8 +27105,8 @@ GameObject:
   - component: {fileID: 3359652037160266465}
   - component: {fileID: 8288791020899047962}
   m_Layer: 0
-  m_Name: Joint N
-  m_TagString: Untagged
+  m_Name: JointN
+  m_TagString: CountIgnore
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27326,8 +27326,8 @@ GameObject:
   - component: {fileID: 2186090594666971104}
   - component: {fileID: 4528178738693318466}
   m_Layer: 0
-  m_Name: Joint N
-  m_TagString: Untagged
+  m_Name: JointN
+  m_TagString: CountIgnore
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27736,8 +27736,8 @@ GameObject:
   - component: {fileID: 4701674387480411119}
   - component: {fileID: 2614288692378542499}
   m_Layer: 0
-  m_Name: Joint N
-  m_TagString: Untagged
+  m_Name: JointN
+  m_TagString: CountIgnore
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29174,8 +29174,8 @@ GameObject:
   - component: {fileID: 7785059092491471479}
   - component: {fileID: 3974029617541940541}
   m_Layer: 0
-  m_Name: Joint C
-  m_TagString: Untagged
+  m_Name: JointC
+  m_TagString: CountIgnore
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29954,8 +29954,8 @@ GameObject:
   - component: {fileID: 728245630564136862}
   - component: {fileID: 6086651864688159226}
   m_Layer: 0
-  m_Name: Joint N
-  m_TagString: Untagged
+  m_Name: JointN
+  m_TagString: CountIgnore
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30098,8 +30098,8 @@ GameObject:
   - component: {fileID: 560683790386116518}
   - component: {fileID: 5726932808011318716}
   m_Layer: 0
-  m_Name: Joint N
-  m_TagString: Untagged
+  m_Name: JointN
+  m_TagString: CountIgnore
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30864,8 +30864,8 @@ GameObject:
   - component: {fileID: 4928420296249271542}
   - component: {fileID: 2166220489992581234}
   m_Layer: 0
-  m_Name: Joint C
-  m_TagString: Untagged
+  m_Name: JointC
+  m_TagString: CountIgnore
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32816,8 +32816,8 @@ GameObject:
   - component: {fileID: 5061636354492475273}
   - component: {fileID: 9099486323428068785}
   m_Layer: 0
-  m_Name: Joint C
-  m_TagString: Untagged
+  m_Name: JointC
+  m_TagString: CountIgnore
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33410,8 +33410,8 @@ GameObject:
   - component: {fileID: 2277742370764331550}
   - component: {fileID: 2815306325023223255}
   m_Layer: 0
-  m_Name: Joint N
-  m_TagString: Untagged
+  m_Name: JointN
+  m_TagString: CountIgnore
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33554,8 +33554,8 @@ GameObject:
   - component: {fileID: 5100475933569408913}
   - component: {fileID: 2703068248580079423}
   m_Layer: 0
-  m_Name: Joint N
-  m_TagString: Untagged
+  m_Name: JointN
+  m_TagString: CountIgnore
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33698,8 +33698,8 @@ GameObject:
   - component: {fileID: 3070877591695724166}
   - component: {fileID: 639482435498076035}
   m_Layer: 0
-  m_Name: Joint N
-  m_TagString: Untagged
+  m_Name: JointN
+  m_TagString: CountIgnore
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33842,8 +33842,8 @@ GameObject:
   - component: {fileID: 3066864256350005237}
   - component: {fileID: 7865050788412001110}
   m_Layer: 0
-  m_Name: Joint C
-  m_TagString: Untagged
+  m_Name: JointC
+  m_TagString: CountIgnore
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

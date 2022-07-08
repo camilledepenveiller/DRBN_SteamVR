@@ -18,6 +18,9 @@ TagManager:
   - mol_lam_gamma_coil
   - mol_nid_G3
   - mol_coll_coil
+  - mol_coll_coil_140nm
+  - mol_nid_G2
+  - CountIgnore
   layers:
   - Default
   - TransparentFX
