@@ -8,7 +8,8 @@ public class ServerMode : MonoBehaviour
 {
 
     string savepath = ""; // make a variable that can be checked by other functions like SaveSnapShot
-    public string transformName = "SecondaryAnchorTest_Elastin_f60_pp_angleconstraint_phipho_test X2"; // replace by command line argument later
+    //public string transformName = "SecondaryAnchorTest_Elastin_f60_pp_angleconstraint_phipho_test X2"; // replace by command line argument later
+    public string transformName = "Elastin_VGLAPG1_5004_neutral"; // replace by command line argument later
     int repeat = 10; // number of molecules in the simulation, replace by command line argument later
                     //UnityEngine.Random rnd = new UnityEngine.Random();
 
@@ -16,7 +17,7 @@ public class ServerMode : MonoBehaviour
     void Start()
     {
         ////comment for now, wait until we have a functional instantiation in normal game mode
-        //if (Application.isBatchMode)
+        if (Application.isBatchMode)
         {
             Debug.Log("In BatchMode!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
             

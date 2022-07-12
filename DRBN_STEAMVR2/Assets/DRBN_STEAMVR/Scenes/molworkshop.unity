@@ -8159,7 +8159,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8866904c8f3d2646aee3a388199ea32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  transformName: SecondaryAnchorTest_Elastin_f60_pp_angleconstraint_phipho_test X2
+  transformName: Elastin_VGLAPG1_5004_neutral
 --- !u!114 &1881114558
 MonoBehaviour:
   m_ObjectHideFlags: 0
