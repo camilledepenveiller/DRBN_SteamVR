@@ -10143,7 +10143,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8866904c8f3d2646aee3a388199ea32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   transformName: Elastin_VGLAPG1_5004_neutral_PhiPsi
+=======
+  transformName: Elastin_VGLAPG1_5004_PhiPsi_Tuto
+>>>>>>> Stashed changes
 --- !u!114 &1881114558
 MonoBehaviour:
   m_ObjectHideFlags: 0

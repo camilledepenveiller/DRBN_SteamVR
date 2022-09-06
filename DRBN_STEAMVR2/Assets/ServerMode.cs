@@ -9,7 +9,11 @@ public class ServerMode : MonoBehaviour
 
     string savepath = ""; // make a variable that can be checked by other functions like SaveSnapShot
     //public string transformName = "SecondaryAnchorTest_Elastin_f60_pp_angleconstraint_phipho_test X2"; // replace by command line argument later
+<<<<<<< Updated upstream
     public string transformName = "Elastin_VPGKG_73_neutral_FJC_scale"; // replace by command line argument later
+=======
+    public string transformName = "Elastin_VGLAPG1_5004_PhiPsi_Tuto"; // replace by command line argument later
+>>>>>>> Stashed changes
     int repeat = 10; // number of molecules in the simulation, replace by command line argument later
                     //UnityEngine.Random rnd = new UnityEngine.Random();
 
