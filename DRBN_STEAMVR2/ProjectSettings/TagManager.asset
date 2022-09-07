@@ -21,6 +21,22 @@ TagManager:
   - mol_coll_coil_140nm
   - mol_nid_G2
   - CountIgnore
+  - HdonorA1
+  - HacceptorA1
+  - HdonorA2
+  - HacceptorA2
+  - AromaticA1
+  - AromaticA2
+  - AromaticA1b
+  - AromaticA2b
+  - HdonorB1
+  - HacceptorB1
+  - HdonorB2
+  - HacceptorB2
+  - AromaticB1
+  - AromaticB2
+  - AromaticB1b
+  - AromaticB2b
   layers:
   - Default
   - TransparentFX
