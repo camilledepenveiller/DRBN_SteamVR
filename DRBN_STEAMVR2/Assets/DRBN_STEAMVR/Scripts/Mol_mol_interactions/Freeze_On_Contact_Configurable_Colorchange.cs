@@ -39,7 +39,7 @@ public class Freeze_On_Contact_Configurable_Colorchange : MonoBehaviour
     {
         foreach (ContactPoint contact in collisionInfo.contacts)
         {
-            Debug.DrawRay(contact.point, contact.normal, Color.red);
+            //Debug.DrawRay(contact.point, contact.normal, Color.red);
         }
     }
 
