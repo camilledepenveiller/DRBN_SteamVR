@@ -4,32 +4,22 @@ using UnityEngine;
 using System.Runtime.Serialization.Formatters.Binary;
 using System.IO;
 using System.Linq;
+using System.Globalization;
 
 
 
 public class SaveSnapShot : MonoBehaviour
 {
-    //variables to get Server and transformName from servermode
-    ServerMode Server = new ServerMode();
-    public string transformName, directory;
-
-
-    void Start ()
+	void Start ()
 	{
-        //create directory to save trajectories and use transformName as... name
-        transformName = Server.transformName;
-        directory = Application.persistentDataPath + "/trajectory_data/" + transformName + DateTime.Now.ToString("dd-MM-yyyy_hh-mm-ss-tt");
-
-        Directory.CreateDirectory(directory);
-
         //		string json = saveJSON();
         //		loadJSON(json);
-        //Debug.Log("WTF!");
+        //bug.Log("WTF!");
         //savePDB2();
 
         //toy function to test transform.TransformPoint
         //testcube();
-    }
+	}
 
     //private float nextActionTime = 0.0f;
     //public float period = 100000f;
@@ -82,7 +72,7 @@ public class SaveSnapShot : MonoBehaviour
 		}
 		return pdbs;
 	}
-    	
+
     public void savePDB()
     {
         //path with all the PDBs 
@@ -183,6 +173,124 @@ public class SaveSnapShot : MonoBehaviour
         }
     }
 
+    public void savePDB2()
+    {
+        //path with all the PDBs 
+        string pdb_path = Application.dataPath + "/DRBN_STEAMVR/Prefab/Simulation/PDBs_To_Scale/_PDBs/";
+        //list all the PDBs in path
+        //List<string> pdb_names = pdb_dir(pdb_path);
+        //List<string> grocontent = new List<string>();
+        //Debug.Log("COUNTING PDBS " + pdb_names.Count);
+
+        //read the content of the json file containing all the rigid body location and rotation
+        string json;
+        json = File.ReadAllText(Application.persistentDataPath + "/gamesave_list_test.jsonbrn");
+
+        RBListContainer container = JsonUtility.FromJson<RBListContainer>(json);
+
+        //bug.Log("container size " + container.dataList.Count);
+        for (int i = 0; i < container.dataList.Count; i++)
+        {
+            List<string> pdb_names = pdb_dir(pdb_path);
+            List<string> grocontent = new List<string>();
+
+            string GOname = container.dataList[i].name;
+            Vector3 GOpos = container.dataList[i].pos;
+            Vector3 GOrot = container.dataList[i].rot;
+            //List<string> grocontent = new List<string>();
+            
+            for (int files = 0; files < pdb_names.Count; files++)
+            {
+
+
+                if (pdb_names[files].Contains(GOname))
+                {
+                    //Debug.Log("files " + files + " i " + i);
+                    //Debug.Log("GOname " + GOname);
+
+                    //Debug.Log("Name: " + container.dataList[i].name + " Rot: " + container.dataList[i].pos + ", Pos: " + container.dataList[i].rot);
+                    //Debug.Log((GameObject.Find(container.dataList[i].name)));
+
+                    Debug.Log("PROUTTTTT " + GOname + " " + pdb_names[files] + " " + files);
+                    /////////////////////////////////////////////////
+                    
+                    string currentline;
+                    List<string> pdbcontent = File.ReadAllLines(pdb_names[files]).ToList();
+                    //List<string> grocontent = new List<string>();
+
+                    CultureInfo ci = (CultureInfo)CultureInfo.CurrentCulture.Clone();
+                    ci.NumberFormat.CurrencyDecimalSeparator = ".";
+
+                    grocontent.Add(pdb_names[files]);
+                    grocontent.Add((pdbcontent.Count - 1).ToString());
+
+                    for (int pdbline = 0; pdbline < pdbcontent.Count; pdbline++)
+                    {
+                        currentline = pdbcontent[pdbline];
+                        //change split to "hard" columns because whitespaces are unreliable
+                        //string[] linewords = currentline.Split (new char[]{' ','\t'}, StringSplitOptions.RemoveEmptyEntries);
+                        List<string> linewords = new List<string>();
+                        //tediously cut currentline by hand...
+                        if (currentline != "END")
+                        {
+                            //atom number : 
+                            linewords.Add(currentline.Substring(7, 4));
+                            //atom type :
+                            linewords.Add(currentline.Substring(13, 4));
+                            //Amino Acid Name : 
+                            linewords.Add(currentline.Substring(17, 3));
+                            //Residue number :
+                            linewords.Add(currentline.Substring(23, 3));
+                            //Coord xyz
+                            linewords.Add(currentline.Substring(30, 7));
+                            linewords.Add(currentline.Substring(38, 7));
+                            linewords.Add(currentline.Substring(46, 7));
+
+                            
+
+                            //*0.1f to transition from PDB to GRO
+                            float x = float.Parse(linewords[4], NumberStyles.Any, ci) * 0.1f;
+                            float y = float.Parse(linewords[5], NumberStyles.Any, ci) * 0.1f;
+                            float z = float.Parse(linewords[6], NumberStyles.Any, ci) * 0.1f;
+
+                            //Vector3 coords = new Vector3(x, y, z);
+                            Vector3 coords = new Vector3(x, z, y);
+                            //Vector3 trans_pos_coord = coords + Vector3.Scale(GOpos, new Vector3(100f, 100f, 100f));
+                            Vector3 trans_pos_coord = coords + Vector3.Scale(GOpos, new Vector3(10f, 10f, 10f));
+
+                            Vector3 trans_rot_coord = Quaternion.Euler(GOrot.z, GOrot.x, GOrot.y) * trans_pos_coord;
+
+                            //variable created for test reasons... 
+                            Vector3 finalcoords = trans_rot_coord;
+
+                            var atom_number = linewords[0];
+                            var atom_type = linewords[1];
+                            var AminoA_name = linewords[2];
+                            var AminoA_num = linewords[3];
+
+                            grocontent.Add(string.Format(NumberFormatInfo.InvariantInfo,"{0,5}{1,-7}{2,-4}{3,4}{4,8:##0.000}{5,8:##0.000}{6,8:##0.000}",
+                                AminoA_num, AminoA_name, atom_type, atom_number,
+                                finalcoords.x, finalcoords.y, finalcoords.z));
+                            //coords.x, coords.y, coords.z));
+
+
+
+
+                        }
+                    }
+                }
+                else
+                {
+                    Debug.Log("_________ " + GOname + " " + pdb_names[files] + " " + files);
+                }
+                
+            }
+            //grocontent.Add (string.Format ("{0,9:0.00000}", 0, 0, 0, 0, 0, 0, 0, 0, 0));
+            grocontent.Add(string.Format(NumberFormatInfo.InvariantInfo,"{0,10:0.00000}{1,10:0.00000}{2,10:0.00000}{3,10:0.00000}{4,10:0.00000}{5,10:0.00000}{6,10:0.00000}{7,10:0.00000}{8,10:0.00000}", 0, 0, 0, 0, 0, 0, 0, 0, 0));
+            File.WriteAllLines("D:\\EXPDBs\\" + GOname + i + ".gro", grocontent.ToArray());
+        }
+    }
+
     public void saveGRO()
     {
         string pdb_path = Application.dataPath + "/DRBN_STEAMVR/Prefab/Simulation/PDBs_To_Scale/_PDBs/";
@@ -206,7 +314,7 @@ public class SaveSnapShot : MonoBehaviour
 
             //Debug.LogWarning("name bis! " + i + " " + container.coordList[i].name);
 
-            if (container.coordList[i].name!=" " || container.coordList[i].name != "")
+            if (container.coordList[i].name != " " || container.coordList[i].name != "")
             {
                 //Debug.LogWarning("crikey");
                 GOname.Add(container.coordList[i].name);
@@ -222,7 +330,7 @@ public class SaveSnapShot : MonoBehaviour
             string filename = pdb_names[files];
             for (int GOnames = 0; GOnames < GOname.Count; GOnames++)
             {
-                if (filename.Contains(GOname[GOnames]) && GOname[GOnames]!="")//too general, changing the if conditions 
+                if (filename.Contains(GOname[GOnames]) && GOname[GOnames] != "")//too general, changing the if conditions 
                 //if (filename == GOname[GOnames]+"_bric.pdb")
                 {
                     Debug.LogWarning("filename " + filename + " GOname " + GOname[GOnames]);
@@ -282,7 +390,7 @@ public class SaveSnapShot : MonoBehaviour
                             grocontent.Add(string.Format("{0,5}{1,-7}{2,-4}{3,4}{4,8:##0.000}{5,8:##0.000}{6,8:##0.000}",
                                 AminoA_num, AminoA_name, atom_type, atom_number,
                                            //x, y, 0)); //replace finalcoords with coords from JSON
-                                           GOcoord[GOnames][pdbline][0]*-100 , GOcoord[GOnames][pdbline][1]*100, GOcoord[GOnames][pdbline][2]*100));
+                                           GOcoord[GOnames][pdbline][0] * -100, GOcoord[GOnames][pdbline][1] * 100, GOcoord[GOnames][pdbline][2] * 100));
                             Debug.LogWarning("GOcoord names " + filename + "  " + GOname[GOnames]);
                             Debug.LogWarning("GOcoord[GOnames][0] " + GOnames + " " + GOcoord[GOnames][0]);
                             //Debug.Log("Len GOcoord[GOnames] " + 1/3*GOcoord[GOnames].Count + " pdbcontent.Count " + pdbcontent.Count);
@@ -315,9 +423,9 @@ public class SaveSnapShot : MonoBehaviour
 
     //    for (int i = 0; i < Coord.Length; i++)
     //    {
-    //        Debug.Log("Coord " + Coord[i] + " before");
+    //        //bug.Log("Coord " + Coord[i] + " before");
     //        Coord[i] = CoordGO.transform.TransformPoint(Coord[i]);
-    //        Debug.Log("Coord " + Coord[i].ToString("F4") + " after");
+    //        //bug.Log("Coord " + Coord[i].ToString("F4") + " after");
     //        World.Add(Coord[i]);
     //    }
     //}
@@ -334,9 +442,9 @@ public class SaveSnapShot : MonoBehaviour
 
         for (int i = 0; i < Coord.Length; i++)
         {
-            Debug.Log("Coord " + Coord[i] + " before");
+            //bug.Log("Coord " + Coord[i] + " before");
             Coord[i] = CoordGO.transform.TransformPoint(Coord[i]);
-            Debug.Log("Coord " + Coord[i].ToString("F4") + " after");
+            //bug.Log("Coord " + Coord[i].ToString("F4") + " after");
             World.Add(Coord[i]);
         }
     }
@@ -350,14 +458,14 @@ public class SaveSnapShot : MonoBehaviour
 
         List<GameObject> Coordlist = new List<GameObject>();
 
-        Debug.Log("fark!" + gameObject.transform.position + " " + transform.localScale);
+        //bug.Log("fark!" + gameObject.transform.position + " " + transform.localScale);
         Collider[] hitColliders = Physics.OverlapBox(gameObject.transform.position, transform.localScale / 2);
-        Debug.Log("gameObject.transform.position " + gameObject.transform.position + " transform.localScale " + transform.localScale);
+        //bug.Log("gameObject.transform.position " + gameObject.transform.position + " transform.localScale " + transform.localScale);
 
         List<Coords> GOVertscoords = new List<Coords>();
 
         int max = hitColliders.Length;
-        Debug.Log("max " + hitColliders.Length);
+        //bug.Log("max " + hitColliders.Length);
         for (int i = 0; i < max; i++)
         {
             string GO_name = new string(new char[] { });
@@ -375,7 +483,7 @@ public class SaveSnapShot : MonoBehaviour
 
                 //Coordlist.Add(hitColliders[i].gameObject.transform.Find("coord").GetComponent<GameObject>()); //find gameobject "coord" with hardcoded atom coordinates
                 GO = hitColliders[i].gameObject;
-                Debug.Log("GO.name " + GO.name);
+                //bug.Log("GO.name " + GO.name);
                 GOchild = GO.transform.Find("coord").gameObject;
                 
                 
@@ -383,14 +491,14 @@ public class SaveSnapShot : MonoBehaviour
                 //GO_name = GO.name;
                 GO_name = GO.name;
                 scale = GO.transform.localScale;
-                Debug.Log("scale " + scale.ToString("F4"));
+                //bug.Log("scale " + scale.ToString("F4"));
                 
                 v = GOchild.GetComponent<MeshFilter>().mesh.vertices;
 
                 for (int viteration = 0; viteration < v.Length; viteration++)
                 {
                     v[viteration] = GO.transform.TransformPoint(v[viteration]);
-                    //Debug.Log("local space? " + v[viteration] + " world position? " + GO.transform.TransformPoint(v[viteration]).ToString("F6"));
+                    //bug.Log("local space? " + v[viteration] + " world position? " + GO.transform.TransformPoint(v[viteration]).ToString("F6"));
                 }
 
                 vlist = v.ToList<Vector3>();
@@ -400,10 +508,10 @@ public class SaveSnapShot : MonoBehaviour
                 
             }
             GOVertscoords.Add(new Coords(GO_name, vlist));
-            Debug.Log("GOVertscoord.Count results " + GOVertscoords.Count + " vlist " + vlist.Count + " vlistnodupes " + vlistnodupes.Count);
+            //bug.Log("GOVertscoord.Count results " + GOVertscoords.Count + " vlist " + vlist.Count + " vlistnodupes " + vlistnodupes.Count);
         }
 
-        Debug.Log("Saving...");
+        //bug.Log("Saving...");
 
         int rbmax = RBlist.Count;
         for (int i = 0; i < rbmax; i++)
@@ -424,14 +532,15 @@ public class SaveSnapShot : MonoBehaviour
         string json = JsonUtility.ToJson(container, true);
         string coojson = JsonUtility.ToJson(coorcontainer, true);
 
-        Debug.Log("json " + json + "coojson" + coojson);
+        //bug.Log("json " + json + "coojson" + coojson);
         File.WriteAllText(Application.persistentDataPath + "/gamesave_list_test.jsonbrn", json);
         File.WriteAllText(Application.persistentDataPath + "/gamesave_coor_test.jsonbrn", coojson);
 
         //testing see if it saves .gro files in the same time
-        Debug.LogWarning("oh come on");
-        saveGRO();
-        //savePDB();
+        //bug.LogWarning("oh come on");
+        //saveGRO();
+        savePDB2();
+        //bug.LogWarning("savePDB LAUUUUUUNCHED");
     }
 
     public void periodicsaveJSON(int step)
@@ -443,9 +552,9 @@ public class SaveSnapShot : MonoBehaviour
 
         List<Rigidbody> RBlist = new List<Rigidbody>();
 
-        Debug.Log("fark!" + gameObject.transform.position + " " + transform.localScale);
+        //bug.Log("fark!" + gameObject.transform.position + " " + transform.localScale);
 
-        Debug.Log("gameObject.transform.position " + gameObject.transform.position + " transform.localScale " + transform.localScale);
+        //bug.Log("gameObject.transform.position " + gameObject.transform.position + " transform.localScale " + transform.localScale);
 
         List<Coords> GOVertscoords = new List<Coords>();
 
@@ -467,28 +576,11 @@ public class SaveSnapShot : MonoBehaviour
 
         string json = JsonUtility.ToJson(container, true);
 
-        Debug.Log("json " + json);
-        Debug.Log("step " + step);
+        //bug.Log("json " + json);
+        //bug.Log("step " + step);
 
-        //File.WriteAllText("D:/trajectory_data/gamesave_list_test_"+ step.ToString() + ".jsonbrn", json);//not multiplatform, try something else 
-        //File.WriteAllText("/mnt/d/trajectory_data/gamesave_list_test_" + step.ToString() + ".jsonbrn", json);//not multiplatform, try something else 
-        //File.WriteAllText(Application.persistentDataPath + "/trajectory_data/gamesave_list_test_" + step.ToString() + ".jsonbrn", json);
-        //Debug.Log("writing " + Application.persistentDataPath + "/trajectory_data/gamesave_list_test_" + step.ToString() + ".jsonbrn");
+        File.WriteAllText("D:/trajectory_data/gamesave_list_test_"+ step.ToString() + ".jsonbrn", json);
 
-        //multiplatform but writing empty saves WTF
-        //if (Directory.Exists(Application.persistentDataPath + "/trajectory_data"))
-        if (Directory.Exists(directory))
-        {
-            //File.WriteAllText(Application.persistentDataPath + "/trajectory_data/gamesave_list_test_" + step.ToString() + ".jsonbrn", json);
-            File.WriteAllText(directory + "/gamesave_list_test_" + step.ToString() + ".jsonbrn", json);
-        }
-        //else
-        //{
-        //    var folder = Directory.CreateDirectory(Application.persistentDataPath + "/trajectory_data");
-        //}
-
-
-        //File.WriteAllText("/trajectory_data/gamesave_list_test_" + step.ToString() + ".jsonbrn", json);
     }
 
     //public void saveJSON()
@@ -498,9 +590,9 @@ public class SaveSnapShot : MonoBehaviour
     //    List<Rigidbody> RBlist = new List<Rigidbody>();
 
 
-    //    Debug.Log("fark!" + gameObject.transform.position + " " + transform.localScale);
+    //    //bug.Log("fark!" + gameObject.transform.position + " " + transform.localScale);
     //    Collider[] hitColliders = Physics.OverlapBox(gameObject.transform.position, transform.localScale / 2);
-    //    Debug.Log("gameObject.transform.position " + gameObject.transform.position + " transform.localScale " + transform.localScale);
+    //    //bug.Log("gameObject.transform.position " + gameObject.transform.position + " transform.localScale " + transform.localScale);
 
     //    int max = hitColliders.Length;
     //    for (int i = 0; i < max; i++)
@@ -521,7 +613,7 @@ public class SaveSnapShot : MonoBehaviour
 
     //    string json = JsonUtility.ToJson(container, true);
 
-    //    Debug.Log(json);
+    //    //bug.Log(json);
     //    File.WriteAllText(Application.persistentDataPath + "/gamesave_list_test.jsonbrn", json);
     //}
 
@@ -530,10 +622,10 @@ public class SaveSnapShot : MonoBehaviour
         // TODO: Wrap this in try/catch to handle deserialization exceptions
         RBListContainer container = JsonUtility.FromJson<RBListContainer>(json);
 
-        Debug.Log(container.dataList.Count);
+        //bug.Log(container.dataList.Count);
         for (int i = 0; i < container.dataList.Count; i++)
         {
-            Debug.Log("Name: " + container.dataList[i].name + " Rot: " + container.dataList[i].pos + ", Pos: " + container.dataList[i].rot);
+            //bug.Log("Name: " + container.dataList[i].name + " Rot: " + container.dataList[i].pos + ", Pos: " + container.dataList[i].rot);
         }
     }
 

@@ -1124,11 +1124,10 @@ GameObject:
   m_Component:
   - component: {fileID: 4257934775952688122}
   - component: {fileID: 7911657388243839006}
-  - component: {fileID: 1153902896570598395}
-  - component: {fileID: 3191242785490899304}
-  - component: {fileID: 5105537922966011339}
   - component: {fileID: 3249018050029202856}
   - component: {fileID: 5046128907240983663}
+  - component: {fileID: 3191242785490899304}
+  - component: {fileID: 5298923447111752796}
   m_Layer: 0
   m_Name: VPGEG_310_origami_surf_dec_center_lico (21)
   m_TagString: Untagged
@@ -1169,47 +1168,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!135 &1153902896570598395
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 274002650251564296}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 2.86
-  m_Center: {x: -2.23, y: -4.21, z: -3.86}
---- !u!136 &3191242785490899304
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 274002650251564296}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 3.79
-  m_Height: 11.4214325
-  m_Direction: 0
-  m_Center: {x: -2.78, y: -2.31, z: 1.21}
---- !u!136 &5105537922966011339
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 274002650251564296}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 3.72
-  m_Height: 11.14
-  m_Direction: 2
-  m_Center: {x: 2.69, y: 2.83, z: -0.01}
 --- !u!114 &3249018050029202856
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1317,6 +1275,33 @@ ConfigurableJoint:
   m_EnablePreprocessing: 1
   m_MassScale: 1
   m_ConnectedMassScale: 1
+--- !u!136 &3191242785490899304
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 274002650251564296}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 3.13
+  m_Height: 13.37
+  m_Direction: 0
+  m_Center: {x: -1.71, y: -1.1, z: 1.21}
+--- !u!135 &5298923447111752796
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 274002650251564296}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 2.68
+  m_Center: {x: 4.09, y: 3.03, z: -1.3965156}
 --- !u!1 &307050089906103996
 GameObject:
   m_ObjectHideFlags: 0
@@ -2062,11 +2047,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1612654093705833982}
   - component: {fileID: 7930197637448085949}
-  - component: {fileID: 2784255004676306331}
-  - component: {fileID: 6241496251296439666}
-  - component: {fileID: 3937816480764456219}
   - component: {fileID: 7594057558375488526}
   - component: {fileID: 6598529137264512278}
+  - component: {fileID: 6241496251296439666}
+  - component: {fileID: 6027095068745499570}
   m_Layer: 0
   m_Name: VPGEG_310_origami_surf_dec_center_lico (19)
   m_TagString: Untagged
@@ -2107,47 +2091,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!135 &2784255004676306331
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 587948689095162161}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 2.86
-  m_Center: {x: -2.23, y: -4.21, z: -3.86}
---- !u!136 &6241496251296439666
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 587948689095162161}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 3.79
-  m_Height: 11.4214325
-  m_Direction: 0
-  m_Center: {x: -2.78, y: -2.31, z: 1.21}
---- !u!136 &3937816480764456219
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 587948689095162161}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 3.72
-  m_Height: 11.14
-  m_Direction: 2
-  m_Center: {x: 2.69, y: 2.83, z: -0.01}
 --- !u!114 &7594057558375488526
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2255,6 +2198,33 @@ ConfigurableJoint:
   m_EnablePreprocessing: 1
   m_MassScale: 1
   m_ConnectedMassScale: 1
+--- !u!136 &6241496251296439666
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 587948689095162161}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 3.13
+  m_Height: 13.37
+  m_Direction: 0
+  m_Center: {x: -1.71, y: -1.1, z: 1.21}
+--- !u!135 &6027095068745499570
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 587948689095162161}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 2.68
+  m_Center: {x: 4.09, y: 3.03, z: -1.3965156}
 --- !u!1 &743642489939004543
 GameObject:
   m_ObjectHideFlags: 0
@@ -2409,11 +2379,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1490056012028907868}
   - component: {fileID: 6793688760612925105}
-  - component: {fileID: 1423472006902592234}
-  - component: {fileID: 670227753770583849}
-  - component: {fileID: 6106887817995341069}
   - component: {fileID: 174532464710380785}
   - component: {fileID: 5544477703799889966}
+  - component: {fileID: 670227753770583849}
+  - component: {fileID: 5104116314697821017}
   m_Layer: 0
   m_Name: VPGEG_310_origami_surf_dec_center_lico (26)
   m_TagString: Untagged
@@ -2454,47 +2423,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!135 &1423472006902592234
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 792954607692206893}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 2.86
-  m_Center: {x: -2.23, y: -4.21, z: -3.86}
---- !u!136 &670227753770583849
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 792954607692206893}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 3.79
-  m_Height: 11.4214325
-  m_Direction: 0
-  m_Center: {x: -2.78, y: -2.31, z: 1.21}
---- !u!136 &6106887817995341069
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 792954607692206893}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 3.72
-  m_Height: 11.14
-  m_Direction: 2
-  m_Center: {x: 2.69, y: 2.83, z: -0.01}
 --- !u!114 &174532464710380785
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2602,6 +2530,33 @@ ConfigurableJoint:
   m_EnablePreprocessing: 1
   m_MassScale: 1
   m_ConnectedMassScale: 1
+--- !u!136 &670227753770583849
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 792954607692206893}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 3.13
+  m_Height: 13.37
+  m_Direction: 0
+  m_Center: {x: -1.71, y: -1.1, z: 1.21}
+--- !u!135 &5104116314697821017
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 792954607692206893}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 2.68
+  m_Center: {x: 4.09, y: 3.03, z: -1.3965156}
 --- !u!1 &829448442692847362
 GameObject:
   m_ObjectHideFlags: 0
@@ -3605,11 +3560,10 @@ GameObject:
   m_Component:
   - component: {fileID: 9166254037049082236}
   - component: {fileID: 7153938214867750739}
-  - component: {fileID: 7904289768056817537}
-  - component: {fileID: 1041653006409057577}
-  - component: {fileID: 1299000665277727735}
   - component: {fileID: 3112077094696766051}
   - component: {fileID: 3095431481242840986}
+  - component: {fileID: 1041653006409057577}
+  - component: {fileID: 8421513488657284633}
   m_Layer: 0
   m_Name: VPGEG_310_origami_surf_dec_center_lico (2)
   m_TagString: Untagged
@@ -3650,47 +3604,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!135 &7904289768056817537
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1078411051015276861}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 2.86
-  m_Center: {x: -2.23, y: -4.21, z: -3.86}
---- !u!136 &1041653006409057577
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1078411051015276861}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 3.79
-  m_Height: 11.4214325
-  m_Direction: 0
-  m_Center: {x: -2.78, y: -2.31, z: 1.21}
---- !u!136 &1299000665277727735
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1078411051015276861}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 3.72
-  m_Height: 11.14
-  m_Direction: 2
-  m_Center: {x: 2.69, y: 2.83, z: -0.01}
 --- !u!114 &3112077094696766051
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3798,6 +3711,33 @@ ConfigurableJoint:
   m_EnablePreprocessing: 1
   m_MassScale: 1
   m_ConnectedMassScale: 1
+--- !u!136 &1041653006409057577
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1078411051015276861}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 3.13
+  m_Height: 13.37
+  m_Direction: 0
+  m_Center: {x: -1.71, y: -1.1, z: 1.21}
+--- !u!135 &8421513488657284633
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1078411051015276861}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 2.68
+  m_Center: {x: 4.09, y: 3.03, z: -1.3965156}
 --- !u!1 &1081841120878672540
 GameObject:
   m_ObjectHideFlags: 0
@@ -4174,11 +4114,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1953584053957056067}
   - component: {fileID: 3429722828419571004}
-  - component: {fileID: 5633549160797072597}
-  - component: {fileID: 4892701478914469295}
-  - component: {fileID: 4013271792296638345}
   - component: {fileID: 9153705366160896019}
   - component: {fileID: 2235402933894451337}
+  - component: {fileID: 4892701478914469295}
+  - component: {fileID: 7633690360438984552}
   m_Layer: 0
   m_Name: VPGEG_310_origami_surf_dec_center_lico (3)
   m_TagString: Untagged
@@ -4219,47 +4158,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!135 &5633549160797072597
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1202787966966250305}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 2.86
-  m_Center: {x: -2.23, y: -4.21, z: -3.86}
---- !u!136 &4892701478914469295
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1202787966966250305}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 3.79
-  m_Height: 11.4214325
-  m_Direction: 0
-  m_Center: {x: -2.78, y: -2.31, z: 1.21}
---- !u!136 &4013271792296638345
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1202787966966250305}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 3.72
-  m_Height: 11.14
-  m_Direction: 2
-  m_Center: {x: 2.69, y: 2.83, z: -0.01}
 --- !u!114 &9153705366160896019
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4367,6 +4265,33 @@ ConfigurableJoint:
   m_EnablePreprocessing: 1
   m_MassScale: 1
   m_ConnectedMassScale: 1
+--- !u!136 &4892701478914469295
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1202787966966250305}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 3.13
+  m_Height: 13.37
+  m_Direction: 0
+  m_Center: {x: -1.71, y: -1.1, z: 1.21}
+--- !u!135 &7633690360438984552
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1202787966966250305}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 2.68
+  m_Center: {x: 4.09, y: 3.03, z: -1.3965156}
 --- !u!1 &1204296769718754034
 GameObject:
   m_ObjectHideFlags: 0
@@ -6214,11 +6139,10 @@ GameObject:
   m_Component:
   - component: {fileID: 7068643937008029153}
   - component: {fileID: 3576678390614379433}
-  - component: {fileID: 8119794856485728151}
-  - component: {fileID: 7148469978059626462}
-  - component: {fileID: 3143356406833835916}
   - component: {fileID: 3390943343454672921}
   - component: {fileID: 1177631298722234340}
+  - component: {fileID: 7148469978059626462}
+  - component: {fileID: 8428435402991893824}
   m_Layer: 0
   m_Name: VPGEG_310_origami_surf_dec_center_lico (22)
   m_TagString: Untagged
@@ -6259,47 +6183,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!135 &8119794856485728151
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1920459405127688852}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 2.86
-  m_Center: {x: -2.23, y: -4.21, z: -3.86}
---- !u!136 &7148469978059626462
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1920459405127688852}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 3.79
-  m_Height: 11.4214325
-  m_Direction: 0
-  m_Center: {x: -2.78, y: -2.31, z: 1.21}
---- !u!136 &3143356406833835916
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1920459405127688852}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 3.72
-  m_Height: 11.14
-  m_Direction: 2
-  m_Center: {x: 2.69, y: 2.83, z: -0.01}
 --- !u!114 &3390943343454672921
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6407,6 +6290,33 @@ ConfigurableJoint:
   m_EnablePreprocessing: 1
   m_MassScale: 1
   m_ConnectedMassScale: 1
+--- !u!136 &7148469978059626462
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1920459405127688852}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 3.13
+  m_Height: 13.37
+  m_Direction: 0
+  m_Center: {x: -1.71, y: -1.1, z: 1.21}
+--- !u!135 &8428435402991893824
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1920459405127688852}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 2.68
+  m_Center: {x: 4.09, y: 3.03, z: -1.3965156}
 --- !u!1 &1952318167419833052
 GameObject:
   m_ObjectHideFlags: 0
@@ -6913,11 +6823,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1590430498877443643}
   - component: {fileID: 3571682100942619890}
-  - component: {fileID: 8725761657266081969}
-  - component: {fileID: 3528560379146882496}
-  - component: {fileID: 558028627483953226}
   - component: {fileID: 892116185668902384}
   - component: {fileID: 5352089339135905215}
+  - component: {fileID: 3528560379146882496}
+  - component: {fileID: 6508395904810412029}
   m_Layer: 0
   m_Name: VPGEG_310_origami_surf_dec_center_lico (23)
   m_TagString: Untagged
@@ -6958,47 +6867,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!135 &8725761657266081969
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2175877282761128026}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 2.86
-  m_Center: {x: -2.23, y: -4.21, z: -3.86}
---- !u!136 &3528560379146882496
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2175877282761128026}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 3.79
-  m_Height: 11.4214325
-  m_Direction: 0
-  m_Center: {x: -2.78, y: -2.31, z: 1.21}
---- !u!136 &558028627483953226
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2175877282761128026}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 3.72
-  m_Height: 11.14
-  m_Direction: 2
-  m_Center: {x: 2.69, y: 2.83, z: -0.01}
 --- !u!114 &892116185668902384
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7106,6 +6974,33 @@ ConfigurableJoint:
   m_EnablePreprocessing: 1
   m_MassScale: 1
   m_ConnectedMassScale: 1
+--- !u!136 &3528560379146882496
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2175877282761128026}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 3.13
+  m_Height: 13.37
+  m_Direction: 0
+  m_Center: {x: -1.71, y: -1.1, z: 1.21}
+--- !u!135 &6508395904810412029
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2175877282761128026}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 2.68
+  m_Center: {x: 4.09, y: 3.03, z: -1.3965156}
 --- !u!1 &2178338733807432265
 GameObject:
   m_ObjectHideFlags: 0
@@ -7576,11 +7471,10 @@ GameObject:
   m_Component:
   - component: {fileID: 5636927780117532428}
   - component: {fileID: 204445859781810379}
-  - component: {fileID: 4440763364717587927}
-  - component: {fileID: 3844427244569411093}
-  - component: {fileID: 7956119720727865716}
   - component: {fileID: 8428801994103034461}
   - component: {fileID: 2616985547738646218}
+  - component: {fileID: 3844427244569411093}
+  - component: {fileID: 7729927248708696750}
   m_Layer: 0
   m_Name: VPGEG_310_origami_surf_dec_center_lico (15)
   m_TagString: Untagged
@@ -7621,47 +7515,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!135 &4440763364717587927
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2277533611953377886}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 2.86
-  m_Center: {x: -2.23, y: -4.21, z: -3.86}
---- !u!136 &3844427244569411093
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2277533611953377886}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 3.79
-  m_Height: 11.4214325
-  m_Direction: 0
-  m_Center: {x: -2.78, y: -2.31, z: 1.21}
---- !u!136 &7956119720727865716
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2277533611953377886}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 3.72
-  m_Height: 11.14
-  m_Direction: 2
-  m_Center: {x: 2.69, y: 2.83, z: -0.01}
 --- !u!114 &8428801994103034461
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7769,6 +7622,33 @@ ConfigurableJoint:
   m_EnablePreprocessing: 1
   m_MassScale: 1
   m_ConnectedMassScale: 1
+--- !u!136 &3844427244569411093
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2277533611953377886}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 3.13
+  m_Height: 13.37
+  m_Direction: 0
+  m_Center: {x: -1.71, y: -1.1, z: 1.21}
+--- !u!135 &7729927248708696750
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2277533611953377886}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 2.68
+  m_Center: {x: 4.09, y: 3.03, z: -1.3965156}
 --- !u!1 &2286237870137320751
 GameObject:
   m_ObjectHideFlags: 0
@@ -8635,11 +8515,10 @@ GameObject:
   m_Component:
   - component: {fileID: 2478456818717179417}
   - component: {fileID: 4925530336810666066}
-  - component: {fileID: 5698557955335197113}
-  - component: {fileID: 8801818265279814399}
-  - component: {fileID: 2888794561210789854}
   - component: {fileID: 8827965358872987863}
   - component: {fileID: 9165224582303813652}
+  - component: {fileID: 8801818265279814399}
+  - component: {fileID: 7416369364040848271}
   m_Layer: 0
   m_Name: VPGEG_310_origami_surf_dec_center_lico
   m_TagString: Untagged
@@ -8680,47 +8559,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!135 &5698557955335197113
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2478456818717663801}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 2.86
-  m_Center: {x: -2.23, y: -4.21, z: -3.86}
---- !u!136 &8801818265279814399
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2478456818717663801}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 3.79
-  m_Height: 11.4214325
-  m_Direction: 0
-  m_Center: {x: -2.78, y: -2.31, z: 1.21}
---- !u!136 &2888794561210789854
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2478456818717663801}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 3.72
-  m_Height: 11.14
-  m_Direction: 2
-  m_Center: {x: 2.69, y: 2.83, z: -0.01}
 --- !u!114 &8827965358872987863
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8828,6 +8666,33 @@ ConfigurableJoint:
   m_EnablePreprocessing: 1
   m_MassScale: 1
   m_ConnectedMassScale: 1
+--- !u!136 &8801818265279814399
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2478456818717663801}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 3.13
+  m_Height: 13.37
+  m_Direction: 0
+  m_Center: {x: -1.71, y: -1.1, z: 1.21}
+--- !u!135 &7416369364040848271
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2478456818717663801}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 2.68
+  m_Center: {x: 4.09, y: 3.03, z: -1.3965156}
 --- !u!1 &2478456818717663803
 GameObject:
   m_ObjectHideFlags: 0
@@ -9324,11 +9189,10 @@ GameObject:
   m_Component:
   - component: {fileID: 7851916636481753902}
   - component: {fileID: 396416231348152558}
-  - component: {fileID: 2051265180154240659}
-  - component: {fileID: 3813459716612693187}
-  - component: {fileID: 9067743465423297932}
   - component: {fileID: 6908041172994971108}
   - component: {fileID: 8643622660759675596}
+  - component: {fileID: 3813459716612693187}
+  - component: {fileID: 3754571932645529910}
   m_Layer: 0
   m_Name: VPGEG_310_origami_surf_dec_center_lico (25)
   m_TagString: Untagged
@@ -9369,47 +9233,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!135 &2051265180154240659
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2560493123109431095}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 2.86
-  m_Center: {x: -2.23, y: -4.21, z: -3.86}
---- !u!136 &3813459716612693187
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2560493123109431095}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 3.79
-  m_Height: 11.4214325
-  m_Direction: 0
-  m_Center: {x: -2.78, y: -2.31, z: 1.21}
---- !u!136 &9067743465423297932
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2560493123109431095}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 3.72
-  m_Height: 11.14
-  m_Direction: 2
-  m_Center: {x: 2.69, y: 2.83, z: -0.01}
 --- !u!114 &6908041172994971108
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9517,6 +9340,33 @@ ConfigurableJoint:
   m_EnablePreprocessing: 1
   m_MassScale: 1
   m_ConnectedMassScale: 1
+--- !u!136 &3813459716612693187
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2560493123109431095}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 3.13
+  m_Height: 13.37
+  m_Direction: 0
+  m_Center: {x: -1.71, y: -1.1, z: 1.21}
+--- !u!135 &3754571932645529910
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2560493123109431095}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 2.68
+  m_Center: {x: 4.09, y: 3.03, z: -1.3965156}
 --- !u!1 &2601994634533309106
 GameObject:
   m_ObjectHideFlags: 0
@@ -10390,11 +10240,10 @@ GameObject:
   m_Component:
   - component: {fileID: 4305644733395404483}
   - component: {fileID: 3943850523717575122}
-  - component: {fileID: 6330545692652023650}
-  - component: {fileID: 2362423596999464004}
-  - component: {fileID: 3427460014841359894}
   - component: {fileID: 3658402928740709756}
   - component: {fileID: 984727422525153826}
+  - component: {fileID: 2362423596999464004}
+  - component: {fileID: 7288473764214568857}
   m_Layer: 0
   m_Name: VPGEG_310_origami_surf_dec_center_lico (13)
   m_TagString: Untagged
@@ -10435,47 +10284,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!135 &6330545692652023650
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2900380067887214658}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 2.86
-  m_Center: {x: -2.23, y: -4.21, z: -3.86}
---- !u!136 &2362423596999464004
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2900380067887214658}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 3.79
-  m_Height: 11.4214325
-  m_Direction: 0
-  m_Center: {x: -2.78, y: -2.31, z: 1.21}
---- !u!136 &3427460014841359894
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2900380067887214658}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 3.72
-  m_Height: 11.14
-  m_Direction: 2
-  m_Center: {x: 2.69, y: 2.83, z: -0.01}
 --- !u!114 &3658402928740709756
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10583,6 +10391,33 @@ ConfigurableJoint:
   m_EnablePreprocessing: 1
   m_MassScale: 1
   m_ConnectedMassScale: 1
+--- !u!136 &2362423596999464004
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2900380067887214658}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 3.13
+  m_Height: 13.37
+  m_Direction: 0
+  m_Center: {x: -1.71, y: -1.1, z: 1.21}
+--- !u!135 &7288473764214568857
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2900380067887214658}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 2.68
+  m_Center: {x: 4.09, y: 3.03, z: -1.3965156}
 --- !u!1 &2926429287983532138
 GameObject:
   m_ObjectHideFlags: 0
@@ -11754,11 +11589,10 @@ GameObject:
   m_Component:
   - component: {fileID: 6365420149559333295}
   - component: {fileID: 4840076161106722275}
-  - component: {fileID: 54001576304424948}
-  - component: {fileID: 6656363582808685603}
-  - component: {fileID: 2249808399062640853}
   - component: {fileID: 8923750762538613300}
   - component: {fileID: 124442340189703236}
+  - component: {fileID: 6656363582808685603}
+  - component: {fileID: 1693435498611736648}
   m_Layer: 0
   m_Name: VPGEG_310_origami_surf_dec_center_lico (14)
   m_TagString: Untagged
@@ -11799,47 +11633,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!135 &54001576304424948
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3273081437854168261}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 2.86
-  m_Center: {x: -2.23, y: -4.21, z: -3.86}
---- !u!136 &6656363582808685603
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3273081437854168261}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 3.79
-  m_Height: 11.4214325
-  m_Direction: 0
-  m_Center: {x: -2.78, y: -2.31, z: 1.21}
---- !u!136 &2249808399062640853
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3273081437854168261}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 3.72
-  m_Height: 11.14
-  m_Direction: 2
-  m_Center: {x: 2.69, y: 2.83, z: -0.01}
 --- !u!114 &8923750762538613300
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11947,6 +11740,33 @@ ConfigurableJoint:
   m_EnablePreprocessing: 1
   m_MassScale: 1
   m_ConnectedMassScale: 1
+--- !u!136 &6656363582808685603
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3273081437854168261}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 3.13
+  m_Height: 13.37
+  m_Direction: 0
+  m_Center: {x: -1.71, y: -1.1, z: 1.21}
+--- !u!135 &1693435498611736648
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3273081437854168261}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 2.68
+  m_Center: {x: 4.09, y: 3.03, z: -1.3965156}
 --- !u!1 &3282653057677469533
 GameObject:
   m_ObjectHideFlags: 0
@@ -12590,11 +12410,10 @@ GameObject:
   m_Component:
   - component: {fileID: 3549165254605168846}
   - component: {fileID: 4943631365930887283}
-  - component: {fileID: 6697564287625093792}
-  - component: {fileID: 6081118756363309280}
-  - component: {fileID: 3218458622094100386}
   - component: {fileID: 2513810568951597772}
   - component: {fileID: 6566383770037108879}
+  - component: {fileID: 6081118756363309280}
+  - component: {fileID: 3997099730282820148}
   m_Layer: 0
   m_Name: VPGEG_310_origami_surf_dec_center_lico (1)
   m_TagString: Untagged
@@ -12635,47 +12454,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!135 &6697564287625093792
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3549165254604881134}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 2.86
-  m_Center: {x: -2.23, y: -4.21, z: -3.86}
---- !u!136 &6081118756363309280
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3549165254604881134}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 3.79
-  m_Height: 11.4214325
-  m_Direction: 0
-  m_Center: {x: -2.78, y: -2.31, z: 1.21}
---- !u!136 &3218458622094100386
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3549165254604881134}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 3.72
-  m_Height: 11.14
-  m_Direction: 2
-  m_Center: {x: 2.69, y: 2.83, z: -0.01}
 --- !u!114 &2513810568951597772
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12783,6 +12561,33 @@ ConfigurableJoint:
   m_EnablePreprocessing: 1
   m_MassScale: 1
   m_ConnectedMassScale: 1
+--- !u!136 &6081118756363309280
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3549165254604881134}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 3.13
+  m_Height: 13.37
+  m_Direction: 0
+  m_Center: {x: -1.71, y: -1.1, z: 1.21}
+--- !u!135 &3997099730282820148
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3549165254604881134}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 2.68
+  m_Center: {x: 4.09, y: 3.03, z: -1.3965156}
 --- !u!1 &3630372067045606345
 GameObject:
   m_ObjectHideFlags: 0
@@ -13042,11 +12847,10 @@ GameObject:
   m_Component:
   - component: {fileID: 8875707598317379755}
   - component: {fileID: 5557607135425068587}
-  - component: {fileID: 1825808599580302470}
-  - component: {fileID: 2634225782090353272}
-  - component: {fileID: 8271254174082278762}
   - component: {fileID: 8955437739075040983}
   - component: {fileID: 4967368225826066839}
+  - component: {fileID: 2634225782090353272}
+  - component: {fileID: 1368910271381037357}
   m_Layer: 0
   m_Name: VPGEG_310_origami_surf_dec_center_lico (9)
   m_TagString: Untagged
@@ -13087,47 +12891,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!135 &1825808599580302470
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3670436314516948870}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 2.86
-  m_Center: {x: -2.23, y: -4.21, z: -3.86}
---- !u!136 &2634225782090353272
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3670436314516948870}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 3.79
-  m_Height: 11.4214325
-  m_Direction: 0
-  m_Center: {x: -2.78, y: -2.31, z: 1.21}
---- !u!136 &8271254174082278762
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3670436314516948870}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 3.72
-  m_Height: 11.14
-  m_Direction: 2
-  m_Center: {x: 2.69, y: 2.83, z: -0.01}
 --- !u!114 &8955437739075040983
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13235,6 +12998,33 @@ ConfigurableJoint:
   m_EnablePreprocessing: 1
   m_MassScale: 1
   m_ConnectedMassScale: 1
+--- !u!136 &2634225782090353272
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3670436314516948870}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 3.13
+  m_Height: 13.37
+  m_Direction: 0
+  m_Center: {x: -1.71, y: -1.1, z: 1.21}
+--- !u!135 &1368910271381037357
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3670436314516948870}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 2.68
+  m_Center: {x: 4.09, y: 3.03, z: -1.3965156}
 --- !u!1 &3692057761265975951
 GameObject:
   m_ObjectHideFlags: 0
@@ -14839,7 +14629,7 @@ Transform:
   m_GameObject: {fileID: 4305296149370578564}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.000098370656, y: -0.00001983007, z: -0.00005113898}
-  m_LocalScale: {x: 0.0001, y: 0.0001, z: 0.0001}
+  m_LocalScale: {x: 0.001, y: 0.001, z: 0.001}
   m_Children:
   - {fileID: 2478456818717179417}
   - {fileID: 3549165254605168846}
@@ -14878,7 +14668,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4305296149370578564}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0da4af878a026094cbc6652e14b76dce, type: 3}
   m_Name: 
@@ -14893,7 +14683,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4305296149370578564}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d85e36a393bef64459209fa688ad2504, type: 3}
   m_Name: 
@@ -15607,11 +15397,10 @@ GameObject:
   m_Component:
   - component: {fileID: 4623351660443867538}
   - component: {fileID: 2487135076844608725}
-  - component: {fileID: 4652468783482721980}
-  - component: {fileID: 8229072566636439873}
-  - component: {fileID: 1876914827192672476}
   - component: {fileID: 2515660669023393265}
   - component: {fileID: 3699773526873737116}
+  - component: {fileID: 8229072566636439873}
+  - component: {fileID: 2222267954021618203}
   m_Layer: 0
   m_Name: VPGEG_310_origami_surf_dec_center_lico (4)
   m_TagString: Untagged
@@ -15652,47 +15441,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!135 &4652468783482721980
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4666395020293504500}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 2.86
-  m_Center: {x: -2.23, y: -4.21, z: -3.86}
---- !u!136 &8229072566636439873
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4666395020293504500}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 3.79
-  m_Height: 11.4214325
-  m_Direction: 0
-  m_Center: {x: -2.78, y: -2.31, z: 1.21}
---- !u!136 &1876914827192672476
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4666395020293504500}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 3.72
-  m_Height: 11.14
-  m_Direction: 2
-  m_Center: {x: 2.69, y: 2.83, z: -0.01}
 --- !u!114 &2515660669023393265
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15800,6 +15548,33 @@ ConfigurableJoint:
   m_EnablePreprocessing: 1
   m_MassScale: 1
   m_ConnectedMassScale: 1
+--- !u!136 &8229072566636439873
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4666395020293504500}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 3.13
+  m_Height: 13.37
+  m_Direction: 0
+  m_Center: {x: -1.71, y: -1.1, z: 1.21}
+--- !u!135 &2222267954021618203
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4666395020293504500}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 2.68
+  m_Center: {x: 4.09, y: 3.03, z: -1.3965156}
 --- !u!1 &4774917354203193570
 GameObject:
   m_ObjectHideFlags: 0
@@ -16622,11 +16397,10 @@ GameObject:
   m_Component:
   - component: {fileID: 7005683089323346568}
   - component: {fileID: 3585632748737501104}
-  - component: {fileID: 7164617298645586838}
-  - component: {fileID: 669561486241294353}
-  - component: {fileID: 4862245631339851385}
   - component: {fileID: 3293702026877538381}
   - component: {fileID: 9095037437677858500}
+  - component: {fileID: 669561486241294353}
+  - component: {fileID: 2532600024519214625}
   m_Layer: 0
   m_Name: VPGEG_310_origami_surf_dec_center_lico (16)
   m_TagString: Untagged
@@ -16667,47 +16441,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!135 &7164617298645586838
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5108063924259305957}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 2.86
-  m_Center: {x: -2.23, y: -4.21, z: -3.86}
---- !u!136 &669561486241294353
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5108063924259305957}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 3.79
-  m_Height: 11.4214325
-  m_Direction: 0
-  m_Center: {x: -2.78, y: -2.31, z: 1.21}
---- !u!136 &4862245631339851385
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5108063924259305957}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 3.72
-  m_Height: 11.14
-  m_Direction: 2
-  m_Center: {x: 2.69, y: 2.83, z: -0.01}
 --- !u!114 &3293702026877538381
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16815,6 +16548,33 @@ ConfigurableJoint:
   m_EnablePreprocessing: 1
   m_MassScale: 1
   m_ConnectedMassScale: 1
+--- !u!136 &669561486241294353
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5108063924259305957}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 3.13
+  m_Height: 13.37
+  m_Direction: 0
+  m_Center: {x: -1.71, y: -1.1, z: 1.21}
+--- !u!135 &2532600024519214625
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5108063924259305957}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 2.68
+  m_Center: {x: 4.09, y: 3.03, z: -1.3965156}
 --- !u!1 &5141772405930335175
 GameObject:
   m_ObjectHideFlags: 0
@@ -18298,11 +18058,10 @@ GameObject:
   m_Component:
   - component: {fileID: 5492689732402591926}
   - component: {fileID: 6192699004042068433}
-  - component: {fileID: 1390494779722138229}
-  - component: {fileID: 6767484085102011854}
-  - component: {fileID: 44768851247786820}
   - component: {fileID: 8770565031023409024}
   - component: {fileID: 1842889201253213131}
+  - component: {fileID: 6767484085102011854}
+  - component: {fileID: 2227574736149656848}
   m_Layer: 0
   m_Name: VPGEG_310_origami_surf_dec_center_lico (12)
   m_TagString: Untagged
@@ -18343,47 +18102,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!135 &1390494779722138229
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5677435582699537243}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 2.86
-  m_Center: {x: -2.23, y: -4.21, z: -3.86}
---- !u!136 &6767484085102011854
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5677435582699537243}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 3.79
-  m_Height: 11.4214325
-  m_Direction: 0
-  m_Center: {x: -2.78, y: -2.31, z: 1.21}
---- !u!136 &44768851247786820
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5677435582699537243}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 3.72
-  m_Height: 11.14
-  m_Direction: 2
-  m_Center: {x: 2.69, y: 2.83, z: -0.01}
 --- !u!114 &8770565031023409024
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18491,6 +18209,33 @@ ConfigurableJoint:
   m_EnablePreprocessing: 1
   m_MassScale: 1
   m_ConnectedMassScale: 1
+--- !u!136 &6767484085102011854
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5677435582699537243}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 3.13
+  m_Height: 13.37
+  m_Direction: 0
+  m_Center: {x: -1.71, y: -1.1, z: 1.21}
+--- !u!135 &2227574736149656848
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5677435582699537243}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 2.68
+  m_Center: {x: 4.09, y: 3.03, z: -1.3965156}
 --- !u!1 &5692370188539834495
 GameObject:
   m_ObjectHideFlags: 0
@@ -18830,11 +18575,10 @@ GameObject:
   m_Component:
   - component: {fileID: 844641975137306753}
   - component: {fileID: 7516949109150636225}
-  - component: {fileID: 2937106589099823864}
-  - component: {fileID: 8862893623405369220}
-  - component: {fileID: 4957944202295946056}
   - component: {fileID: 5973983955839532526}
   - component: {fileID: 2915694126026787569}
+  - component: {fileID: 8862893623405369220}
+  - component: {fileID: 1961788687521561996}
   m_Layer: 0
   m_Name: VPGEG_310_origami_surf_dec_center_lico (7)
   m_TagString: Untagged
@@ -18875,47 +18619,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!135 &2937106589099823864
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5841305399787119660}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 2.86
-  m_Center: {x: -2.23, y: -4.21, z: -3.86}
---- !u!136 &8862893623405369220
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5841305399787119660}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 3.79
-  m_Height: 11.4214325
-  m_Direction: 0
-  m_Center: {x: -2.78, y: -2.31, z: 1.21}
---- !u!136 &4957944202295946056
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5841305399787119660}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 3.72
-  m_Height: 11.14
-  m_Direction: 2
-  m_Center: {x: 2.69, y: 2.83, z: -0.01}
 --- !u!114 &5973983955839532526
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19023,6 +18726,33 @@ ConfigurableJoint:
   m_EnablePreprocessing: 1
   m_MassScale: 1
   m_ConnectedMassScale: 1
+--- !u!136 &8862893623405369220
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5841305399787119660}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 3.13
+  m_Height: 13.37
+  m_Direction: 0
+  m_Center: {x: -1.71, y: -1.1, z: 1.21}
+--- !u!135 &1961788687521561996
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5841305399787119660}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 2.68
+  m_Center: {x: 4.09, y: 3.03, z: -1.3965156}
 --- !u!1 &5859465842292863258
 GameObject:
   m_ObjectHideFlags: 0
@@ -19177,11 +18907,10 @@ GameObject:
   m_Component:
   - component: {fileID: 825283029620551963}
   - component: {fileID: 2933092231475237068}
-  - component: {fileID: 3609983892651321928}
-  - component: {fileID: 4979933304760705771}
-  - component: {fileID: 5218881745407270244}
   - component: {fileID: 5244878883319881478}
   - component: {fileID: 7781121072590964229}
+  - component: {fileID: 4979933304760705771}
+  - component: {fileID: 1722202629262659321}
   m_Layer: 0
   m_Name: VPGEG_310_origami_surf_dec_center_lico (18)
   m_TagString: Untagged
@@ -19222,47 +18951,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!135 &3609983892651321928
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5881787850720152136}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 2.86
-  m_Center: {x: -2.23, y: -4.21, z: -3.86}
---- !u!136 &4979933304760705771
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5881787850720152136}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 3.79
-  m_Height: 11.4214325
-  m_Direction: 0
-  m_Center: {x: -2.78, y: -2.31, z: 1.21}
---- !u!136 &5218881745407270244
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5881787850720152136}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 3.72
-  m_Height: 11.14
-  m_Direction: 2
-  m_Center: {x: 2.69, y: 2.83, z: -0.01}
 --- !u!114 &5244878883319881478
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19370,6 +19058,33 @@ ConfigurableJoint:
   m_EnablePreprocessing: 1
   m_MassScale: 1
   m_ConnectedMassScale: 1
+--- !u!136 &4979933304760705771
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5881787850720152136}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 3.13
+  m_Height: 13.37
+  m_Direction: 0
+  m_Center: {x: -1.71, y: -1.1, z: 1.21}
+--- !u!135 &1722202629262659321
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5881787850720152136}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 2.68
+  m_Center: {x: 4.09, y: 3.03, z: -1.3965156}
 --- !u!1 &5884741806769475494
 GameObject:
   m_ObjectHideFlags: 0
@@ -21270,11 +20985,10 @@ GameObject:
   m_Component:
   - component: {fileID: 9104863006182104048}
   - component: {fileID: 5448502737708841501}
-  - component: {fileID: 8635307877585897490}
-  - component: {fileID: 7336820611021844940}
-  - component: {fileID: 9014385964103842991}
   - component: {fileID: 4858896726286777252}
   - component: {fileID: 813848674764341900}
+  - component: {fileID: 7336820611021844940}
+  - component: {fileID: 8119416585529038447}
   m_Layer: 0
   m_Name: VPGEG_310_origami_surf_dec_center_lico (5)
   m_TagString: Untagged
@@ -21315,47 +21029,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!135 &8635307877585897490
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6638710275245599427}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 2.86
-  m_Center: {x: -2.23, y: -4.21, z: -3.86}
---- !u!136 &7336820611021844940
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6638710275245599427}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 3.79
-  m_Height: 11.4214325
-  m_Direction: 0
-  m_Center: {x: -2.78, y: -2.31, z: 1.21}
---- !u!136 &9014385964103842991
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6638710275245599427}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 3.72
-  m_Height: 11.14
-  m_Direction: 2
-  m_Center: {x: 2.69, y: 2.83, z: -0.01}
 --- !u!114 &4858896726286777252
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21463,6 +21136,33 @@ ConfigurableJoint:
   m_EnablePreprocessing: 1
   m_MassScale: 1
   m_ConnectedMassScale: 1
+--- !u!136 &7336820611021844940
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6638710275245599427}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 3.13
+  m_Height: 13.37
+  m_Direction: 0
+  m_Center: {x: -1.71, y: -1.1, z: 1.21}
+--- !u!135 &8119416585529038447
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6638710275245599427}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 2.68
+  m_Center: {x: 4.09, y: 3.03, z: -1.3965156}
 --- !u!1 &6652997643140392253
 GameObject:
   m_ObjectHideFlags: 0
@@ -21473,11 +21173,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1727396214633988843}
   - component: {fileID: 190316571635544973}
-  - component: {fileID: 1121902695008705997}
-  - component: {fileID: 4293300841227807290}
-  - component: {fileID: 4769500435174827166}
   - component: {fileID: 2833304832257871953}
   - component: {fileID: 291617966845182645}
+  - component: {fileID: 4293300841227807290}
+  - component: {fileID: 7632384207720204759}
   m_Layer: 0
   m_Name: VPGEG_310_origami_surf_dec_center_lico (10)
   m_TagString: Untagged
@@ -21518,47 +21217,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!135 &1121902695008705997
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6652997643140392253}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 2.86
-  m_Center: {x: -2.23, y: -4.21, z: -3.86}
---- !u!136 &4293300841227807290
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6652997643140392253}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 3.79
-  m_Height: 11.4214325
-  m_Direction: 0
-  m_Center: {x: -2.78, y: -2.31, z: 1.21}
---- !u!136 &4769500435174827166
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6652997643140392253}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 3.72
-  m_Height: 11.14
-  m_Direction: 2
-  m_Center: {x: 2.69, y: 2.83, z: -0.01}
 --- !u!114 &2833304832257871953
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21666,6 +21324,33 @@ ConfigurableJoint:
   m_EnablePreprocessing: 1
   m_MassScale: 1
   m_ConnectedMassScale: 1
+--- !u!136 &4293300841227807290
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6652997643140392253}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 3.13
+  m_Height: 13.37
+  m_Direction: 0
+  m_Center: {x: -1.71, y: -1.1, z: 1.21}
+--- !u!135 &7632384207720204759
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6652997643140392253}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 2.68
+  m_Center: {x: 4.09, y: 3.03, z: -1.3965156}
 --- !u!1 &6679029691886904059
 GameObject:
   m_ObjectHideFlags: 0
@@ -21926,11 +21611,10 @@ GameObject:
   m_Component:
   - component: {fileID: 3193097988742733121}
   - component: {fileID: 3700019676531529877}
-  - component: {fileID: 8948281532083607605}
-  - component: {fileID: 5568975758836308606}
-  - component: {fileID: 7305334280243034107}
   - component: {fileID: 1860913583492649637}
   - component: {fileID: 494123400472360146}
+  - component: {fileID: 5568975758836308606}
+  - component: {fileID: 1003861768800560811}
   m_Layer: 0
   m_Name: VPGEG_310_origami_surf_dec_center_lico (8)
   m_TagString: Untagged
@@ -21971,47 +21655,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!135 &8948281532083607605
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6738162127486959507}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 2.86
-  m_Center: {x: -2.23, y: -4.21, z: -3.86}
---- !u!136 &5568975758836308606
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6738162127486959507}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 3.79
-  m_Height: 11.4214325
-  m_Direction: 0
-  m_Center: {x: -2.78, y: -2.31, z: 1.21}
---- !u!136 &7305334280243034107
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6738162127486959507}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 3.72
-  m_Height: 11.14
-  m_Direction: 2
-  m_Center: {x: 2.69, y: 2.83, z: -0.01}
 --- !u!114 &1860913583492649637
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22119,6 +21762,33 @@ ConfigurableJoint:
   m_EnablePreprocessing: 1
   m_MassScale: 1
   m_ConnectedMassScale: 1
+--- !u!136 &5568975758836308606
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6738162127486959507}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 3.13
+  m_Height: 13.37
+  m_Direction: 0
+  m_Center: {x: -1.71, y: -1.1, z: 1.21}
+--- !u!135 &1003861768800560811
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6738162127486959507}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 2.68
+  m_Center: {x: 4.09, y: 3.03, z: -1.3965156}
 --- !u!1 &6823841922291631317
 GameObject:
   m_ObjectHideFlags: 0
@@ -22365,11 +22035,10 @@ GameObject:
   m_Component:
   - component: {fileID: 3422619476526267557}
   - component: {fileID: 1291902793385401230}
-  - component: {fileID: 4579076588737867237}
-  - component: {fileID: 36284474244205884}
-  - component: {fileID: 2327705779595105787}
   - component: {fileID: 7034812962833892859}
   - component: {fileID: 5973768947849481375}
+  - component: {fileID: 36284474244205884}
+  - component: {fileID: 6495498506698044058}
   m_Layer: 0
   m_Name: VPGEG_310_origami_surf_dec_center_lico (11)
   m_TagString: Untagged
@@ -22410,47 +22079,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!135 &4579076588737867237
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7018984433936906644}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 2.86
-  m_Center: {x: -2.23, y: -4.21, z: -3.86}
---- !u!136 &36284474244205884
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7018984433936906644}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 3.79
-  m_Height: 11.4214325
-  m_Direction: 0
-  m_Center: {x: -2.78, y: -2.31, z: 1.21}
---- !u!136 &2327705779595105787
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7018984433936906644}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 3.72
-  m_Height: 11.14
-  m_Direction: 2
-  m_Center: {x: 2.69, y: 2.83, z: -0.01}
 --- !u!114 &7034812962833892859
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22558,6 +22186,33 @@ ConfigurableJoint:
   m_EnablePreprocessing: 1
   m_MassScale: 1
   m_ConnectedMassScale: 1
+--- !u!136 &36284474244205884
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7018984433936906644}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 3.13
+  m_Height: 13.37
+  m_Direction: 0
+  m_Center: {x: -1.71, y: -1.1, z: 1.21}
+--- !u!135 &6495498506698044058
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7018984433936906644}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 2.68
+  m_Center: {x: 4.09, y: 3.03, z: -1.3965156}
 --- !u!1 &7069770391905436768
 GameObject:
   m_ObjectHideFlags: 0
@@ -23563,11 +23218,10 @@ GameObject:
   m_Component:
   - component: {fileID: 285295349738160821}
   - component: {fileID: 2811697048544912926}
-  - component: {fileID: 4451420786459853305}
-  - component: {fileID: 7821991210664507465}
-  - component: {fileID: 3625937304806244478}
   - component: {fileID: 38081581713824342}
   - component: {fileID: 1419569056308278065}
+  - component: {fileID: 7821991210664507465}
+  - component: {fileID: 7017706330873779624}
   m_Layer: 0
   m_Name: VPGEG_310_origami_surf_dec_center_lico (24)
   m_TagString: Untagged
@@ -23608,47 +23262,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!135 &4451420786459853305
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7427910260764323282}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 2.86
-  m_Center: {x: -2.23, y: -4.21, z: -3.86}
---- !u!136 &7821991210664507465
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7427910260764323282}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 3.79
-  m_Height: 11.4214325
-  m_Direction: 0
-  m_Center: {x: -2.78, y: -2.31, z: 1.21}
---- !u!136 &3625937304806244478
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7427910260764323282}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 3.72
-  m_Height: 11.14
-  m_Direction: 2
-  m_Center: {x: 2.69, y: 2.83, z: -0.01}
 --- !u!114 &38081581713824342
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23756,6 +23369,33 @@ ConfigurableJoint:
   m_EnablePreprocessing: 1
   m_MassScale: 1
   m_ConnectedMassScale: 1
+--- !u!136 &7821991210664507465
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7427910260764323282}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 3.13
+  m_Height: 13.37
+  m_Direction: 0
+  m_Center: {x: -1.71, y: -1.1, z: 1.21}
+--- !u!135 &7017706330873779624
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7427910260764323282}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 2.68
+  m_Center: {x: 4.09, y: 3.03, z: -1.3965156}
 --- !u!1 &7543550089232296048
 GameObject:
   m_ObjectHideFlags: 0
@@ -24066,11 +23706,10 @@ GameObject:
   m_Component:
   - component: {fileID: 681483530333822082}
   - component: {fileID: 3972384448244794345}
-  - component: {fileID: 5607847439340511548}
-  - component: {fileID: 7106409518871899135}
-  - component: {fileID: 957714478917967082}
   - component: {fileID: 787257306180545384}
   - component: {fileID: 1138785002635860978}
+  - component: {fileID: 7106409518871899135}
+  - component: {fileID: 666201263982934150}
   m_Layer: 0
   m_Name: VPGEG_310_origami_surf_dec_center_lico (17)
   m_TagString: Untagged
@@ -24111,47 +23750,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!135 &5607847439340511548
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7564859647740775164}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 2.86
-  m_Center: {x: -2.23, y: -4.21, z: -3.86}
---- !u!136 &7106409518871899135
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7564859647740775164}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 3.79
-  m_Height: 11.4214325
-  m_Direction: 0
-  m_Center: {x: -2.78, y: -2.31, z: 1.21}
---- !u!136 &957714478917967082
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7564859647740775164}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 3.72
-  m_Height: 11.14
-  m_Direction: 2
-  m_Center: {x: 2.69, y: 2.83, z: -0.01}
 --- !u!114 &787257306180545384
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24259,6 +23857,33 @@ ConfigurableJoint:
   m_EnablePreprocessing: 1
   m_MassScale: 1
   m_ConnectedMassScale: 1
+--- !u!136 &7106409518871899135
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7564859647740775164}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 3.13
+  m_Height: 13.37
+  m_Direction: 0
+  m_Center: {x: -1.71, y: -1.1, z: 1.21}
+--- !u!135 &666201263982934150
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7564859647740775164}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 2.68
+  m_Center: {x: 4.09, y: 3.03, z: -1.3965156}
 --- !u!1 &7732171854590316531
 GameObject:
   m_ObjectHideFlags: 0
@@ -24649,11 +24274,10 @@ GameObject:
   m_Component:
   - component: {fileID: 2333777822586364796}
   - component: {fileID: 4842305372332309951}
-  - component: {fileID: 2484588328520645339}
-  - component: {fileID: 7493908335921808488}
-  - component: {fileID: 3443940223715715426}
   - component: {fileID: 7245090698266043751}
   - component: {fileID: 7977936748137840057}
+  - component: {fileID: 7493908335921808488}
+  - component: {fileID: 1551934953010867646}
   m_Layer: 0
   m_Name: VPGEG_310_origami_surf_dec_center_lico (6)
   m_TagString: Untagged
@@ -24694,47 +24318,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!135 &2484588328520645339
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7788835531277398165}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 2.86
-  m_Center: {x: -2.23, y: -4.21, z: -3.86}
---- !u!136 &7493908335921808488
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7788835531277398165}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 3.79
-  m_Height: 11.4214325
-  m_Direction: 0
-  m_Center: {x: -2.78, y: -2.31, z: 1.21}
---- !u!136 &3443940223715715426
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7788835531277398165}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 3.72
-  m_Height: 11.14
-  m_Direction: 2
-  m_Center: {x: 2.69, y: 2.83, z: -0.01}
 --- !u!114 &7245090698266043751
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24842,6 +24425,33 @@ ConfigurableJoint:
   m_EnablePreprocessing: 1
   m_MassScale: 1
   m_ConnectedMassScale: 1
+--- !u!136 &7493908335921808488
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7788835531277398165}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 3.13
+  m_Height: 13.37
+  m_Direction: 0
+  m_Center: {x: -1.71, y: -1.1, z: 1.21}
+--- !u!135 &1551934953010867646
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7788835531277398165}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 2.68
+  m_Center: {x: 4.09, y: 3.03, z: -1.3965156}
 --- !u!1 &7799183434894342493
 GameObject:
   m_ObjectHideFlags: 0
@@ -27291,11 +26901,10 @@ GameObject:
   m_Component:
   - component: {fileID: 2931057142471824804}
   - component: {fileID: 746897718076650280}
-  - component: {fileID: 3515494181817479773}
-  - component: {fileID: 8865639190414652645}
-  - component: {fileID: 7466343646913850697}
   - component: {fileID: 4534861855569649328}
   - component: {fileID: 4582700368255649323}
+  - component: {fileID: 8865639190414652645}
+  - component: {fileID: 2064546063183949535}
   m_Layer: 0
   m_Name: VPGEG_310_origami_surf_dec_center_lico (20)
   m_TagString: Untagged
@@ -27336,47 +26945,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!135 &3515494181817479773
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8668441618578117986}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 2.86
-  m_Center: {x: -2.23, y: -4.21, z: -3.86}
---- !u!136 &8865639190414652645
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8668441618578117986}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 3.79
-  m_Height: 11.4214325
-  m_Direction: 0
-  m_Center: {x: -2.78, y: -2.31, z: 1.21}
---- !u!136 &7466343646913850697
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8668441618578117986}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 3.72
-  m_Height: 11.14
-  m_Direction: 2
-  m_Center: {x: 2.69, y: 2.83, z: -0.01}
 --- !u!114 &4534861855569649328
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27484,6 +27052,33 @@ ConfigurableJoint:
   m_EnablePreprocessing: 1
   m_MassScale: 1
   m_ConnectedMassScale: 1
+--- !u!136 &8865639190414652645
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8668441618578117986}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 3.13
+  m_Height: 13.37
+  m_Direction: 0
+  m_Center: {x: -1.71, y: -1.1, z: 1.21}
+--- !u!135 &2064546063183949535
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8668441618578117986}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 2.68
+  m_Center: {x: 4.09, y: 3.03, z: -1.3965156}
 --- !u!1 &8745857146728318575
 GameObject:
   m_ObjectHideFlags: 0
